@@ -28,6 +28,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 	</bean>
 	<!-- 自动扫描 将Mapper接口生成代理注入到Spring -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfiguer">
-		<property name="basePackage" value="com.mapper"/>
+		<property name="basePackage" value="mapper"/>
 	</bean>
+	
 </beans>
