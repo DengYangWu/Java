@@ -11,20 +11,11 @@ import mapper.UserMapper;
 import pojo.User;
 
 @Service("UserService")
-public class UserService implements UserMapper{
-	//@Resource(name="UserMapper")
-	private UserMapper dao;
-	public UserMapper getDao() {
-		return dao;
-	}
-	public void setDao(UserMapper dao) {
-		this.dao = dao;
-	}
+public interface UserService{
+
+
 	/*
 	 * 通过id获取数据
 	 * */
-	public List<User> selectByPrimaryKey() throws Exception {
-		// TODO Auto-generated method stub
-		return dao.selectByPrimaryKey();
-	}
+	public List<User> selectByPrimaryKey() throws Exception;
 }
