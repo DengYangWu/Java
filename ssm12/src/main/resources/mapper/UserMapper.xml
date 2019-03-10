@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soecode.lyf.dao.UserMapper">
+
+	<!-- <resultMap type="com.fykj.entity.User" id="userMap"> -->
+	<!-- <id property="id" column="id" /> -->
+	<!-- <result property="username" column="username" /> -->
+	<!-- <result property="password" column="password" /> -->
+	<!-- </resultMap> -->
+
+	<select id="getUserByName" parameterType="String" resultType="User">
+
+		select * from user WHERE username=#{username}
+
+	</select>
+	<select id="queryAll" resultType="com.soecode.lyf.entity.User">
+		select * from user
+	</select>
+	<insert id="insertAppointment">
+		insert into user (username,password) value(#{username},#{password})
+	</insert>
+</mapper>
