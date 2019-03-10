@@ -20,22 +20,30 @@
 		<property name="minIdle" value="5" />
 	</bean>
 	<!-- 让spring管理sqlsessionfactory 使用mybatis和spring整合包中的 -->
-	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"	>
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<!-- 数据库连接池 -->
 		<property name="dataSource" ref="dataSource" />
 		<!-- 加载mybatis的全局配置文件 -->
 		<property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml" />
 		<!-- 扫描 mapper.xml映射文件，配置扫描路径 -->
+<<<<<<< HEAD
 		<property name="mapperLocations" value="classpath:web/mapper/*.xml"/>
+=======
+		<property name="mapperLocations" value="classpath:main/mapper/*.xml"/>
+
+>>>>>>> d352877a20824b9658984f0e083cfb4d8a087ec8
 	</bean>
+	  <!-- 该 BeanPostProcessor 将自动对标注 @Autowired 的 Bean 进行注入 -->   
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
 	<!-- 自动扫描 将Mapper接口生成代理注入到Spring -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="mapper"/>
+		<property name="basePackage" value="classpath:main/mapper"/>
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
 	</bean>
-	<bean id="sessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+	<!-- <bean id="sessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
     	<constructor-arg index="0" ref="sqlSessionFactory" />
-	</bean>
+	</bean> -->
+
 	 <!--事务管理-->
     <bean id="transactionManager"
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager">

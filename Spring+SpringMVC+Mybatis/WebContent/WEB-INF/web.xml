@@ -15,9 +15,9 @@
 		<param-value>classpath:spring/applicationContext-*.xml</param-value>
 	</context-param>
 
-	<listener>
+    <listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
+	</listener> 
 
 
 
@@ -68,7 +68,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>springMvc</servlet-name>
-    <url-pattern>/</url-pattern>
+    <url-pattern>*.do</url-pattern>
   </servlet-mapping>
 	
 </web-app>

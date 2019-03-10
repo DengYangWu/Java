@@ -10,6 +10,17 @@
 
 	<!-- spring自动去扫描base-pack下面或者包下面的java文件 -->
 	<!-- 管理Service实现 -->
+<<<<<<< HEAD
 	<context:component-scan base-package="web" />
 
+=======
+
+	<context:component-scan base-package="main">
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" />
+	</context:component-scan>
+
+	<!--引入数据源配置，包括mybatis相关的配置-->
+	<import resource="classpath*:applicationContext-dao.xml"/>
+>>>>>>> d352877a20824b9658984f0e083cfb4d8a087ec8
 </beans>
