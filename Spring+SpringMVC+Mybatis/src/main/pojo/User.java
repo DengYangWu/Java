@@ -2,13 +2,15 @@ package main.pojo;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class User {
 
 	private int id;
 	private String username;
 	private String password;
 	private String company;
+	private String age;
+	private String sex;
 	public int getId() {
 		return id;
 	}
@@ -53,8 +55,7 @@ public class User {
 	public void setSex(String sex) {
 		this.sex = sex;
 	}
-	private String age;
-	private String sex;
+
 	
 	
 }

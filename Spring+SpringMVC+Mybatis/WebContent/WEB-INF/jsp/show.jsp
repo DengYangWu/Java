@@ -1,10 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<<<<<<< HEAD:Spring+SpringMVC+Mybatis/WebContent/jsp/show.jsp
-<%@page import="web.pojo.*"%>
-=======
-<%@page import="main.pojo.*"%>
->>>>>>> d352877a20824b9658984f0e083cfb4d8a087ec8:Spring+SpringMVC+Mybatis/WebContent/WEB-INF/jsp/show.jsp
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,9 +17,7 @@
 </style>
 </head>
 <body>
-<%
-	User user = ((User)request.getAttribute("var"));
-%>
+
  
 	<table class="table">
 		<tr class="td">
@@ -34,21 +28,26 @@
 			<td>年龄</td>
 			<td>性别</td>
 		</tr>
-<%if(user!=null){%>
+<c:forEach var="user" items="${var}" varStatus="status">
+  <c:choose>
+	<c:when test="${var!=null }">
 		<tr class="td">
-			<td><%=user.getId()%></td>
-			<td><%=user.getUsername()%></td>
-			<td><%=user.getPassword()%></td>
-			<td><%=user.getCompany()%></td>
-			<td><%=user.getAge()%></td>
-			
+			<td>${user.id }</td>
+			<td>${user.username }</td>
+			<td>${user.password }</td>
+			<td>${user.company }</td>
+			<td>${user.age }</td>
+			<td>${user.sex }</td>
 		</tr>
-	<%}else{ %>
+	</c:when>
+	<c:otherwise>
 		<tr class="td">
 			<td style="color: red;">暂无相关数据</td>
 		</tr>
-<%} %>
-	</table>
+	</c:otherwise>
+  </c:choose>
+</c:forEach>
+</table>
 
 </body>
 </html>
