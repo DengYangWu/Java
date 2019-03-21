@@ -11,13 +11,20 @@ import java.io.Serializable;
  * Created by wchb7 on 16-5-13.
  */
 
-@Getter
-@Setter
-@ToString
+
 public class Exposer implements Serializable {
 
     public boolean isExposed() {
 		return exposed;
+	}
+
+	@Override
+	public String toString() {
+		return "Exposer [exposed=" + exposed + ", md5=" + md5 + ", seckillId=" + seckillId + ", now=" + now + ", start="
+				+ start + ", end=" + end + ", isExposed()=" + isExposed() + ", getMd5()=" + getMd5()
+				+ ", getSeckillId()=" + getSeckillId() + ", getNow()=" + getNow() + ", getStart()=" + getStart()
+				+ ", getEnd()=" + getEnd() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
 	}
 
 	public void setExposed(boolean exposed) {
@@ -73,19 +80,20 @@ public class Exposer implements Serializable {
     /**
      * 秒杀是否开启
      */
+	//是否可以暴露
     private boolean exposed;
-
+    //一种加密措施
     private String md5;
-
+    
     private long seckillId;
 
     /**
      * 系统时间(毫秒)
      */
     private long now;
-
+    //秒杀开启时间
     private long start;
-
+    //秒杀结束时间
     private long end;
 
     public Exposer(boolean exposed, String md5, long seckillId) {

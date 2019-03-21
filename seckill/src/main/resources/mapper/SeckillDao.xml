@@ -3,21 +3,21 @@
 <mapper namespace="org.seckill.dao.SeckillDao">
 	<!-- mapper作用：为DAO接口方法提供sql语句配置 -->
 	<update id="reduceNumber">
-		update select set number=number-1
-		where seckillId = #{seckillId}
-		and start_time <![CDATA[ <= ]]>	#{killTime}
-		and end_time >= #{killTime}
-		and number>0;
+       UPDATE seckill set number = number -1
+       where seckill_id = #{seckillId}
+       AND  start_time <![CDATA[ <= ]]> #{killTime}
+       AND  end_time >= #{killTime}
+       AND number >0;
 	</update>
 	<!--  -->
 	<select id="queryById" resultType="Seckill" parameterType="long">
-		select seckillId,name,number,start_time,end_time,create_time
+		select seckill_Id,name,number,start_time,end_time,create_time
 		from seckill
-		where seckillId =#{seckillId}
+		where seckill_Id =#{seckillId}
 	</select>
 	<!-- List<Seckill> queryAll(int offset,int limit);-->
     <select id="queryAll" resultType="Seckill">
-        SELECT seckillId,name,number,start_time,end_time,create_time
+        SELECT seckill_Id,name,number,start_time,end_time,create_time
         FROM seckill
         ORDER BY create_time DESC
         limit #{offset},#{limit}

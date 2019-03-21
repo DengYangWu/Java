@@ -1,5 +1,9 @@
 package org.seckill.enums;
 
+/*
+ * 把常量写在枚举里
+ * 把数据字段放在枚举，方便重复使用
+ * */
 public enum SeckillStatEnum {
 	SUCCESS(1,"秒杀成功"),
 	END(0,"秒杀结束"),

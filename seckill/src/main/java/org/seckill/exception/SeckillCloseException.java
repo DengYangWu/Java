@@ -1,6 +1,9 @@
 package org.seckill.exception;
 
-public class SeckillCloseException extends SeckillException{
+/*
+ * 秒杀关闭异常
+ * */
+public class SeckillCloseException extends RuntimeException{
 
 	public SeckillCloseException(String message) {
 		super(message);
