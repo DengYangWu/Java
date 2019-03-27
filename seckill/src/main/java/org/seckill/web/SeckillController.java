@@ -63,11 +63,12 @@ public class SeckillController {
 		if (seckill == null) {
             return "forward:/seckill/list";
         }
-
+		
         model.addAttribute("seckill", seckill);
-
+        System.out.println(seckill);
 		return "detail";
 	}
+	//返回秒杀地址
 	 //    ajax json
     @RequestMapping(value = "/{seckillId}/exposer", method = RequestMethod.POST,
             produces = {"application/json;charset=UTF-8"})
@@ -91,14 +92,14 @@ public class SeckillController {
           produces = {"application/json;charset=UTF-8"})
   @ResponseBody
   public SeckillResult<SeckillExecution> execute(@PathVariable("seckillId") Long seckillId, @PathVariable("md5") String md5,
-                                                 @CookieValue(value = "killPhone", required = false) Long killPhone) {
+                                                 @CookieValue(value = "userPhone", required = false) Long userPhone) {
 	  System.out.println("execution");
-      if (killPhone == null) {
+      if (userPhone == null) {
           return new SeckillResult<SeckillExecution>(false, SeckillStatEnum.NOT_LOGIN.getStateInfo());
       }
 
       try {
-          SeckillExecution execution = seckillService.executeSeckill(seckillId, killPhone, md5);
+          SeckillExecution execution = seckillService.executeSeckill(seckillId, userPhone, md5);
           //SeckillExecution execution = seckillService.executeSeckillProcedure(seckillId, killPhone, md5);
           return new SeckillResult<SeckillExecution>(true, execution);
       } catch (RepeatKillException e) {

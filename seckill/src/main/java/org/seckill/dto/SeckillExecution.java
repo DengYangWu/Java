@@ -88,12 +88,5 @@ public class SeckillExecution implements Serializable {
         this.successKilled = successKilled;
     }
 
-	public SeckillExecution(Long seckillId, SeckillStatEnum statEnum, SuccessKilled successKill) {
-		// TODO Auto-generated constructor stub
-        this.seckillId = seckillId;
-        this.state=statEnum.getState();
-        this.stateInfo=statEnum.getStateInfo();
-        this.successKilled = successKilled;
-	}
 
 }
