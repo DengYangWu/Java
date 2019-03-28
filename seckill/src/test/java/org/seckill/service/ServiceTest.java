@@ -96,7 +96,18 @@ public class ServiceTest {
             LOG.error(e.getMessage());
         }
     }
-
+    
+      @Test
+      public void textExecuteSeckillProcedure() {
+    	  long seckillId = 1004L;
+    	  long userPhone = 15115450175L;
+    	  Exposer exposer=seckillService.exportSeckillUrl(seckillId);
+    	  if(exposer.isExposed()) {
+    		  String md5 = exposer.getMd5();
+    		  SeckillExecution	execution=seckillService.executeSeckillProcedure(seckillId, userPhone, md5);
+    		  LOG.info(execution.getStateInfo());
+    		  }
+      }
 //    @Test
 //    public void testExecuteSeckillProcedure() {
 //        long seckillId = 1004l;
