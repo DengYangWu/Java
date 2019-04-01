@@ -44,4 +44,18 @@
         	<!-- 给出需要扫描的Dao包 -->
         	<property name="basePackage" value="org.dao"/>
         </bean>
+        <bean id="dataJedisPoolConfig"
+			class="redis.clients.jedis.JedisPoolConfig"> 
+			<property name="maxTotal" value="300"/>
+			<property name="maxIdle" value="100"/>
+			<property name="MaxWaitMillis" value="10000"/>
+			<property name="testOnBorrow" value="true"/>
+			<property name="testOnReturn" value="false"></property>        
+		</bean> 
+
+        <!-- 注入RedisDao -->
+        <bean id="SeckillRedis" class="org.dao.cache.SeckillRedis">
+        	<constructor-arg index="0" value="localhost"/>
+        	<constructor-arg index="1" value="6379"/>
+        </bean>
 </beans>
