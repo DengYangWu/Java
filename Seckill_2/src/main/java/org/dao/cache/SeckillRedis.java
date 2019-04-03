@@ -45,7 +45,7 @@ public class SeckillRedis {
     		}catch (Exception e) {
 				e.printStackTrace();
 			}finally{
-    		jedisPool.close();
+				jedis.close();
     		}
     	}catch(Exception e) {
     		LOG.error(e.getMessage());
@@ -68,7 +68,7 @@ public class SeckillRedis {
         return result;
     	}finally {
     		
-    		jedisPool.close();
+    		jedis.close();
     		
     	}
     	}catch(Exception e){

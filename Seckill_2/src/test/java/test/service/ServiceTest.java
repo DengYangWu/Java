@@ -1,6 +1,8 @@
 package test.service;
 
 import org.dto.Exposer;
+import org.dto.SeckillExecution;
+import org.entity.Success_Seckill;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.service.SeckillService;
@@ -33,5 +35,13 @@ public class ServiceTest {
 		long seckillId=1004;
 		Exposer exposer=seckillService.exposerSeckillUrl(seckillId);
 		System.out.println(exposer);
+	}
+	@Test
+	public void seckillExecution() {
+        long seckillId = 1005;
+        long userPhone = 18573440622L;
+        String md5 = "882e942889c865049154f09107b9bd5f";
+        SeckillExecution seckillExecution=seckillService.seckillExecution(seckillId, userPhone, md5);
+        System.out.println(seckillExecution);
 	}
 }

@@ -18,6 +18,7 @@ public class SeckillExecution implements Serializable{
 	private String stateinfo;
 	//执行秒杀完后，返回所有结果
 	private Success_Seckill success_Seckill;
+
 	public long getSeckillId() {
 		return seckillId;
 	}
@@ -55,18 +56,18 @@ public class SeckillExecution implements Serializable{
 	}
 	
 	//构造函数
-	public void SeckillExecution(long seckillId,SeckillEnum seckillEnum){
+	public SeckillExecution(long seckillId,SeckillEnum seckillEnum){
 		this.seckillId=seckillId;
 		this.state=seckillEnum.getState();
 		this.stateinfo=seckillEnum.getStateinfo();
 	}
-	public void SeckillExecution(long seckillId,String stateinfo,SeckillEnum seckillEnum) {
+	public SeckillExecution(long seckillId,String stateinfo,SeckillEnum seckillEnum) {
 		this.seckillId=seckillId;
 		this.stateinfo=stateinfo;
 		this.state=seckillEnum.getState();
 		this.stateinfo=seckillEnum.getStateinfo();
 	}
-	public void SeckillExecution(long seckillId,SeckillEnum seckillEnum,Success_Seckill success_Seckill) {
+	public SeckillExecution(long seckillId,SeckillEnum seckillEnum,Success_Seckill success_Seckill) {
 		this.seckillId=seckillId;
 		this.state=seckillEnum.getState();
 		this.stateinfo=seckillEnum.getStateinfo();

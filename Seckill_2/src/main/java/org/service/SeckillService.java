@@ -14,6 +14,6 @@ public interface SeckillService {
 	//秒杀开启是输出秒杀接口的地址,否则输出系统时间和秒杀时间
 	Exposer exposerSeckillUrl(long seckillId);
 	//执行秒杀后的操作
-    SeckillExecution seckillExecution(long seckillId);
+	SeckillExecution seckillExecution(long seckillId, long userPhone, String md5);
     
 }

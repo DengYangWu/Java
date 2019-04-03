@@ -1,8 +1,8 @@
-package org.web;
+package test.Redis;
 
 import redis.clients.jedis.Jedis;
 
-public class test {
+public class RedisConnectTest {
     public static void main(String[] args) {
         //连接本地的 Redis 服务
         Jedis jedis = new Jedis();

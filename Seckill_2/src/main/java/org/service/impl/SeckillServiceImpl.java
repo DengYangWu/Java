@@ -3,13 +3,19 @@ package org.service.impl;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.dao.SeckillDao;
 import org.dao.Success_SeckillDao;
 import org.dao.cache.SeckillRedis;
 import org.dto.Exposer;
 import org.dto.SeckillExecution;
+import org.dto.SeckillResult;
 import org.entity.Seckill;
 import org.entity.Success_Seckill;
+import org.enumeration.SeckillEnum;
+import org.error.RepeatKillException;
+import org.error.SeckillCloseException;
+import org.error.SeckillException;
 import org.service.SeckillService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -76,12 +82,44 @@ public class SeckillServiceImpl implements SeckillService{
 		return md5;
 	}
 	@Override
-	public SeckillExecution seckillExecution(long seckillId) {
+	public SeckillExecution seckillExecution(long seckillId,long userPhone,String md5) 
+	throws RepeatKillException,SeckillCloseException,SeckillException{
 		// TODO Auto-generated method stub
-		
-		return null;
+        if (StringUtils.isEmpty(md5) || !md5.equals(getMD5(seckillId))) {
+            throw new SeckillException(SeckillEnum.DATA_REWRITE.getStateinfo());
+        }
+        //执行秒杀逻辑:1.减库存.2.记录购买行为
+        Date now=new Date();
+        try {
+        int insert = success_SeckillDao.insertSuccessKill(seckillId, userPhone);
+        if(insert<=0) {
+        	//系统异常
+        	throw new SeckillException(SeckillEnum.REPEAT_KILL.getStateinfo());
+        }else {
+        	//减库存
+        	int update = seckillDao.killNumber(seckillId, now);
+        	if(update <= 0) {
+        		//秒杀结束
+        		throw new SeckillCloseException(SeckillEnum.END.getStateinfo());
+        	}else {
+        		//秒杀成功
+        		Success_Seckill success_Seckill=success_SeckillDao.selectByIdSeckill(seckillId, userPhone);
+        		return new SeckillExecution(seckillId, SeckillEnum.SUCCESS, success_Seckill);
+        	}
+        	
+        }
+        }catch(SeckillCloseException e) {
+        	throw e;
+        }catch(RepeatKillException e1) {
+        	throw e1;
+        }catch(Exception e2) {
+        	System.out.println(e2.getMessage());
+            throw new SeckillException("seckill inner error: " + e2.getMessage());
+        }
+
+        
 	}
-	
+
 
 	
 }

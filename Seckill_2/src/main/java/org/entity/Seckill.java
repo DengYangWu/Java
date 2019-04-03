@@ -1,6 +1,6 @@
 package org.entity;
 
-import java.sql.Date;
+import java.util.Date;
 
 /*
  * 秒杀实体类

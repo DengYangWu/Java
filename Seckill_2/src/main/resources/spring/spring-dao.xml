@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xmlns:context="http://www.springframework.org/schema/context"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans
-	http://www.springframework.org/schema/beans/spring-beans.xsd
-	http://www.springframework.org/schema/context
-	http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
 	<!-- 数据库连接池 -->
 	<!-- 加载配置文件 -->
 	<context:property-placeholder location="classpath:jdbc.properties" />
@@ -44,7 +44,7 @@
         	<!-- 给出需要扫描的Dao包 -->
         	<property name="basePackage" value="org.dao"/>
         </bean>
-        <bean id="dataJedisPoolConfig"
+        <!-- <bean id="dataJedisPoolConfig"
 			class="redis.clients.jedis.JedisPoolConfig"> 
 			<property name="maxTotal" value="300"/>
 			<property name="maxIdle" value="100"/>
@@ -52,7 +52,7 @@
 			<property name="testOnBorrow" value="true"/>
 			<property name="testOnReturn" value="false"></property>        
 		</bean> 
-
+ 		-->
         <!-- 注入RedisDao -->
         <bean id="SeckillRedis" class="org.dao.cache.SeckillRedis">
         	<constructor-arg index="0" value="localhost"/>
