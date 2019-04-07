@@ -37,6 +37,11 @@ var seckill={
 			return false;
 		}
 	},
+	handlerSeckill:function(seckillId,node){
+		//获取秒杀地址，控制显示逻辑，执行秒杀
+		console.log(seckillId);
+		console.log(node);
+	},
 	//秒杀详情逻辑
 	delail:{
 		//详情页初始化
@@ -68,7 +73,26 @@ var seckill={
 					}
 				})
 			}
+			//已经登录
+			//计时交互
+			var startTime = params['startTime'];
+			var endTime = params['endTime'];
+			var seckillId = params['seckillId'];
+			console.log(startTime);
+			//Ajax 请求Controller
+			$.get(seckill.URL.now(),{},function(result){
+				
+				if(result && result['success']){
+					//时间判断 计时交互
+					var nowTime = result['data'];
+					
+				}else{
+					console.log(nowTime);
+				}
+			})
+			
 		}
 	}
+	
 	
 }
