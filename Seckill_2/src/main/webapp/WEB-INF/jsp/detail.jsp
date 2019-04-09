@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <%@include file="common/head.jsp" %>
-<title>秒杀菜单</title>
+<title>秒杀详情页</title>
 </head>
 <body>
 <div class="container text-center">
@@ -20,15 +20,7 @@
                 <%--展示倒计时--%>
                 <span class="glyphicon" id="seckill-box"></span>
             </h2>
-                    			<!-- 秒杀按钮 -->
-			<div>
-                <%--验证信息--%>
-                <span id="killPhoneMessage" class="glyphicon"> </span>
-                <button type="button" id="killPhoneBtn" class="btn btn-success">
-                    <span class="glyphicon glyphicon-phone"></span>
-                    Submit
-                </button>
-            </div>
+
         </div>
 
         <!-- 模态框 
@@ -43,24 +35,37 @@
 			  <div class="am-modal-dialog">
 			    <div class="am-modal-hd">Amaze UI</div>
 			    <div class="am-modal-bd">
-			      来来来，吐槽点啥吧
-			      <input type="text" id="killPhoneKey" class="am-modal-prompt-input">
+			      秒杀手机号
+			      <input type="text" name="userPhone" id="killPhoneKey" placeholder="填写手机号" class="am-modal-prompt-input">
+			      
 			    </div>
 			    <div class="am-modal-footer">
-			      <span class="am-modal-btn" data-am-modal-cancel>取消</span>
-			      <span class="am-modal-btn" data-am-modal-confirm>提交</span>
+			      <!-- <span class="am-modal-btn" data-am-modal-cancel>取消</span> -->
+			      <span id="killPhoneMessage" class="glyphicon"> </span>
+			      <span class="am-modal-btn"  id="killPhoneBtn" data-am-modal-confirm>提交</span>
 			    </div>
 			  </div>
-			</div>
+			              
+                <%--验证信息
+                <div class="modal-footer">
+                <span id="killPhoneMessage" class="glyphicon"> </span>
+                <button type="button" id="killPhoneBtn" class="btn btn-success">
+                    <span class="glyphicon glyphicon-phone"></span>
+                    Submit
+                </button>
+                --%>
+            </div>
+		</div>
 
  </div>
 </div>
-<input id="upFailed" type="hidden" value="<%=request.getContextPath() %>"/>
+<input id="upFailed" type="hidden" name="add" value="<%=request.getContextPath() %>"/>
+<!--  <input type="file" name="add1" onchange="geturl()"/> -->
 </body>
+<%--jQery文件,务必在bootstrap.min.js之前引入--%>
 <script src="https://code.jquery.com/jquery.js"></script>
-<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+
 <!-- AmazeUI加载进度插件 -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/amazeui/2.7.2/css/amazeui.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/amazeui/2.7.2/js/amazeui.js"></script>
@@ -69,21 +74,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/amazeui/2.7.2/css/amazeui.flat.css" />
 <%--使用CDN 获取公共js http://www.bootcdn.cn/--%>
 <%--jQuery Cookie操作插件--%>
-
 <%--jQuery countDown倒计时插件--%>
 <script src="http://cdn.bootcss.com/jquery.countdown/2.1.0/jquery.countdown.min.js"></script>
 <script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="<%=request.getContextPath() %>/js/seckill.js" type="text/javascript"></script>
+<script src="<%=request.getContextPath() %>/js/seckill.js"></script>
+
 <script type="text/javascript">
-$(function(){
-	
-	seckill.delail.init({
-		seckillId:${seckill.seckillId},
-		startTime:${seckill.startTime.time},
-		endTime:${seckill.endTime.time}
-	});
+$(function () {
+    seckill.detail.init({
+        seckillId:${seckill.seckillId},
+        startTime:${seckill.startTime.time},
+        endTime:${seckill.endTime.time}
+    });
 });
-
 </script>
-
 </html>

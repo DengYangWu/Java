@@ -10,9 +10,9 @@
 <div class="page-header text-center">
   <h1>Home <small>秒杀开始页</small></h1>
   <h1><small>进入</small></h1>
-  <a href="http://localhost:8010/seckill_2/seckill/list">
+  <!--  <a href="http://localhost:8010/seckill_2/seckill/list">-->
   	<button id="np-s" class="am-btn am-btn-primary">
-  		<a href="./seckill/list" style='color:white;'>进入秒杀</a>
+  		<a href="./seckill_2/list" style='color:white;'>进入秒杀</a>
   	</button>
   </a>
 </div>

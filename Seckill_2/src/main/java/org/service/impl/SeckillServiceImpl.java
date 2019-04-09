@@ -1,5 +1,6 @@
 package org.service.impl;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -37,12 +38,12 @@ public class SeckillServiceImpl implements SeckillService{
 		return seckillDao.selectSeckillAll(0,1000);
 	}
 	@Override
-	public Seckill getById(long seckillId) {
+	public Seckill getById(Long seckillId) {
 		// TODO Auto-generated method stub
 		return seckillDao.selectById(seckillId);
 	}
 	@Override
-	public Exposer exposerSeckillUrl(long seckillId) {
+	public Exposer exposerSeckillUrl(Long seckillId) {
 		// TODO Auto-generated method stub
 		//缓存优化
 		//访问redis
@@ -64,7 +65,7 @@ public class SeckillServiceImpl implements SeckillService{
 		Date nowtime=new Date();
 		
 		if(nowtime.getTime() > endtime.getTime() || nowtime.getTime() < statetime.getTime()) {
-			return new Exposer(true,seckillId,nowtime.getTime(),statetime.getTime(),endtime.getTime());
+			return new Exposer(false,seckillId,nowtime.getTime(),statetime.getTime(),endtime.getTime());
 		}
 		
 		//转化特定字符串过程，不可逆
@@ -72,7 +73,7 @@ public class SeckillServiceImpl implements SeckillService{
         return new Exposer(true, md5, seckillId);
 
 	}
-	private String getMD5(long seckillId) {
+	private String getMD5(Long seckillId) {
 		// TODO Auto-generated method stub
 		String base = seckillId + "/"  + "slat";
 		String md5 = DigestUtils.md5DigestAsHex(base.getBytes());
@@ -82,20 +83,22 @@ public class SeckillServiceImpl implements SeckillService{
 		return md5;
 	}
 	@Override
-	public SeckillExecution seckillExecution(long seckillId,long userPhone,String md5) 
+	public SeckillExecution seckillExecution(Long seckillId,Long userPhone,String md5) 
 	throws RepeatKillException,SeckillCloseException,SeckillException{
 		// TODO Auto-generated method stub
         if (StringUtils.isEmpty(md5) || !md5.equals(getMD5(seckillId))) {
             throw new SeckillException(SeckillEnum.DATA_REWRITE.getStateinfo());
         }
         //执行秒杀逻辑:1.减库存.2.记录购买行为
-        Date now=new Date();
+        
         try {
         int insert = success_SeckillDao.insertSuccessKill(seckillId, userPhone);
         if(insert<=0) {
         	//系统异常
         	throw new SeckillException(SeckillEnum.REPEAT_KILL.getStateinfo());
         }else {
+
+        	Date now=new Date();
         	//减库存
         	int update = seckillDao.killNumber(seckillId, now);
         	if(update <= 0) {
@@ -108,13 +111,13 @@ public class SeckillServiceImpl implements SeckillService{
         	}
         	
         }
-        }catch(SeckillCloseException e) {
-        	throw e;
-        }catch(RepeatKillException e1) {
+        }catch(SeckillCloseException e1) {
         	throw e1;
-        }catch(Exception e2) {
-        	System.out.println(e2.getMessage());
-            throw new SeckillException("seckill inner error: " + e2.getMessage());
+        }catch(RepeatKillException e2) {
+        	throw e2;
+        }catch(Exception e) {
+        	System.out.println(e.getMessage());
+            throw new SeckillException("seckill inner error: " + e.getMessage());
         }
 
         

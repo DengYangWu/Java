@@ -46,7 +46,7 @@
     	</td>
     	<td>
   			
-  			  <a id="a" href="<%=request.getContextPath()%>/seckill/${s.seckillId}/detail" class="btn btn-default">点击秒杀</a>
+  			  <a id="a" href="<%=request.getContextPath()%>/seckill_2/${s.seckillId}/detail" target="_blank" class="btn btn-default">点击秒杀</a>
   			
         </td>
      </tr>
@@ -66,10 +66,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/amazeui/2.7.2/js/amazeui.ie8polyfill.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/amazeui/2.7.2/css/amazeui.flat.css" />
 <script type="text/javascript">
-$(function(){
-	  $('#a').on('click', function() {
-		  progress.start();
-	  });
-	});
+
 </script>
 </html>

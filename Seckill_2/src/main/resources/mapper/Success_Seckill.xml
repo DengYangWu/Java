@@ -3,8 +3,8 @@
 <mapper namespace="org.dao.Success_SeckillDao">
 	<!-- 插入秒杀之后的数据 -->
 	<insert id="insertSuccessKill">
-		insert ignore into success_killed(seckill_id,user_phone)
-		values(#{seckillId},#{userPhone})
+		insert ignore into success_killed(seckill_id,user_phone,create_time)
+		values(#{seckillId},#{userPhone},NOW())
 	</insert>
 	<!-- 根据id和电话号查询数据 -->
 	<!-- 根据id查询SuccessKilled并携带Seckill实体 -->

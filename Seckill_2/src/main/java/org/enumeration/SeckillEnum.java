@@ -5,7 +5,7 @@ package org.enumeration;
  * 用来实现秒杀当中返回的实例和反馈信息等
  * */
 public enum SeckillEnum {
-	SUCCESS(1,"秒杀成功！"),
+	SUCCESS(1,"秒杀成功"),
 	END(0,"秒杀结束"),
 	REPEAT_KILL(-1, "重复秒杀"),
     INNER_ERROR(-2, "系统异常"),
