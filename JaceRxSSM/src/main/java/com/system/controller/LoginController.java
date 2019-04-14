@@ -1,5 +1,6 @@
 package com.system.controller;
 
+import com.system.po.Userlogin;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
@@ -7,26 +8,25 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.system.po.Userlogin;
-
 @Controller
 public class LoginController {
-	//µÇÂ½Ìø×ª
+	//ç™»é™†è·³è½¬
 //	@RequestMapping(value="/login",method= {RequestMethod.GET})
 //	public String loginUI() throws Exception{
 //		return "../../login";
 //	}
-	//µÇÂ½±íµ¥´¦Àí
+	//ç™»é™†è¡¨å•å¤„ç†
 	@RequestMapping(value="/login",method= {RequestMethod.POST})
-	public String login(Userlogin userlogin) throws Exception{
-		//shiroÊµÏÖµÇÂ½
+	public String login(Userlogin userlogin) {
+		System.out.println("username:"+userlogin.getUsername());
+		//shiroå®ç°ç™»é™†
 		UsernamePasswordToken token=new UsernamePasswordToken(userlogin.getUsername()
 				,userlogin.getPassword());
 		Subject subject=SecurityUtils.getSubject();
-		//Èç¹û»ñÈ¡²»µ½ÓÃ»§Ãû¾ÍÊÇµÇÂ¼Ê§°Ü£¬µ«µÇÂ¼Ê§°ÜµÄ»°£¬»áÖ±½ÓÅ×³öÒì³£
+		//å¦‚æœè·å–ä¸åˆ°ç”¨æˆ·åå°±æ˜¯ç™»å½•å¤±è´¥ï¼Œä½†ç™»å½•å¤±è´¥çš„è¯ï¼Œä¼šç›´æ¥æŠ›å‡ºå¼‚å¸¸
 		subject.login(token);
 
-        if (subject.hasRole("admin")) { //¸ù¾İÊäÈëµÄÓÃ»§ÃûºÍÃÜÂëÏÔÊ¾Ò³Ãæ²Ëµ¥
+        if (subject.hasRole("admin")) { //æ ¹æ®è¾“å…¥çš„ç”¨æˆ·åå’Œå¯†ç æ˜¾ç¤ºé¡µé¢èœå•
             return "redirect:/admin/showStudent";
         } else if (subject.hasRole("teacher")) {
             return "redirect:/teacher/showCourse";

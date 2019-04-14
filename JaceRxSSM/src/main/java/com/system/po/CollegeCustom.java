@@ -1,7 +1,7 @@
 package com.system.po;
-/**
- * CollegeÀ©Õ¹Àà
- */
-public class CollegeCustom extends College{
+/*
+* Collegeæ‰©å±•ç±»
+* */
+public class CollegeCustom extends College {
 
 }

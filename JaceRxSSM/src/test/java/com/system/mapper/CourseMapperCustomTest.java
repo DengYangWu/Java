@@ -2,12 +2,13 @@ package com.system.mapper;
 
 import java.util.List;
 
+
+import com.system.po.CourseCustom;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.system.po.CourseCustom;
 import com.system.po.PagingVO;
 
 public class CourseMapperCustomTest {

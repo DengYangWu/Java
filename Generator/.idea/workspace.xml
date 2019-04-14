@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57007a86-76b6-4139-9c88-543362725b3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/GeneratorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/artifacts/JaceRxSSM_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/artifacts/JaceRxSSM_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_jetbrains_annotations_java5_17_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_tx_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JaceRxSSM/JaceRxSSM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/libraries/aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/artifacts/ssm12_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__tomcat_tomcat_juli_5_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm12/ssm12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/CollegeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/CollegeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/CourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/CourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/CourseMapperCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/CourseMapperCustom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/SelectedcourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/SelectedcourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/StudentMapperCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/StudentMapperCustom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/UserloginMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/mapper/UserloginMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/College.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/CollegeCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/CollegeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/CollegeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/CourseCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/CourseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/CourseExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/RoleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/RoleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/SelectedCourseCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Selectedcourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Selectedcourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/SelectedcourseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/SelectedcourseExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/StudentCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/StudentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/StudentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/TeacherCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/TeacherExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/TeacherExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Userlogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/Userlogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/UserloginCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/UserloginExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/po/UserloginExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/realm/LoginRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/realm/LoginRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/CollegeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/CollegeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/UserloginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/UserloginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/CollegeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/CollegeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/UserloginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/service/impl/UserloginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/src/test/java/com/system/mapper/CourseMapperCustomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/src/test/java/com/system/mapper/CourseMapperCustomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/artifacts/Spring_SpringMVC_Mybatis_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/artifacts/Spring_SpringMVC_Mybatis_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/Spring+SpringMVC+Mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/Spring+SpringMVC+Mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/dbconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/controller/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/controller/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/src/main/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/src/main/controller/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/src/main/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/src/main/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm12/src/main/java/com/soecode/lyf/web/TextDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm12/src/main/java/com/soecode/lyf/web/TextDemoShow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm12/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm12/src/main/resources/jdbc.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/GeneratorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+              <folding>
+                <element signature="n#table#0;n#context#0;n#generatorConfiguration#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/GeneratorConfig.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555120472732" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JaceRxSSM" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generator" />
+      <module name="Generator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Generator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57007a86-76b6-4139-9c88-543362725b3b" name="Default Changelist" comment="" />
+      <created>1555075587687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555075587687</updated>
+      <workItem from="1555075595015" duration="249000" />
+      <workItem from="1555076989274" duration="5127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5376000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Generator.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GeneratorConfig.xml.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/text/pojo/College.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GeneratorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+          <folding>
+            <element signature="n#table#0;n#context#0;n#generatorConfiguration#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

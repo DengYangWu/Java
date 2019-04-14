@@ -12,10 +12,22 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.25</version>
       <scope>test</scope>
     </dependency>
-    
- <!--servletAPI-->
+      <!--log start-->
+      <!--https://wiki.base22.com/display/btg/How+to+setup+SLF4J+and+LOGBack+in+a+web+app+-+fast-->
+      <dependency>
+          <groupId>ch.qos.logback</groupId>
+          <artifactId>logback-classic</artifactId>
+          <version>1.2.3</version>
+          <!--含了logback-classic-1.2.3.jar,logback-core-1.2.3.jar,slf4j-api-1.7.25.jar-->
+      </dependency>
+    <!--servletAPI-->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
@@ -149,10 +161,39 @@
           <artifactId>annotations-java5</artifactId>
           <version>RELEASE</version>
       </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
 
   </dependencies>
 
   <build>
+      <!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
+      <resources>
+          <resource>
+              <directory>src/main/resources</directory>
+              <includes>
+                  <include>**/*.properties</include>
+                  <include>**/*.xml</include>
+                  <include>**/*.tld</include>
+                  <include>**/*.jsp</include>
+              </includes>
+              <filtering>false</filtering>
+          </resource>
+
+          <resource>
+              <directory>src/main/java</directory>
+              <includes>
+                  <include>**/*.properties</include>
+                  <include>**/*.xml</include>
+                  <include>**/*.tld</include>
+              </includes>
+              <filtering>false</filtering>
+          </resource>
+      </resources>
   <plugins>
        <plugin>
              <groupId>org.apache.maven.plugins</groupId>
@@ -166,4 +207,5 @@
   	 </plugins>
     <finalName>JaceRxSSM</finalName>
   </build>
+
 </project>

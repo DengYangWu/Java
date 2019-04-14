@@ -2,11 +2,11 @@ package com.system.service.impl;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.system.mapper.CollegeMapper;
 import com.system.po.College;
 import com.system.po.CollegeExample;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.system.service.CollegeService;
 
 public class CollegeServiceImpl implements CollegeService{

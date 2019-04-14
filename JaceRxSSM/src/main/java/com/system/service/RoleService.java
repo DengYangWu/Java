@@ -3,7 +3,7 @@ package com.system.service;
 import com.system.po.Role;
 
 /**
- *  Role È¨ÏÞ±íService²ã
+ *  Role È¨ï¿½Þ±ï¿½Serviceï¿½ï¿½
  */
 public interface RoleService {
 	   Role findByid(Integer id) throws Exception;

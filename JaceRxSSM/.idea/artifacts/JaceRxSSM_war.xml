@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JaceRxSSM:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JaceRxSSM</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JaceRxSSM.war">
+      <element id="artifact" artifact-name="JaceRxSSM:war exploded" />
+    </root>
+  </artifact>
+</component>

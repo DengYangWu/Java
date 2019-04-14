@@ -8,7 +8,6 @@ import com.system.po.*;
 import com.system.service.CourseService;
 import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +15,6 @@ import java.util.List;
 /**
  * Created by Jacey on 2017/6/29.
  */
-@Service
 public class CourseServiceImpl implements CourseService {
 
     @Autowired
@@ -36,7 +34,7 @@ public class CourseServiceImpl implements CourseService {
     }
 
     public Boolean removeById(Integer id) throws Exception {
-        //×Ô¶¨Òå²éÑ¯Ìõ¼ş
+        //è‡ªå®šä¹‰æŸ¥è¯¢æ¡ä»¶
         SelectedcourseExample example = new SelectedcourseExample();
         SelectedcourseExample.Criteria criteria = example.createCriteria();
         criteria.andCourseidEqualTo(id);
@@ -68,9 +66,9 @@ public class CourseServiceImpl implements CourseService {
     }
 
     public int getCountCouse() throws Exception {
-        //×Ô¶¨Òå²éÑ¯¶ÔÏó
+        //è‡ªå®šä¹‰æŸ¥è¯¢å¯¹è±¡
         CourseExample courseExample = new CourseExample();
-        //Í¨¹ıcriteria¹¹Ôì²éÑ¯Ìõ¼ş
+        //é€šè¿‡criteriaæ„é€ æŸ¥è¯¢æ¡ä»¶
         CourseExample.Criteria criteria = courseExample.createCriteria();
         criteria.andCoursenameIsNotNull();
 
@@ -90,7 +88,7 @@ public class CourseServiceImpl implements CourseService {
 
     public List<CourseCustom> findByName(String name) throws Exception {
         CourseExample courseExample = new CourseExample();
-        //×Ô¶¨Òå²éÑ¯Ìõ¼ş
+        //è‡ªå®šä¹‰æŸ¥è¯¢æ¡ä»¶
         CourseExample.Criteria criteria = courseExample.createCriteria();
 
         criteria.andCoursenameLike("%" + name + "%");
@@ -103,9 +101,9 @@ public class CourseServiceImpl implements CourseService {
             courseCustomList = new ArrayList<CourseCustom>();
             for (Course c : list) {
                 CourseCustom courseCustom = new CourseCustom();
-                //Àà¿½±´
+                //ç±»æ‹·è´
                 org.springframework.beans.BeanUtils.copyProperties(c, courseCustom);
-                //»ñÈ¡¿Î³ÌÃû
+                //è·å–è¯¾ç¨‹å
                 College college = collegeMapper.selectByPrimaryKey(c.getCollegeid());
                 courseCustom.setcollegeName(college.getCollegename());
 
@@ -118,9 +116,9 @@ public class CourseServiceImpl implements CourseService {
 
     public List<CourseCustom> findByTeacherID(Integer id) throws Exception {
         CourseExample courseExample = new CourseExample();
-        //×Ô¶¨Òå²éÑ¯Ìõ¼ş
+        //è‡ªå®šä¹‰æŸ¥è¯¢æ¡ä»¶
         CourseExample.Criteria criteria = courseExample.createCriteria();
-        //¸ù¾İ½ÌÊ¦id²é¿Î³Ì
+        //æ ¹æ®æ•™å¸ˆidæŸ¥è¯¾ç¨‹
         criteria.andTeacheridEqualTo(id);
 
         List<Course> list = courseMapper.selectByExample(courseExample);
@@ -130,9 +128,9 @@ public class CourseServiceImpl implements CourseService {
             courseCustomList = new ArrayList<CourseCustom>();
             for (Course c : list) {
                 CourseCustom courseCustom = new CourseCustom();
-                //Àà¿½±´
+                //ç±»æ‹·è´
                 BeanUtils.copyProperties(courseCustom, c);
-                //»ñÈ¡¿Î³ÌÃû
+                //è·å–è¯¾ç¨‹å
                 College college = collegeMapper.selectByPrimaryKey(c.getCollegeid());
                 courseCustom.setcollegeName(college.getCollegename());
 

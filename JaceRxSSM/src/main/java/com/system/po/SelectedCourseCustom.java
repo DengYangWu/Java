@@ -1,15 +1,13 @@
 package com.system.po;
 
-/*
- * 课程自定义
- * */
 public class SelectedCourseCustom extends Selectedcourse {
-	 //新增Student 对象字段
+    //鏂板Student 瀵硅薄瀛楁
     private StudentCustom studentCustom;
-    //扩展课程信息对象
+
+    //鎵╁睍璇剧▼淇℃伅瀵硅薄
     private CourseCustom courseCustom;
 
-    //判断该学生是否已经完成该课程
+    //鍒ゆ柇璇ュ鐢熸槸鍚﹀凡缁忓畬鎴愯璇剧▼
     private Boolean over = false;
 
 

@@ -2,16 +2,18 @@ package com.system.po;
 
 import java.util.List;
 
-/**
- * StudentµÄÀ©Õ¹Àà
- */
-public class StudentCustom extends Student{
-	//ËùÊôÔºÏµÃû
-	private String collegeName;
-	//Ñ¡¿ÎÁĞ±í
-	private List<SelectedCourseCustom> selectedCourseList;
-	
-	public void setcollegeName(String collegeName) {
+/*
+* studentæ‰©å±•ç±»
+* */
+public class StudentCustom extends Student {
+    //æ‰€å±é™¢ç³»å
+    private String collegeName;
+
+    //é€‰è¯¾åˆ—è¡¨
+    private List<SelectedCourseCustom> selectedCourseList;
+
+
+    public void setcollegeName(String collegeName) {
         this.collegeName = collegeName;
     }
 
@@ -26,4 +28,5 @@ public class StudentCustom extends Student{
     public List<SelectedCourseCustom> getSelectedCourseList() {
         return selectedCourseList;
     }
+
 }

@@ -23,6 +23,16 @@ public class UserServiceImpl implements UserService{
 			List<User> selectByPrimaryKey=userMapper.findAll();
 				return selectByPrimaryKey;
 	}
+
+	@Override
+	public List<User> findAll() {
+		return null;
+	}
+
+	@Override
+	public User find(int id) {
+		return null;
+	}
 //	public List<User> findAll() throws Exception {
 //		// TODO Auto-generated method stub
 //		List<User> selectByPrimaryKey=userMapper.findAll();

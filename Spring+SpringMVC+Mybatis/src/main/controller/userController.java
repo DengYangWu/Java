@@ -20,7 +20,7 @@ import main.pojo.User;
 import main.service.UserService;
 
 @RestController
-public class UserController {
+public class userController {
 
 	//private Logger logger = LoggerFactory.getLogger(this.getClass());
 	@Autowired

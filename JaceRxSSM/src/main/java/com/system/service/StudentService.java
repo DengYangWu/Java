@@ -1,36 +1,36 @@
 package com.system.service;
 
-import java.util.List;
-
 import com.system.po.StudentCustom;
 
+import java.util.List;
+
 /**
- * StudentÑ§ÉúService²ã
+ * StudentÑ§ï¿½ï¿½Serviceï¿½ï¿½
  */
 public interface StudentService {
 
-    //¸ù¾Ýid¸ö¸üÐÂÑ§ÉúÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½idï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ï¢
     void updataById(Integer id, StudentCustom studentCustom) throws Exception;
 
-    //¸ù¾ÝidÉ¾³ýÑ§ÉúÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½idÉ¾ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ï¢
     void removeById(Integer id) throws Exception;
 
-    //»ñÈ¡·ÖÒ³²éÑ¯Ñ§ÉúÐÅÏ¢
+    //ï¿½ï¿½È¡ï¿½ï¿½Ò³ï¿½ï¿½Ñ¯Ñ§ï¿½ï¿½ï¿½ï¿½Ï¢
     List<StudentCustom> findByPaging(Integer toPageNo) throws Exception;
 
-    //±£´æÑ§ÉúÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ï¢
     Boolean save(StudentCustom studentCustoms) throws Exception;
 
-    //»ñÈ¡Ñ§Éú×ÜÊý
+    //ï¿½ï¿½È¡Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     int getCountStudent() throws Exception;
 
-    //¸ù¾Ýid»ñÈ¡Ñ§ÉúÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½idï¿½ï¿½È¡Ñ§ï¿½ï¿½ï¿½ï¿½Ï¢
     StudentCustom findById(Integer id) throws Exception;
 
-    //¸ù¾ÝÃû×ÖÄ£ºý²éÑ¯
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½Ñ¯
     List<StudentCustom> findByName(String name) throws Exception;
 
-    // Ò»¶Ô¶à²éÑ¯£¬²éÑ¯¸ÃÑ§ÉúµÄÑ¡¿ÎÐÅÏ¢
+    // Ò»ï¿½Ô¶ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Ï¢
     StudentCustom findStudentAndSelectCourseListByName(String name) throws Exception;
 
 }

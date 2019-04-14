@@ -29,13 +29,13 @@
 			<div class="col-md-4" id="login-box">
 				<form class="form-horizontal" role="form" action="<%=request.getContextPath()%>/login" id="from1" method="post">
 				  <div class="form-group">
-				    <label for="firstname" class="col-sm-3 control-label">用户id</label>
+				    <%--@declare id="firstname"--%><label for="firstname" class="col-sm-3 control-label">用户id</label>
 				    <div class="col-sm-9">
 				      <input type="text" class="form-control" id="userID" placeholder="请输入名字" name="username">
 				    </div>
 				  </div>
 				  <div class="form-group">
-				    <label for="lastname" class="col-sm-3 control-label">密码</label>
+				    <%--@declare id="lastname"--%><label for="lastname" class="col-sm-3 control-label">密码</label>
 				    <div class="col-sm-9">
 				      <input type="password" class="form-control" id="password" placeholder="请输入密码" name="password">
 				    </div>

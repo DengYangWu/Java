@@ -1,16 +1,16 @@
 package com.system.mapper;
 
-import java.util.List;
-
 import com.system.po.PagingVO;
 import com.system.po.StudentCustom;
 
+import java.util.List;
+
 public interface StudentMapperCustom {
 
-    //分页查询学生信息
+    //鍒嗛〉鏌ヨ瀛︾敓淇℃伅
     List<StudentCustom> findByPaging(PagingVO pagingVO) throws Exception;
 
-    //查询学生信息，和其选课信息
+    //鏌ヨ瀛︾敓淇℃伅锛屽拰鍏堕�夎淇℃伅
     StudentCustom findStudentAndSelectCourseListById(Integer id) throws Exception;
 
 }

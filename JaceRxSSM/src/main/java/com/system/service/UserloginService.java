@@ -3,16 +3,16 @@ package com.system.service;
 import com.system.po.Userlogin;
 
 public interface UserloginService {
-	 //¸ù¾ÝÃû×Ö²éÕÒÓÃ»§
+	 //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½Ã»ï¿½
     Userlogin findByName(String name) throws Exception;
 
-    //±£´æÓÃ»§µÇÂ¼ÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½Â¼ï¿½ï¿½Ï¢
     void save(Userlogin userlogin) throws Exception;
 
-    //¸ù¾ÝÐÕÃûÉ¾³ý
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½
     void removeByName(String name) throws Exception;
 
-    //¸ù¾ÝÓÃ»§Ãû¸üÐÂ
+    //ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     void updateByName(String name, Userlogin userlogin);
 
 }

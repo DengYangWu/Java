@@ -7,24 +7,24 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * 参数绑定 字符串日期转换器
+ * 鍙傛暟缁戝畾 瀛楃涓叉棩鏈熻浆鎹㈠櫒
  */
 public class CustomDateConverter implements Converter<String, Date> {
 
 
     public Date convert(String s) {
-        //实现 将日期串转成日期类型(格式是yyyy-MM-dd)
+        //瀹炵幇 灏嗘棩鏈熶覆杞垚鏃ユ湡绫诲瀷(鏍煎紡鏄痽yyy-MM-dd)
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
         try {
-            //转成直接返回
+            //杞垚鐩存帴杩斿洖
             return simpleDateFormat.parse(s);
         } catch (ParseException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
 
-        //如果参数绑定失败返回null
+        //濡傛灉鍙傛暟缁戝畾澶辫触杩斿洖null
         return null;
     }
 }

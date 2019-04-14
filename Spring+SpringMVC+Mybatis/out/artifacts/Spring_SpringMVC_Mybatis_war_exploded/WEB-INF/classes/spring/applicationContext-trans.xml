@@ -13,6 +13,7 @@
 		<!-- 数据源 -->
 		<property name="dataSource" ref="dataSource" />
 	</bean>
+	<tx:annotation-driven transaction-manager="txManager"/>
 	<!-- 通知 -->
 	<tx:advice id="txAdvice" transaction-manager="transactionManager">
 		<tx:attributes>
@@ -30,8 +31,16 @@
 	</tx:advice>
 	<!-- 切面 -->
 	<aop:config>
+<<<<<<< HEAD
 		<aop:advisor advice-ref="txAdvice"
 			pointcut="execution(* web.service.*.*(..))" />
 	</aop:config>
 	<jdbc:embedded-database id="dataSource"/>
+=======
+			<aop:pointcut expression="execution(* main.service.*.*(..))" id="txPoint"/>
+			<aop:advisor advice-ref="txAdvice" pointcut-ref="txPoint"/>
+	</aop:config>
+
+
+>>>>>>> d352877a20824b9658984f0e083cfb4d8a087ec8
 </beans>

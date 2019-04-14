@@ -1,9 +1,9 @@
 package com.system.po;
-/**
- * teacherÀ©Õ¹Àà
- */
+/*
+* teacheræ‰©å±•ç±»
+* */
 public class TeacherCustom extends Teacher{
-	  //ËùÊôÔºÏµÃû
+    //æ‰€å±é™¢ç³»å
     private String collegeName;
 
     public void setcollegeName(String collegeName) {

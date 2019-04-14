@@ -1,11 +1,11 @@
 package com.system.po;
-/**
- * CourseÀ©Õ¹Àà    ¿Î³Ì
- */
-public class CourseCustom extends Course{
-    //ËùÊôÔºÏµÃû
-    private String collegeName;
 
+/*
+* Courseæ‰©å±•ç±» è¯¾ç¨‹
+* */
+public class CourseCustom extends Course{
+    //æ‰€å±é™¢ç³»å
+    private String collegeName;
     public void setcollegeName(String collegeName) {
         this.collegeName = collegeName;
     }
@@ -13,5 +13,4 @@ public class CourseCustom extends Course{
     public String getcollegeName() {
         return collegeName;
     }
-	
 }

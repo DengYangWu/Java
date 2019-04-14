@@ -18,7 +18,7 @@ import java.util.List;
 @Service
 public class StudentServiceImpl implements StudentService {
 
-    //Ê¹ÓÃspring ×Ô¶¯×¢Èë
+    //Ê¹ï¿½ï¿½spring ï¿½Ô¶ï¿½×¢ï¿½ï¿½
     @Autowired
     private StudentMapperCustom studentMapperCustom;
 
@@ -55,11 +55,11 @@ public class StudentServiceImpl implements StudentService {
         return false;
     }
 
-    //·µ»ØÑ§Éú×ÜÊý
+    //ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public int getCountStudent() throws Exception {
-        //×Ô¶¨Òå²éÑ¯¶ÔÏó
+        //ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½
         StudentExample studentExample = new StudentExample();
-        //Í¨¹ýcriteria¹¹Ôì²éÑ¯Ìõ¼þ
+        //Í¨ï¿½ï¿½criteriaï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½
         StudentExample.Criteria criteria = studentExample.createCriteria();
         criteria.andUseridIsNotNull();
 
@@ -72,18 +72,18 @@ public class StudentServiceImpl implements StudentService {
         StudentCustom studentCustom = null;
         if (student != null) {
             studentCustom = new StudentCustom();
-            //Àà¿½±´
+            //ï¿½à¿½ï¿½ï¿½
             BeanUtils.copyProperties(student, studentCustom);
         }
 
         return studentCustom;
     }
 
-    //Ä£ºý²éÑ¯
+    //Ä£ï¿½ï¿½ï¿½ï¿½Ñ¯
     public List<StudentCustom> findByName(String name) throws Exception {
 
         StudentExample studentExample = new StudentExample();
-        //×Ô¶¨Òå²éÑ¯Ìõ¼þ
+        //ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½
         StudentExample.Criteria criteria = studentExample.createCriteria();
 
         criteria.andUsernameLike("%" + name + "%");
@@ -96,9 +96,9 @@ public class StudentServiceImpl implements StudentService {
             studentCustomList = new ArrayList<StudentCustom>();
             for (Student s : list) {
                 StudentCustom studentCustom = new StudentCustom();
-                //Àà¿½±´
+                //ï¿½à¿½ï¿½ï¿½
                 BeanUtils.copyProperties(s, studentCustom);
-                //»ñÈ¡¿Î³ÌÃû
+                //ï¿½ï¿½È¡ï¿½Î³ï¿½ï¿½ï¿½
                 College college = collegeMapper.selectByPrimaryKey(s.getCollegeid());
                 studentCustom.setcollegeName(college.getCollegename());
 
@@ -116,7 +116,7 @@ public class StudentServiceImpl implements StudentService {
 
         List<SelectedCourseCustom> list = studentCustom.getSelectedCourseList();
 
-        // ÅÐ¶Ï¸Ã¿Î³ÌÊÇ·ñÐÞÍê
+        // ï¿½Ð¶Ï¸Ã¿Î³ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½
         for (SelectedCourseCustom s : list) {
             if (s.getMark() != null) {
                 s.setOver(true);

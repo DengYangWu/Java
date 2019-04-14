@@ -16,5 +16,5 @@
     必须在类名上添加上注解 @Repository、@Service、@Controller、@Component （这四个注解功能一样，名字不同只是为了区分不同功能）
     @Component 是通用组件
     -->
-    <context:annotation-config base-backage="com.system.service.impl"/>
+    <context:annotation-config/>
 </beans>

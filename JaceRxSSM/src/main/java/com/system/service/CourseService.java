@@ -1,34 +1,34 @@
 package com.system.service;
 
-import java.util.List;
-
 import com.system.po.CourseCustom;
 
+import java.util.List;
+
 /**
- * CourseService¿Î³ÌÐÅÏ¢.
+ * CourseServiceï¿½Î³ï¿½ï¿½ï¿½Ï¢.
  */
 public interface CourseService {
-    //¸ù¾Ýid¸üÐÂ¿Î³ÌÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½idï¿½ï¿½ï¿½Â¿Î³ï¿½ï¿½ï¿½Ï¢
     void upadteById(Integer id, CourseCustom courseCustom) throws Exception;
 
-    //¸ù¾ÝidÉ¾³ý¿Î³ÌÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½idÉ¾ï¿½ï¿½ï¿½Î³ï¿½ï¿½ï¿½Ï¢
     Boolean removeById(Integer id) throws Exception;
 
-    //»ñÈ¡·ÖÒ³²éÑ¯¿Î³ÌÐÅÏ¢
+    //ï¿½ï¿½È¡ï¿½ï¿½Ò³ï¿½ï¿½Ñ¯ï¿½Î³ï¿½ï¿½ï¿½Ï¢
     List<CourseCustom> findByPaging(Integer toPageNo) throws Exception;
 
-    //²åÈë¿Î³ÌÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½Î³ï¿½ï¿½ï¿½Ï¢
     Boolean save(CourseCustom couseCustom) throws Exception;
 
-    //»ñÈ¡¿Î³Ì×ÜÊý
+    //ï¿½ï¿½È¡ï¿½Î³ï¿½ï¿½ï¿½ï¿½ï¿½
     int getCountCouse() throws Exception;
 
-    //¸ù¾Ýid²éÑ¯
+    //ï¿½ï¿½ï¿½ï¿½idï¿½ï¿½Ñ¯
     CourseCustom findById(Integer id) throws Exception;
 
-    //¸ù¾ÝÃû×Ö²éÑ¯
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½Ñ¯
     List<CourseCustom> findByName(String name) throws Exception;
 
-    //¸ù¾Ý½ÌÊ¦id²éÕÒ¿Î³Ì
+    //ï¿½ï¿½ï¿½Ý½ï¿½Ê¦idï¿½ï¿½ï¿½Ò¿Î³ï¿½
     List<CourseCustom> findByTeacherID(Integer id) throws Exception;
 }
