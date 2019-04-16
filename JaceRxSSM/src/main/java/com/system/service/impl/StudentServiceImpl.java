@@ -18,7 +18,7 @@ import java.util.List;
 @Service
 public class StudentServiceImpl implements StudentService {
 
-    //ʹ��spring �Զ�ע��
+    //使用spring 自动注入
     @Autowired
     private StudentMapperCustom studentMapperCustom;
 
@@ -55,11 +55,11 @@ public class StudentServiceImpl implements StudentService {
         return false;
     }
 
-    //����ѧ������
+    //返回学生总数
     public int getCountStudent() throws Exception {
-        //�Զ����ѯ����
+        //自定义查询对象
         StudentExample studentExample = new StudentExample();
-        //ͨ��criteria�����ѯ����
+        //通过criteria构造查询条件
         StudentExample.Criteria criteria = studentExample.createCriteria();
         criteria.andUseridIsNotNull();
 
@@ -72,18 +72,18 @@ public class StudentServiceImpl implements StudentService {
         StudentCustom studentCustom = null;
         if (student != null) {
             studentCustom = new StudentCustom();
-            //�࿽��
+            //类拷贝
             BeanUtils.copyProperties(student, studentCustom);
         }
 
         return studentCustom;
     }
 
-    //ģ����ѯ
+    //模糊查询
     public List<StudentCustom> findByName(String name) throws Exception {
 
         StudentExample studentExample = new StudentExample();
-        //�Զ����ѯ����
+        //自定义查询条件
         StudentExample.Criteria criteria = studentExample.createCriteria();
 
         criteria.andUsernameLike("%" + name + "%");
@@ -96,9 +96,9 @@ public class StudentServiceImpl implements StudentService {
             studentCustomList = new ArrayList<StudentCustom>();
             for (Student s : list) {
                 StudentCustom studentCustom = new StudentCustom();
-                //�࿽��
+                //类拷贝
                 BeanUtils.copyProperties(s, studentCustom);
-                //��ȡ�γ���
+                //获取课程名
                 College college = collegeMapper.selectByPrimaryKey(s.getCollegeid());
                 studentCustom.setcollegeName(college.getCollegename());
 
@@ -116,7 +116,7 @@ public class StudentServiceImpl implements StudentService {
 
         List<SelectedCourseCustom> list = studentCustom.getSelectedCourseList();
 
-        // �жϸÿγ��Ƿ�����
+        // 判断该课程是否修完
         for (SelectedCourseCustom s : list) {
             if (s.getMark() != null) {
                 s.setOver(true);

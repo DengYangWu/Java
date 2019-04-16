@@ -27,7 +27,8 @@ public class LoginController {
 		subject.login(token);
 
         if (subject.hasRole("admin")) { //根据输入的用户名和密码显示页面菜单
-            return "redirect:/admin/showStudent";
+            //return  "redirect:/success";
+        	return "redirect:/admin/showStudent";
         } else if (subject.hasRole("teacher")) {
             return "redirect:/teacher/showCourse";
         } else if (subject.hasRole("student")) {

@@ -25,7 +25,7 @@ public class StudentMapperTest {
         //String userName = "黄";
         try {
 
-            criteria.andUsernameLike("%黄%");
+            criteria.andUsernameLike("%米%");
             List<Student> list =studentMapper.selectByExample(studentExample);
             String username="黄";
             List<Student> l=studentMapper.like(username);

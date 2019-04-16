@@ -8,7 +8,9 @@ import com.system.po.CollegeExample;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.system.service.CollegeService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CollegeServiceImpl implements CollegeService{
 	@Autowired
     private CollegeMapper collegeMapper;

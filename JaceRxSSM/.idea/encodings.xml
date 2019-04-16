@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/controller/converter/CustomDateConverter.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java" charset="UTF-8" />
@@ -12,6 +12,8 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/po/StudentExample.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/po/Userlogin.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/realm/LoginRealm.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/system/service/CourseService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/system/service/StudentService.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

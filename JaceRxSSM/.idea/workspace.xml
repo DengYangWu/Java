@@ -7,183 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1c00e31-38cf-470f-9562-ae7698297bc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Generator/src/main/java/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generator/src/main/resources/GeneratorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JaceRxSSM_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JaceRxSSM_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_java5_17_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JaceRxSSM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapperCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapperCustom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapperCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapperCustom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperCustomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/system/mapper/TeacherMapperCustomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/system/mapper/UserloginMapperCustomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seckill_2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Seckill_2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/libraries/aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/artifacts/ssm12_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/libraries/Maven__tomcat_tomcat_juli_5_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssm12/ssm12.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/controller/AdminController.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/system/service/CollegeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/system/service/CourseServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/system/service/StudentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/controller/converter/CustomDateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/converter/CustomDateConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/CollegeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/CollegeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/CollegeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/CollegeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapperCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapperCustom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/SelectedcourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/SelectedcourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/SelectedcourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/SelectedcourseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapperCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapperCustom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/College.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/CollegeCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/CollegeCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/CollegeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/CollegeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/CourseCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/CourseCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/CourseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/CourseExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/RoleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/RoleExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/SelectedCourseCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/SelectedCourseCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/Selectedcourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Selectedcourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/SelectedcourseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/SelectedcourseExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/StudentCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/StudentCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/StudentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/StudentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/TeacherCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/TeacherCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/TeacherExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/TeacherExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/Userlogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Userlogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/UserloginCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/UserloginCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/po/UserloginExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/po/UserloginExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/realm/LoginRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/realm/LoginRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/service/CollegeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/service/CollegeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/system/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/service/RoleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/system/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/service/UserloginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/service/UserloginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/system/service/impl/CollegeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/CollegeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/system/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/system/mapper/CourseMapperCustomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/system/mapper/CourseMapperCustomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/artifacts/Spring_SpringMVC_Mybatis_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/artifacts/Spring_SpringMVC_Mybatis_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/Spring+SpringMVC+Mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/Spring+SpringMVC+Mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/WebContent/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/dbconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-trans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/controller/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/controller/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/classes/web/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/out/artifacts/Spring_SpringMVC_Mybatis_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/src/main/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/src/main/controller/userController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/src/main/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+SpringMVC+Mybatis/src/main/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm12/src/main/java/com/soecode/lyf/web/TextDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm12/src/main/java/com/soecode/lyf/web/TextDemoShow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm12/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm12/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -193,34 +29,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+            <state relative-caret-position="-246">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="293" column="18" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/showStudent.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -249,12 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/SelectedcourseMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/CollegeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/SelectedcourseMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.xml" />
@@ -267,17 +116,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/system/po/teacherCustom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/po/TeacherCustom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/po/UserloginCustom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/CollegeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapperCustom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapperCustom" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapperCustom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/UserloginServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/realm/LoginRealm.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/system/mapper/UserloginMapperCustom.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/system/mapper/CourseMapperCustomTest.java" />
@@ -297,9 +141,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/system/mapper/TeacherMapperCustomTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/CollegeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-trsaction.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/system/service/CollegeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/system/service/CourseServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/system/service/StudentServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -329,11 +184,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -363,95 +217,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="realm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
@@ -504,45 +269,216 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JaceRxSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JaceRxSSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="JaceRxSSM" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JaceRxSSM" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="converter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spring" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jsp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jsp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JaceRxSSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JaceRxSSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="system" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555251894264" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/system/po/UserloginExample.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/system/service/CourseService.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -571,82 +507,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentMapperTest.selectByExample">
-    <configuration name="StudentMapperCustomTest.findByPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.38">
+    <configuration name="StudentServiceTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JaceRxSSM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.system.mapper.*" />
+          <option name="PATTERN" value="com.system.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.system.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.system.mapper.StudentMapperCustomTest" />
+      <option name="PACKAGE_NAME" value="com.system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.system.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JaceRxSSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.system.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="findByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.findByPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JaceRxSSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.system.service.StudentServiceTest" />
       <option name="METHOD_NAME" value="findByPaging" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperCustomTest.findStudentAndSelectCourseListByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentServiceTest.getCountStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JaceRxSSM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.system.mapper.*" />
+          <option name="PATTERN" value="com.system.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.system.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.system.mapper.StudentMapperCustomTest" />
-      <option name="METHOD_NAME" value="findStudentAndSelectCourseListByName" />
+      <option name="PACKAGE_NAME" value="com.system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.system.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="getCountStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperTest.selectByExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JaceRxSSM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.system.mapper.*" />
+          <option name="PATTERN" value="com.system.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.system.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.system.mapper.StudentMapperTest" />
-      <option name="METHOD_NAME" value="selectByExample" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeacherMapperCustomTest.findByPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JaceRxSSM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.system.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.system.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.system.mapper.TeacherMapperCustomTest" />
-      <option name="METHOD_NAME" value="findByPaging" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeacherMapperCustom.findByPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JaceRxSSM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.system.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.system.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.system.mapper.TeacherMapperCustom" />
-      <option name="METHOD_NAME" value="findByPaging" />
+      <option name="PACKAGE_NAME" value="com.system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.system.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -700,7 +636,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/JaceRxSSM_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="JaceRxSSM:war exploded">
@@ -774,20 +709,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentMapperCustomTest.findByPaging" />
-      <item itemvalue="JUnit.StudentMapperCustomTest.findStudentAndSelectCourseListByName" />
-      <item itemvalue="JUnit.TeacherMapperCustom.findByPaging" />
-      <item itemvalue="JUnit.TeacherMapperCustomTest.findByPaging" />
-      <item itemvalue="JUnit.StudentMapperTest.selectByExample" />
+      <item itemvalue="JUnit.StudentServiceTest.findByPaging" />
+      <item itemvalue="JUnit.StudentServiceTest.save" />
+      <item itemvalue="JUnit.StudentServiceTest.getCountStudent" />
+      <item itemvalue="JUnit.StudentServiceTest.findById" />
+      <item itemvalue="JUnit.StudentServiceTest.findByName" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentMapperTest.selectByExample" />
-        <item itemvalue="JUnit.TeacherMapperCustomTest.findByPaging" />
-        <item itemvalue="JUnit.TeacherMapperCustom.findByPaging" />
-        <item itemvalue="JUnit.StudentMapperCustomTest.findStudentAndSelectCourseListByName" />
-        <item itemvalue="JUnit.StudentMapperCustomTest.findByPaging" />
+        <item itemvalue="JUnit.StudentServiceTest.findByName" />
+        <item itemvalue="JUnit.StudentServiceTest.findById" />
+        <item itemvalue="JUnit.StudentServiceTest.getCountStudent" />
+        <item itemvalue="JUnit.StudentServiceTest.save" />
+        <item itemvalue="JUnit.StudentServiceTest.findByPaging" />
       </list>
     </recent_temporary>
   </component>
@@ -810,43 +745,44 @@
       <workItem from="1555231363044" duration="5681000" />
       <workItem from="1555243602471" duration="89000" />
       <workItem from="1555247591066" duration="4254000" />
+      <workItem from="1555310200995" duration="11952000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 21h 49m 36s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_removeById - 2019.04.15 at 16h 08m 11s.xml">
+      <configuration name="StudentServiceTest.removeById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 21h 56m 50s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_removeById - 2019.04.15 at 16h 10m 28s.xml">
+      <configuration name="StudentServiceTest.removeById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 22h 01m 07s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_findByPaging - 2019.04.15 at 16h 15m 06s.xml">
+      <configuration name="StudentServiceTest.findByPaging" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 22h 04m 01s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_save - 2019.04.15 at 16h 29m 34s.xml">
+      <configuration name="StudentServiceTest.save" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 22h 07m 23s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_save - 2019.04.15 at 16h 44m 45s.xml">
+      <configuration name="StudentServiceTest.save" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 22h 10m 56s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_save - 2019.04.15 at 16h 45m 10s.xml">
+      <configuration name="StudentServiceTest.save" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 22h 11m 26s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_getCountStudent - 2019.04.15 at 16h 50m 32s.xml">
+      <configuration name="StudentServiceTest.getCountStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 22h 16m 13s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_findById - 2019.04.15 at 16h 53m 39s.xml">
+      <configuration name="StudentServiceTest.findById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 22h 21m 11s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_findById - 2019.04.15 at 17h 09m 35s.xml">
+      <configuration name="StudentServiceTest.findById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMapperTest_selectByExample - 2019.04.14 at 22h 24m 29s.xml">
-      <configuration name="StudentMapperTest.selectByExample" configurationId="JUnit" />
+    <history-entry file="StudentServiceTest_findByName - 2019.04.15 at 17h 15m 31s.xml">
+      <configuration name="StudentServiceTest.findByName" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45213000" />
+    <option name="totallyTimeSpent" value="57165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,9 +795,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -871,8 +806,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863715" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32786885" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
@@ -937,128 +872,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/CollegeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1498">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/po/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1732">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/CollegeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/UserloginServiceImpl.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3-sources.jar!/org/apache/shiro/authc/UsernamePasswordToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/po/UserloginExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/UserloginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="31" column="73" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/examination_system.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="98" selection-start-line="98" selection-end-line="104" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/converter/CustomDateConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/po/PagingVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/system/realm/LoginRealm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
@@ -1070,13 +883,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/system/mapper/UserloginMapperCustom.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/UserloginMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1292,20 +1098,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="293" column="18" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1313,20 +1105,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+        <state relative-caret-position="162">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/system/mapper/StudentMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/CollegeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="72">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-trsaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/CollegeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/po/CourseCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/system/service/CollegeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/system/service/CourseServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="227" column="9" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/system/service/StudentServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/converter/CustomDateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/showStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
         </state>
       </provider>
     </entry>
