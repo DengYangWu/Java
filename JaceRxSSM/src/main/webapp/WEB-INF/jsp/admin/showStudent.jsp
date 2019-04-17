@@ -1,26 +1,25 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>学生信息显示</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- 引入bootstrap -->
-<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/bootstrap.min.css">
 <!-- 引入Jquery bootstrap.js -->
-<script src="/js/jquery-3.2.1.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/jquery-3.2.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<!-- 顶栏 -->
-	<jsp:include page="<%=request.getContextPath()%>/top.jsp"></jsp:include>
+	<jsp:include page="top.jsp"></jsp:include>
 	<!-- 中间主体 -->
 	<div class="container" id="content">
 		<div class="row">
-			<jsp:include page="<%=request.getContextPath()%>/menu.jsp"></jsp:include>
+			<jsp:include page="menu.jsp"></jsp:include>
 			<div class="col-md-10">
 				<div class="panel panel-default">
 				    <div class="panel-heading">
@@ -61,8 +60,8 @@
 									<td><fmt:formatDate value="${item.grade}" dateStyle="medium" /></td>
 									<td>${item.collegeName}</td>
 									<td>
-										<button class="btn btn-default btn-xs btn-info" onClick="location.href='/admin/editStudent?id=${item.userid}'">修改</button>
-										<button class="btn btn-default btn-xs btn-danger btn-primary" onClick="location.href='/admin/removeStudent?id=${item.userid}'">删除</button>
+										<button class="btn btn-default btn-xs btn-info" onClick="location.href='<%=request.getContextPath()%>/admin/editStudent?id=${item.userid}'">修改</button>
+										<button class="btn btn-default btn-xs btn-danger btn-primary" onClick="location.href='<%=request.getContextPath()%>/admin/removeStudent?id=${item.userid}'">删除</button>
 										<!--弹出框-->
 									</td>
 								</tr>
@@ -73,21 +72,21 @@
 						<c:if test="${pagingVO != null}">
 							<nav style="text-align: center">
 								<ul class="pagination">
-									<li><a href="/admin/showStudent?page=${pagingVO.upPageNo}">&laquo;上一页</a></li>
+									<li><a href="<%=request.getContextPath()%>/admin/showStudent?page=${pagingVO.upPageNo}">&laquo;上一页</a></li>
 									<li class="active"><a href="">${pagingVO.curentPageNo}</a></li>
 									<c:if test="${pagingVO.curentPageNo+1 <= pagingVO.totalCount}">
-										<li><a href="/admin/showStudent?page=${pagingVO.curentPageNo+1}">${pagingVO.curentPageNo+1}</a></li>
+										<li><a href="<%=request.getContextPath()%>/admin/showStudent?page=${pagingVO.curentPageNo+1}">${pagingVO.curentPageNo+1}</a></li>
 									</c:if>
 									<c:if test="${pagingVO.curentPageNo+2 <= pagingVO.totalCount}">
-										<li><a href="/admin/showStudent?page=${pagingVO.curentPageNo+2}">${pagingVO.curentPageNo+2}</a></li>
+										<li><a href="<%=request.getContextPath()%>/admin/showStudent?page=${pagingVO.curentPageNo+2}">${pagingVO.curentPageNo+2}</a></li>
 									</c:if>
 									<c:if test="${pagingVO.curentPageNo+3 <= pagingVO.totalCount}">
-										<li><a href="/admin/showStudent?page=${pagingVO.curentPageNo+3}">${pagingVO.curentPageNo+3}</a></li>
+										<li><a href="<%=request.getContextPath()%>/admin/showStudent?page=${pagingVO.curentPageNo+3}">${pagingVO.curentPageNo+3}</a></li>
 									</c:if>
 									<c:if test="${pagingVO.curentPageNo+4 <= pagingVO.totalCount}">
-										<li><a href="/admin/showStudent?page=${pagingVO.curentPageNo+4}">${pagingVO.curentPageNo+4}</a></li>
+										<li><a href="<%=request.getContextPath()%>/admin/showStudent?page=${pagingVO.curentPageNo+4}">${pagingVO.curentPageNo+4}</a></li>
 									</c:if>
-									<li><a href="/admin/showStudent?page=${pagingVO.totalCount}">最后一页&raquo;</a></li>
+									<li><a href="<%=request.getContextPath()%>/admin/showStudent?page=${pagingVO.totalCount}">最后一页&raquo;</a></li>
 								</ul>
 							</nav>
 						</c:if>

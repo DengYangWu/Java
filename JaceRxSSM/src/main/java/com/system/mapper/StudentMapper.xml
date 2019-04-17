@@ -285,12 +285,5 @@
       collegeID = #{collegeid,jdbcType=INTEGER}
     where userID = #{userid,jdbcType=INTEGER}
   </update>
-  <select id="like" parameterType="java.lang.String" resultType="com.system.po.Student">
-    SELECT
-    *
-    FROM
-    student
-    WHERE
-    username like '%${username}%'
-  </select>
+
 </mapper>

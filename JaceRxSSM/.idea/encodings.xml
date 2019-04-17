@@ -3,6 +3,8 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/controller/converter/CustomDateConverter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/system/exception/CustomException.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/system/exception/CustomExceptionResolver.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/po/College.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/system/po/CollegeCustom.java" charset="UTF-8" />
