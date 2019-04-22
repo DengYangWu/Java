@@ -7,6 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>JaceRxSSM Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -167,7 +168,6 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
-
   </dependencies>
 
   <build>
@@ -204,8 +204,27 @@
                  <target>1.8</target>      
              </configuration>
        </plugin>
+      <plugin>
+          <groupId>org.mortbay.jetty</groupId>
+          <artifactId>jetty-maven-plugin</artifactId>
+          <configuration>
+              <scanIntervalSeconds>1</scanIntervalSeconds>
+              <stopPort>9966</stopPort>
+              <stopKey>foo</stopKey>
+              <connectors>
+                  <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                      <port>7777</port>
+                      <maxIdleTime>60000</maxIdleTime>
+                  </connector>
+              </connectors>
+              <webAppConfig>
+                  <contextPath>/jsf-web</contextPath>
+              </webAppConfig>
+          </configuration>
+      </plugin>
   	 </plugins>
     <finalName>JaceRxSSM</finalName>
+
   </build>
 
 </project>
