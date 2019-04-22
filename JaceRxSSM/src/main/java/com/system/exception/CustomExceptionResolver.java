@@ -9,12 +9,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *    È«¾ÖÒì³£´¦ÀíÆ÷
- *    springmvcÌá¹©Ò»¸öHandlerExceptionResolver½Ó¿Ú
- *      Ö»ÒªÊµÏÖ¸Ã½Ó¿Ú£¬²¢ÅäÖÃµ½spring ÈİÆ÷Àï£¬¸ÃÀà¾ÍÄÜ
- *      ³ÉÎªÄ¬ÈÏÈ«¾ÖÒì³£´¦ÀíÀà
+ *    å…¨å±€å¼‚å¸¸å¤„ç†å™¨
+ *    springmvcæä¾›ä¸€ä¸ªHandlerExceptionResolveræ¥å£
+ *      åªè¦å®ç°è¯¥æ¥å£ï¼Œå¹¶é…ç½®åˆ°spring å®¹å™¨é‡Œï¼Œè¯¥ç±»å°±èƒ½
+ *      æˆä¸ºé»˜è®¤å…¨å±€å¼‚å¸¸å¤„ç†ç±»
  *
- *   È«¾ÖÒì³£´¦ÀíÆ÷Ö»ÓĞÒ»¸ö£¬ÅäÖÃ¶à¸öÒ²Ã»ÓÃ¡£
+ *   å…¨å±€å¼‚å¸¸å¤„ç†å™¨åªæœ‰ä¸€ä¸ªï¼Œé…ç½®å¤šä¸ªä¹Ÿæ²¡ç”¨ã€‚
  */
 public class CustomExceptionResolver implements HandlerExceptionResolver {
 
@@ -26,25 +26,25 @@ public class CustomExceptionResolver implements HandlerExceptionResolver {
         if (e instanceof CustomException) {
             customException = (CustomException)e;
         } else if (e instanceof UnknownAccountException) {
-            //ÓÃ»§Ãû´íÎóÒì³£
-            modelAndView.addObject("message", "Ã»ÓĞ¸ÃÓÃ»§");
+            //ç”¨æˆ·åé”™è¯¯å¼‚å¸¸
+            modelAndView.addObject("message", "æ²¡æœ‰è¯¥ç”¨æˆ·");
             modelAndView.setViewName("error");
             return modelAndView;
         } else if (e instanceof IncorrectCredentialsException) {
-            //ÓÃ»§Ãû´íÎóÒì³£
-            modelAndView.addObject("message", "ÃÜÂë´íÎó");
+            //ç”¨æˆ·åé”™è¯¯å¼‚å¸¸
+            modelAndView.addObject("message", "å¯†ç é”™è¯¯");
             modelAndView.setViewName("error");
             return modelAndView;
         } else {
-            customException = new CustomException("Î´Öª´íÎó");
+            customException = new CustomException("æœªçŸ¥é”™è¯¯");
         }
 
-        //´íÎóĞÅÏ¢
+        //é”™è¯¯ä¿¡æ¯
         String message = customException.getMessage();
 
 
 
-        //´íÎóĞÅÏ¢´«µİºÍ´íÎóÒ³ÃæÌø×ª
+        //é”™è¯¯ä¿¡æ¯ä¼ é€’å’Œé”™è¯¯é¡µé¢è·³è½¬
         modelAndView.addObject("message", message);
         modelAndView.setViewName("error");
 

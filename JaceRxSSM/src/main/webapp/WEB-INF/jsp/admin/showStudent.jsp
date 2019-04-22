@@ -61,7 +61,7 @@
 									<td>${item.collegeName}</td>
 									<td>
 										<button class="btn btn-default btn-xs btn-info" onClick="location.href='<%=request.getContextPath()%>/admin/editStudent?id=${item.userid}'">修改</button>
-										<button class="btn btn-default btn-xs btn-danger btn-primary" onClick="location.href='<%=request.getContextPath()%>/admin/removeStudent?id=${item.userid}'">删除</button>
+										<button class="btn btn-default btn-xs btn-danger btn-primary" onclick="confirmd('${item.userid}')">删除</button>
 										<!--弹出框-->
 									</td>
 								</tr>
@@ -101,12 +101,16 @@
 			<div class="col-md-12"></div>
 		</div>
 	</div>
+<input value="<%=request.getContextPath()%>" type="hidden" id="urlRequest">
 </body>
 <script type="text/javascript">
+		var url=$("#urlRequest").val();
 		$("#nav li:nth-child(2)").addClass("active");
-        function confirmd() {
+        function confirmd(id) {
+        	//alert(id);
             var msg = "您真的确定要删除吗？！";
             if (confirm(msg)==true){
+				window.location.href=url+"/admin/removeStudent?id="+id;
                 return true;
             }else{
                 return false;

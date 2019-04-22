@@ -87,7 +87,7 @@ public class SelectedCourseServiceImpl implements com.system.service.SelectedCou
         return null;
     }
     @Override
-    public Integer remote(Integer id)throws Exception{
+    public Integer remove(Integer id)throws Exception{
         SelectedcourseExample selectedcourseExample=new SelectedcourseExample();
         SelectedcourseExample.Criteria criteria=selectedcourseExample.createCriteria();
         criteria.andStudentidEqualTo(id);

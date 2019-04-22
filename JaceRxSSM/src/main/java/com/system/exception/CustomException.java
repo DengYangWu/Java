@@ -1,11 +1,11 @@
 package com.system.exception;
 
 /**
- *  系统自定义异常类，针对预期异常，需要在程序中抛出此类的异常
+ *  绯荤粺鑷畾涔夊紓甯哥被锛岄拡瀵归鏈熷紓甯革紝闇�瑕佸湪绋嬪簭涓姏鍑烘绫荤殑寮傚父
  */
 public class CustomException extends Exception {
 
-    //异常信息
+    //寮傚父淇℃伅
     public String message;
 
     public CustomException(String message) {

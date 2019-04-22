@@ -13,5 +13,5 @@ public interface SelectedCourseService {
     //查询指定学生成绩
     SelectedCourseCustom findOne(SelectedCourseCustom selectedCourseCustom) throws Exception;
     //根据ID删除学生成绩
-    Integer remote(Integer id)throws Exception;
+    Integer remove(Integer id)throws Exception;
 }

@@ -6,6 +6,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.List;
+
 public class TeacherServiceTest {
     private ApplicationContext applicationContext;
     @Before
@@ -14,8 +16,14 @@ public class TeacherServiceTest {
                 "spring/applicationContext-service.xml");
     }
     @Test
-    public void findByPaging(){
+    public void findByPaging()throws Exception{
         TeacherService teacherService=(TeacherService) applicationContext.getBean("teacherServiceImpl");
         
+    }
+    @Test
+    public void findByName()throws Exception{
+        TeacherService teacherService=(TeacherService) applicationContext.getBean("teacherServiceImpl");
+        List<TeacherCustom> list=teacherService.findByName("软");
+        System.out.println(list);
     }
 }

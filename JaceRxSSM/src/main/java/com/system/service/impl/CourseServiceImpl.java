@@ -142,4 +142,11 @@ public class CourseServiceImpl implements CourseService {
 
         return courseCustomList;
     }
+    public Integer removeTeacher(Integer id){
+        CourseExample courseExample=new CourseExample();
+        CourseExample.Criteria criteria=courseExample.createCriteria();
+        criteria.andTeacheridEqualTo(id);
+
+        return courseMapper.deleteByExample(courseExample);
+    }
 }

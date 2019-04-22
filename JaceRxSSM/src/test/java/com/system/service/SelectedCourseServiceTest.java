@@ -44,6 +44,6 @@ public class SelectedCourseServiceTest {
         SelectedCourseService selectedCourseService=(SelectedCourseService)applicationContext.getBean("selectedCourseServiceImpl");
         SelectedCourseCustom selectedCourseCustom=new SelectedCourseCustom();
         //selectedCourseCustom.setStudentid(10001);
-        selectedCourseService.remote(2);
+        selectedCourseService.remove(2);
     }
 }

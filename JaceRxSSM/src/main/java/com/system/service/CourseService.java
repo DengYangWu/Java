@@ -9,7 +9,8 @@ import java.util.List;
 public interface CourseService {
     //根据id更新课程信息
     void upadteById(Integer id, CourseCustom courseCustom) throws Exception;
-
+    //根据教师的id删除教师
+    Integer removeTeacher(Integer id)throws Exception;
     //根据id删除课程信息
     Boolean removeById(Integer id) throws Exception;
 
