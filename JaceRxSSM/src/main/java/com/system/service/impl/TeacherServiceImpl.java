@@ -93,4 +93,11 @@ public class TeacherServiceImpl implements TeacherService {
     public void removeById(Integer id){
         teacherMapper.deleteByPrimaryKey(id);
     }
+
+    public List<Teacher> findAll()throws Exception{
+        TeacherExample teacherExample=new TeacherExample();
+        TeacherExample.Criteria criteria=teacherExample.createCriteria();
+        criteria.andCollegeidIsNotNull();
+        return teacherMapper.selectByExample(teacherExample);
+    }
 }

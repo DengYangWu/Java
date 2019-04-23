@@ -1,5 +1,6 @@
 package com.system.service;
 
+import com.system.po.Teacher;
 import com.system.po.TeacherCustom;
 import org.omg.PortableInterceptor.INACTIVE;
 
@@ -13,4 +14,5 @@ public interface TeacherService {
     int getCountTeacher()throws Exception;
     TeacherCustom findById(Integer id)throws Exception;
     List<TeacherCustom> findByName(String name)throws Exception;
+    List<Teacher> findAll()throws Exception;
 }

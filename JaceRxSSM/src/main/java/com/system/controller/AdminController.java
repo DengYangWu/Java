@@ -193,11 +193,11 @@ public class AdminController {
     }
     //Modify teacher information
     @RequestMapping(value = "/editTeacher",method = {RequestMethod.GET})
-    public String editTeacherUI(Integer userId,Model model)throws Exception{
-        if(userId==null){
+    public String editTeacherUI(Integer id,Model model)throws Exception{
+        if(id==null){
             return "redirect:/admin/showTeacher";
         }
-        TeacherCustom teacherCustom=teacherService.findById(userId);
+        TeacherCustom teacherCustom=teacherService.findById(id);
         if(teacherCustom==null){
             throw new CustomException("未找到该名学生");
         }
@@ -212,6 +212,7 @@ public class AdminController {
         teacherService.updateById(teacherCustom.getUserid(),teacherCustom);
         return "redirect:/admin/showTeacher";
     }
+
     //delete teacher
     @RequestMapping("/removeTeacher")
     public String removeTeacher(Integer id)throws Exception{
@@ -236,6 +237,115 @@ public class AdminController {
         model.addAttribute("teacherList",teacherCustoms);
         return "admin/showTeacher";
     }
-    //-------------------------Cource-------------------------//
+    //-------------------------Course-------------------------//
+    //Show Course
+    @RequestMapping(value="/showCourse")
+    public String showCourse(Integer page,Model model)throws Exception{
+        List<CourseCustom> list=null;
+        PagingVO pagingVO = new PagingVO();
+        //设置总页数
+        pagingVO.setTotalCount(courseService.getCountCouse());
+        if(page==null||page==0){
+            pagingVO.setToPageNo(1);
+            list=courseService.findByPaging(1);
+        }else{
+            pagingVO.setToPageNo(page);
+            list=courseService.findByPaging(page);
+        }
+        int courseNumber=courseService.getCountCouse();
+        model.addAttribute("courseNumber",courseNumber);
+        model.addAttribute("courseList",list);
+        model.addAttribute("pagingVO",pagingVO);
+        return "admin/showCourse";
+    }
+    //Search the course
+    @RequestMapping(value = "/selectCourse",method = {RequestMethod.POST})
+    public String selectCourse(String findByName,Model model)throws Exception{
+        if(findByName==null){
+            return "redirect:/admin/showCourse";
+        }
+        List<CourseCustom> courseCustoms=courseService.findByName(findByName);
+        model.addAttribute("courseList",courseCustoms);
+        return "admin/showCourse";
+    }
+    //add course information
+    @RequestMapping(value = "/addCourse",method = {RequestMethod.GET})
+    public String addCourseUI(Model model)throws Exception{
+        List<Teacher> teachers=teacherService.findAll();
+        List<College> colleges=collegeService.finAll();
+        model.addAttribute("teacherList",teachers);
+        model.addAttribute("collegeList",colleges);
+        return "admin/addCourse";
+    }
+    //Add course post processing
+    @RequestMapping(value = "/addCourse",method = {RequestMethod.POST})
+    public String addCourse(CourseCustom courseCustom,Model model)throws Exception{
+        Boolean result=courseService.save(courseCustom);
+        if(!result){
+            model.addAttribute("message","课程号重复");
+            return "error";
+        }
 
+        return "redirect:/admin/showCourse";
+    }
+    //Modify the Course
+    @RequestMapping(value = "/editCourse",method = {RequestMethod.GET})
+    public String editCourseUI(Model model,Integer id)throws Exception{
+        if(id==null){
+            return "redirect:/admin/showCourse";
+        }
+        CourseCustom courseCustom=courseService.findById(id);
+        if(courseCustom==null){
+            throw new CustomException("未找到课程！");
+        }
+        List<Teacher> teachers=teacherService.findAll();
+        List<College> colleges=collegeService.finAll();
+        model.addAttribute("teacherList",teachers);
+        model.addAttribute("collegeList",colleges);
+        model.addAttribute("course", courseCustom);
+        return "admin/editCourse";
+    }
+    //Modify course post processing
+    @RequestMapping(value = "/editCourse",method = {RequestMethod.POST})
+    public String editCourse(CourseCustom courseCustom)throws Exception{
+        courseService.upadteById(courseCustom.getCourseid(),courseCustom);
+        return "redirect:/admin/showCourse";
+    }
+    //delete course
+    @RequestMapping(value = "/removeCourse")
+    public String removeCourse(Integer id)throws Exception{
+        if (id == null) {
+            //加入没有带教师id就进来的话就返回教师显示页面
+            return "admin/showCourse";
+        }
+        selectedCourseService.remove(id);
+        courseService.removeById(id);
+        return "redirect:/admin/showCourse";
+    }
+    //---------------------------------Other operating-------------------------------
+    //Password reset for normal user accounts
+    @RequestMapping(value = "/userPasswordRest")
+    public String userPasswordRestUI()throws Exception{
+        return "admin/userPasswordRest";
+    }
+    //Password and account reset for normal before operation
+    @RequestMapping(value = "/userPasswordRest",method = {RequestMethod.POST})
+    public String userPasswordRest(Userlogin userlogin)throws Exception{
+        Userlogin userlogin1=userloginService.findByName(userlogin.getUsername());
+        if(userlogin1!=null){
+            if(userlogin1.getRole()==0){
+                throw new CustomException("该账户为管理员账号，没法修改");
+            }
+            userlogin1.setPassword(userlogin.getPassword());
+            userloginService.updateByName(userlogin.getPassword(),userlogin1);
+        }else{
+            throw new CustomException("没找到该用户");
+        }
+        return "admin/userPasswordRest";
+    }
+    //This account password is reset
+    @RequestMapping(value = "/passwordRest")
+    public String passwordRest(){
+        return "admin/passwordRest";
+    }
 }
