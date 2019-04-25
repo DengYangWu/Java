@@ -118,7 +118,7 @@ public class AdminController {
         if (id == null) {
             return "admin/showStudent";
         }
-        selectedCourseService.remove(id);
+
         studentService.removeById(id);
         //userloginService.removeByName(id.toString());
 
@@ -318,7 +318,7 @@ public class AdminController {
             //加入没有带教师id就进来的话就返回教师显示页面
             return "admin/showCourse";
         }
-        selectedCourseService.remove(id);
+
         courseService.removeById(id);
         return "redirect:/admin/showCourse";
     }

@@ -3,6 +3,7 @@ package com.system.service.impl;
 import com.system.mapper.SelectedcourseMapper;
 import com.system.mapper.StudentMapper;
 import com.system.po.*;
+import com.system.service.SelectedCourseService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -87,12 +88,22 @@ public class SelectedCourseServiceImpl implements com.system.service.SelectedCou
         return null;
     }
     @Override
-    public Integer remove(Integer id)throws Exception{
+    public void remove(SelectedCourseCustom selectedCourseCustom)throws Exception{
         SelectedcourseExample selectedcourseExample=new SelectedcourseExample();
         SelectedcourseExample.Criteria criteria=selectedcourseExample.createCriteria();
-        criteria.andStudentidEqualTo(id);
+        criteria.andStudentidEqualTo(selectedCourseCustom.getStudentid());
+        criteria.andCourseidEqualTo(selectedCourseCustom.getCourseid());
 
-        return selectedcourseMapper.deleteByExample(selectedcourseExample);
+        selectedcourseMapper.deleteByExample(selectedcourseExample);
     }
+    public void save(SelectedCourseCustom selectedCourseCustom) throws Exception {
+        selectedcourseMapper.insert(selectedCourseCustom);
+    }
+    public List<Selectedcourse> findAll(SelectedCourseCustom selectedCourseCustom)throws Exception{
+        SelectedcourseExample selectedcourseExample=new SelectedcourseExample();
+        SelectedcourseExample.Criteria criteria=selectedcourseExample.createCriteria();
+        criteria.andCourseidIsNotNull();
 
+        return selectedcourseMapper.selectByExample(selectedcourseExample);
+    }
 }

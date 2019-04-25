@@ -18,6 +18,7 @@ public class SelectedCourseServiceTest {
         applicationContext = new ClassPathXmlApplicationContext("spring/applicationContext-dao.xml",
                 "spring/applicationContext-service.xml");
     }
+
     @Test
     public void findByCourseID()throws Exception{
         SelectedCourseService  selectedCourseCustom=(SelectedCourseService )applicationContext.getBean("selectedCourseServiceImpl");
@@ -44,6 +45,17 @@ public class SelectedCourseServiceTest {
         SelectedCourseService selectedCourseService=(SelectedCourseService)applicationContext.getBean("selectedCourseServiceImpl");
         SelectedCourseCustom selectedCourseCustom=new SelectedCourseCustom();
         //selectedCourseCustom.setStudentid(10001);
-        selectedCourseService.remove(2);
+        //selectedCourseService.remove(2);
+    }
+    @Test
+    public void save()throws Exception{
+        SelectedCourseService selectedCourseService=(SelectedCourseService)applicationContext.getBean("selectedCourseServiceImpl");
+        SelectedCourseCustom selectedCourseCustom=new SelectedCourseCustom();
+
+        selectedCourseCustom.setCourseid(6);
+        selectedCourseCustom.setStudentid(10001);
+        selectedCourseCustom.setMark(null);
+        selectedCourseService.save(selectedCourseCustom);
+
     }
 }
