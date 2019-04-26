@@ -331,7 +331,9 @@ public class AdminController {
     //Password and account reset for normal before operation
     @RequestMapping(value = "/userPasswordRest",method = {RequestMethod.POST})
     public String userPasswordRest(Userlogin userlogin)throws Exception{
+        System.out.println(userlogin.getUsername());
         Userlogin userlogin1=userloginService.findByName(userlogin.getUsername());
+        System.out.println("--------------userlogin1:"+userlogin1);
         if(userlogin1!=null){
             if(userlogin1.getRole()==0){
                 throw new CustomException("该账户为管理员账号，没法修改");

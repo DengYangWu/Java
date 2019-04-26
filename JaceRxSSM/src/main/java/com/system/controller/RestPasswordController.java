@@ -23,7 +23,7 @@ public class RestPasswordController {
         Subject subject=SecurityUtils.getSubject();
         String username= (String) subject.getPrincipal();
             Userlogin userlogin=userloginService.findByName(username);
-            if(!oldPassword.equals(password1)){
+            if(!oldPassword.equals(oldPassword)){
                 throw new CustomException("旧密码不正确！");
             }else{
                 userlogin.setPassword(password1);

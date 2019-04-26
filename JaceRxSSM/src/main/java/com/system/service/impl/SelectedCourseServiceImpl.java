@@ -88,13 +88,14 @@ public class SelectedCourseServiceImpl implements com.system.service.SelectedCou
         return null;
     }
     @Override
-    public void remove(SelectedCourseCustom selectedCourseCustom)throws Exception{
-        SelectedcourseExample selectedcourseExample=new SelectedcourseExample();
-        SelectedcourseExample.Criteria criteria=selectedcourseExample.createCriteria();
-        criteria.andStudentidEqualTo(selectedCourseCustom.getStudentid());
-        criteria.andCourseidEqualTo(selectedCourseCustom.getCourseid());
+    public void remove(SelectedCourseCustom selectedCourseCustom) throws Exception {
+        SelectedcourseExample example = new SelectedcourseExample();
+        SelectedcourseExample.Criteria criteria = example.createCriteria();
 
-        selectedcourseMapper.deleteByExample(selectedcourseExample);
+        criteria.andCourseidEqualTo(selectedCourseCustom.getCourseid());
+        criteria.andStudentidEqualTo(selectedCourseCustom.getStudentid());
+
+        selectedcourseMapper.deleteByExample(example);
     }
     public void save(SelectedCourseCustom selectedCourseCustom) throws Exception {
         selectedcourseMapper.insert(selectedCourseCustom);

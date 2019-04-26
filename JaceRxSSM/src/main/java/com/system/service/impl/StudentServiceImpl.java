@@ -113,15 +113,18 @@ public class StudentServiceImpl implements StudentService {
     public StudentCustom findStudentAndSelectCourseListByName(String name) throws Exception {
 
         StudentCustom studentCustom = studentMapperCustom.findStudentAndSelectCourseListById(Integer.parseInt(name));
+        System.out.println("studentCustom------"+studentCustom);
+        if(studentCustom!=null) {
+            List<SelectedCourseCustom> list = studentCustom.getSelectedCourseList();
 
-        List<SelectedCourseCustom> list = studentCustom.getSelectedCourseList();
-
-        // 判断该课程是否修完
-        for (SelectedCourseCustom s : list) {
-            if (s.getMark() != null) {
-                s.setOver(true);
+            // 判断该课程是否修完
+            for (SelectedCourseCustom s : list) {
+                if (s.getMark() != null) {
+                    s.setOver(true);
+                }
             }
+            return studentCustom;
         }
-        return studentCustom;
+        return null;
     }
 }

@@ -1,6 +1,7 @@
 package com.system.service;
 
 import com.system.po.PagingVO;
+import com.system.po.SelectedCourseCustom;
 import com.system.po.Student;
 import com.system.po.StudentCustom;
 import org.aspectj.lang.annotation.RequiredTypes;
@@ -81,4 +82,15 @@ public class StudentServiceTest {
         List<StudentCustom> studentCustoms=studentService.findByName("五");
         System.out.println(studentCustoms);
     }
+    @Test
+    public void findStudentAndSelectCourseListByName()throws Exception{
+        StudentService studentService=(StudentService)applicationContext.getBean("studentServiceImpl");
+        String name="10001";
+        StudentCustom studentCustom = studentService.findStudentAndSelectCourseListByName(name);
+        //List<SelectedCourseCustom> list=studentCustom.getSelectedCourseList();
+        System.out.println("--------List"+studentCustom);
+
+    }
+
+
 }

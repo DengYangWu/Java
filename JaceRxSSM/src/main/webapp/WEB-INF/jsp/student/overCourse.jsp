@@ -28,12 +28,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <div class="row">
-                        <h1 class="col-md-5">已选课程</h1>
-
-
+                        <h1 class="col-md-5">已修课程</h1>
                     </div>
                 </div>
-
                 <table class="table table-bordered">
                     <thead>
                     <tr>
@@ -45,34 +42,33 @@
                         <th>周数</th>
                         <th>课程类型</th>
                         <th>学分</th>
-                        <th>操作</th>
+                        <th>成绩</th>
                     </tr>
                     </thead>
                     <c:choose>
-                    <c:when test="${selectedCourseList!=null}">
-                    <tbody>
-                    <c:forEach items="${selectedCourseList}" var="item">
-                        <%--输出还没修完的课程--%>
-                        <c:if test="${!item.over}">
-                            <tr>
-                                <td>${item.couseCustom.courseid}</td>
-                                <td>${item.couseCustom.coursename}</td>
-                                <td>${item.couseCustom.teacherid}</td>
-                                <td>${item.couseCustom.coursetime}</td>
-                                <td>${item.couseCustom.classroom}</td>
-                                <td>${item.couseCustom.courseweek}</td>
-                                <td>${item.couseCustom.coursetype}</td>
-                                <td>${item.couseCustom.score}</td>
-                                <td>
-                                    <button class="btn btn-default btn-xs btn-info" onClick="location.href='<%=request.getContextPath()%>/student/outCourse?id=${item.courseid}'">退课</button>
-                                    <!--弹出框-->
-                                </td>
-                            </tr>
-                        </c:if>
-                    </c:forEach>
-
-                    </tbody>
-                    </c:when>
+                        <c:when test="${selectedCourseList!=null}">
+                            <tbody>
+                            <c:forEach items="${selectedCourseList}" var="item">
+                                <%--输出还没修完的课程--%>
+                                <c:if test="${!item.over}">
+                                    <tr>
+                                        <td>${item.couseCustom.courseid}</td>
+                                        <td>${item.couseCustom.coursename}</td>
+                                        <td>${item.couseCustom.teacherid}</td>
+                                        <td>${item.couseCustom.coursetime}</td>
+                                        <td>${item.couseCustom.classroom}</td>
+                                        <td>${item.couseCustom.courseweek}</td>
+                                        <td>${item.couseCustom.coursetype}</td>
+                                        <td>${item.couseCustom.score}</td>
+                                        <td>
+                                            <button class="btn btn-default btn-xs btn-info" onClick="location.href='<%=request.getContextPath()%>/student/outCourse?id=${item.courseid}'">退课</button>
+                                            <!--弹出框-->
+                                        </td>
+                                    </tr>
+                                </c:if>
+                            </c:forEach>
+                            </tbody>
+                        </c:when>
                         <c:when test="${item.couseCustom.courseid==null}">
                             <table style="text-align: center">
                                 <tr><td><h1>暂时没有选修课哦~</h1></td></tr>
@@ -116,7 +112,7 @@
 </body>
 <script type="text/javascript">
     <%--设置菜单中--%>
-    $("#nav li:nth-child(2)").addClass("active")
+    $("#nav li:nth-child(3)").addClass("active")
     <c:if test="${pagingVO != null}">
     if (${pagingVO.curentPageNo} == ${pagingVO.totalCount}) {
         $(".pagination li:last-child").addClass("disabled")

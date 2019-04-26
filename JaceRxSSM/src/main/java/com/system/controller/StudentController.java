@@ -72,7 +72,7 @@ public class StudentController {
     }
     //The drop operation
     @RequestMapping(value = "/outCourse")
-    public String outCourse(int id) throws Exception {
+    public String outCourse(Integer id) throws Exception {
         Subject subject = SecurityUtils.getSubject();
         String username = (String) subject.getPrincipal();
 
@@ -84,18 +84,27 @@ public class StudentController {
 
         return "redirect:/student/selectedCourse";
     }
-    @RequestMapping(value = "/selectedCourse")
+    //show selectedCourse
+
+    //Search the selectedCourse
+    @RequestMapping(value = "/selectedCourse",method = {RequestMethod.GET})
     public String selectedCourse(Model model) throws Exception {
         //获取当前用户名
         Subject subject = SecurityUtils.getSubject();
-        StudentCustom studentCustom = studentService.findStudentAndSelectCourseListByName((String) subject.getPrincipal());
+        String username = (String) subject.getPrincipal();
+        StudentCustom studentCustom = studentService.findStudentAndSelectCourseListByName(username);
 
-        List<SelectedCourseCustom> list = studentCustom.getSelectedCourseList();
-
-        model.addAttribute("selectedCourseList", list);
-
+       // System.out.println("+++++++++++++++++++++++++++"+studentCustom);
+        if(studentCustom!=null) {
+            List<SelectedCourseCustom> list = studentCustom.getSelectedCourseList();
+            //StudentCustom studentCustom = studentService.findStudentAndSelectCourseListByName((String) subject.getPrincipal());
+            System.out.println("------====selectedCourse"+list);
+            model.addAttribute("selectedCourseList", list);
+            return "student/selectCourse";
+        }
         return "student/selectCourse";
     }
+    //Post-search processing
     @RequestMapping(value = "/selectCourse",method = {RequestMethod.POST})
     public String selectCourse(String findByName,Model model)throws Exception{
         if(findByName==null){
@@ -105,4 +114,25 @@ public class StudentController {
         model.addAttribute("courseList",courseCustoms);
         return "student/showCourse";
     }
+    //Have courses
+    @RequestMapping(value = "/overCourse")
+    public String overCourse(Model model)throws Exception{
+        Subject subject = SecurityUtils.getSubject();
+        StudentCustom studentCustom = studentService.findStudentAndSelectCourseListByName((String) subject.getPrincipal());
+        if(studentCustom!=null) {
+            List<SelectedCourseCustom> list = studentCustom.getSelectedCourseList();
+            //StudentCustom studentCustom = studentService.findStudentAndSelectCourseListByName((String) subject.getPrincipal());
+            System.out.println("----------studentCustom:"+list);
+            model.addAttribute("selectedCourseList",list);
+            return "student/overCourse";
+        }
+
+        return "student/overCourse";
+    }
+    //Change password
+    @RequestMapping(value = "/passwordRest")
+    public String passwordRest()throws Exception{
+        return "student/passwordRest";
+    }
+
 }
