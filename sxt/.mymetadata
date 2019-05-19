@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="sxt"
+  id="myeclipse.1477231835144"
+  context-root="/sxt"
+  j2ee-spec="6.0"
+  archive="sxt.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

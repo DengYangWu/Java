@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface SelectedCourseService {
     List<SelectedCourseCustom> findByCourseID(Integer id) throws Exception;
-
+    List<SelectedCourseCustom> findByStudentID(Integer id) throws Exception;
     //获取该课程学生数
     Integer countByCourseID(Integer id) throws Exception;
 
@@ -19,4 +19,6 @@ public interface SelectedCourseService {
     void save(SelectedCourseCustom selectedCourseCustom)throws Exception;
     //Show all
     List<Selectedcourse> findAll(SelectedCourseCustom selectedCourseCustom)throws Exception;
+    //modification
+    void updateOne(SelectedCourseCustom selectedCourseCustom)throws Exception;
 }

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--JDBC连接-->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/my</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+
+        <!--数据库方言-->
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!--自动生成表结构-->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!--加载映射文件-->
+        <mapping resource="pojo/customer.hbm.xml"></mapping>
+        <mapping resource="pojo/admin.hbm.xml"></mapping>
+    </session-factory>
+</hibernate-configuration>

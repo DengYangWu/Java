@@ -1,0 +1,70 @@
+server:
+  port: 8089
+  compression:
+    enabled: true
+    mime-types: text/plain,application/javascript,application/x-javascript,text/css,application/xml,application/json
+    min-response-size: 1024
+spring:
+    aop:
+        auto: true
+        proxy-target-class: true
+    profiles:
+      active: dev
+    datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      filters: stat
+      max-active: 1000
+      initial-size: 5
+      min-idle: 5
+      max-wait: 50000
+      min-evictable-idle-time-millis: 300000
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: false
+      validation-query: select 1
+      time-between-eviction-runs-millis: 60000
+      max-open-prepared-statements: 2000
+  #    jta:
+#      status: true
+#      atomikos:
+#        datasource:
+#          xa-data-source-class-name: com.alibaba.druid.pool.xa.DruidXADataSource
+#          xa-properties:
+#            url : jdbc:h2:file:./data/h2db;DB_CLOSE_ON_EXIT=FALSE
+#            username : sa
+#            password :
+#          max-pool-size: 200
+#          borrow-connection-timeout: 1000
+#        connectionfactory:
+#          max-pool-size: 200
+#          local-transaction-mode: true
+    resources:
+      static-locations: file:./hsweb-ui/,file:./static/,/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/, classpath:/public/
+    http:
+      multipart:
+        enabled: true
+        max-file-size: 100MB
+        max-request-size: 120MB
+hsweb:
+    app:
+      name: hsweb-demo
+      version: 3.0.0
+    cors:
+      allowed-headers: "*"
+      allowed-methods: "*"
+      allowed-origins: "*"
+      enable: true
+    authorize:
+      two-factor:
+        enable: true # 开启双重验证
+        totp:
+          enable: true # 开启totp支持
+          domain: hsweb.me
+
+mybatis:
+#  mapper-location-excludes: classpath*:**/UserMapper.xml  # 不加载的配置
+  mapper-locations: classpath*:org/hswebframework/web/demo/**/*Mapper.xml
+  dynamic-datasource: true #开启mybatis动态数据源支持
+fastjson:
+  features: WriteDateUseDateFormat

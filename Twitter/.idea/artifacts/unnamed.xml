@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Twitter" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-beanutils-1.8.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.13" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Twitter/web/Web" />
+    </root>
+  </artifact>
+</component>

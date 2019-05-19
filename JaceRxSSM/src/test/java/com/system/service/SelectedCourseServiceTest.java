@@ -58,4 +58,14 @@ public class SelectedCourseServiceTest {
         selectedCourseService.save(selectedCourseCustom);
 
     }
+    @Test
+    public void updateOne()throws Exception{
+        SelectedCourseService selectedCourseService=(SelectedCourseService)applicationContext.getBean("selectedCourseServiceImpl");
+        SelectedCourseCustom selectedCourseCustom=new SelectedCourseCustom();
+        selectedCourseCustom.setCourseid(3);
+        selectedCourseCustom.setStudentid(10001);
+        selectedCourseCustom.setMark(20);
+        selectedCourseService.updateOne(selectedCourseCustom);
+
+    }
 }

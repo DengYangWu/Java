@@ -37,15 +37,14 @@ public class SelectedCourseServiceImpl implements com.system.service.SelectedCou
             //判断是否完成类该课程
             if (sec.getMark() != null) {
                 sec.setOver(true);
-                Student student = studentMapper.selectByPrimaryKey(sec.getStudentid());
-                StudentCustom studentCustom = new StudentCustom();
-                BeanUtils.copyProperties(student, studentCustom);
-
-                sec.setStudentCustom(studentCustom);
-                //System.out.println("sec.getMark()="+sec.setOver(true));
-                secList.add(sec);
             }
+            Student student = studentMapper.selectByPrimaryKey(sec.getStudentid());
+            StudentCustom studentCustom = new StudentCustom();
+            BeanUtils.copyProperties(student, studentCustom);
 
+            sec.setStudentCustom(studentCustom);
+            //System.out.println("sec.getMark()="+sec.setOver(true));
+            secList.add(sec);
 
         }
 
@@ -106,5 +105,16 @@ public class SelectedCourseServiceImpl implements com.system.service.SelectedCou
         criteria.andCourseidIsNotNull();
 
         return selectedcourseMapper.selectByExample(selectedcourseExample);
+    }
+    public void updateOne(SelectedCourseCustom selectedCourseCustom)throws Exception{
+        SelectedcourseExample selectedcourseExample=new SelectedcourseExample();
+        SelectedcourseExample.Criteria criteria=selectedcourseExample.createCriteria();
+        criteria.andCourseidEqualTo(selectedCourseCustom.getCourseid());
+        criteria.andStudentidEqualTo(selectedCourseCustom.getStudentid());
+
+        selectedcourseMapper.updateByExample(selectedCourseCustom,selectedcourseExample);
+    }
+    public List<SelectedCourseCustom> findByStudentID(Integer id) throws Exception {
+        return null;
     }
 }

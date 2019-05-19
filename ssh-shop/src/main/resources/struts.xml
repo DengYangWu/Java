@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <!--配置扩展名为action-->
+    <constant name="struts.action.extension" value="do"/>
+
+    <!--
+        struts2中<result>默认使用的dispatcher将请求转发到指定的视图资源
+        而redirect是重定向到指定的视图资源，重定向将会丢失所有的参数、值栈、和请求属性，同时丢失了action的处理结果
+    -->
+    <package name="struts2" namespace="/" extends="struts-default,json-default">
+        <!--加载action,Action交给spring创建，这里class路径为spring注入Action的ID值-->
+        <action name="customer_*" class="customerAction" method="{1}">
+            <result name="save">WEB-INF/page/info.jsp</result>
+            <result name="toSavePage">WEB-INF/page/save.jsp</result>
+            <result name="delete">customer_findByPage.do</result>
+            <result name="page">WEB-INF/page/list.jsp</result>
+            <result name="update" type="redirect">customer_findByPage.do</result>
+            <result type="json">
+                <param name="root">result</param>
+            </result>
+            <allowed-methods>findByPage,update,toSavePage,search</allowed-methods>
+        </action>
+
+        <!--admin模块-->
+        <action name="admin_*" class="adminAction" method="{1}">
+            <result name="adminLogin">WEB-INF/page/page.jsp</result>
+            <result name="toIndexPage">WEB-INF/page/page.jsp</result>
+            <result name="error">WEB-INF/page/info.jsp</result>
+            <allowed-methods>adminLogin,toIndexPage</allowed-methods>
+        </action>
+    </package>
+</struts>

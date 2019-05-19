@@ -50,7 +50,7 @@
                             <tbody>
                             <c:forEach items="${selectedCourseList}" var="item">
                                 <%--输出还没修完的课程--%>
-                                <c:if test="${!item.over}">
+                                <c:if test="${item.over}">
                                     <tr>
                                         <td>${item.couseCustom.courseid}</td>
                                         <td>${item.couseCustom.coursename}</td>

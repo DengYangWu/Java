@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context-2.5.xsd
+                http://www.springframework.org/schema/tx
+                http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+    <!--开启自动扫描-->
+    <context:annotation-config/>
+    <context:component-scan base-package="cn.tycoding"/>
+
+    <!--加载外部配置文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--配置c3p0的数据库连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--LocalSessionFactoryBean加载配置文件-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+    </bean>
+
+    <!--配置声明式的事务管理，采用注解-->
+    <bean id="transactionManage" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManage"/>
+
+    <!--配置客户模块，（Action交给spring管理就要配置成多例）-->
+    <bean id="customerAction" class="cn.tycoding.action.CustomerAction" scope="prototype">
+        <property name="customerService" ref="customerService"/>
+    </bean>
+    <bean id="customerService" class="cn.tycoding.service.impl.CustomerServiceImpl">
+        <property name="customerDao" ref="customerDao"/>
+    </bean>
+    <bean id="customerDao" class="cn.tycoding.dao.impl.CustomerDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <!--配置admin模块-->
+    <bean id="adminAction" class="cn.tycoding.action.AdminAction" scope="prototype">
+        <property name="adminService" ref="adminService"/>
+    </bean>
+    <bean id="adminService" class="cn.tycoding.service.impl.AdminServiceImpl">
+        <property name="adminDao" ref="adminDao"/>
+    </bean>
+    <bean id="adminDao" class="cn.tycoding.dao.impl.AdminDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <tx:advice transaction-manager="transactionManage" id="tx">
+        <tx:attributes>
+            <tx:method name="save*" read-only="false" />
+            <tx:method name="update*" read-only="false" />
+            <tx:method name="delete*" read-only="false" />
+            <tx:method name="*" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+
+</beans>
