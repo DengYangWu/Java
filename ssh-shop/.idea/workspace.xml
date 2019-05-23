@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="ssh-shop:war exploded" />
@@ -96,12 +97,34 @@
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="cc5f005c-daa9-4f94-aea0-c3e2cdaf7e54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hswebframework/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/.idea/libraries/java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/src/main/java/com/baidu/ueditor/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/src/main/java/com/baidu/ueditor/define/ActionMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/src/main/java/com/baidu/ueditor/define/ActionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/src/main/java/com/baidu/ueditor/define/BaseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/src/main/java/com/baidu/ueditor/define/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/src/main/java/com/baidu/ueditor/define/MultiState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/src/main/java/com/baidu/ueditor/define/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hswebframework/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JaceRxSSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JaceRxSSM/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -141,10 +164,16 @@
         <option value="Class" />
       </list>
     </option>
+=======
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -212,6 +241,12 @@
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,8 +254,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +266,7 @@
               <item name="ssh-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssh-shop" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="ssh-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssh-shop" type="462c0819:PsiDirectoryNode" />
@@ -287,10 +326,13 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,6 +356,28 @@
       <recent name="E:\java\Java\ssh-shop\src\main\resources" />
       <recent name="E:\java\Java\ssh-shop\src\main\java\cn\tycoding" />
       <recent name="E:\java\Java\ssh-shop\src\main\resources\spring" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ssh-shop-master/ssh-shop-master/shop/WebRoot/WEB-INF/lib/xwork-core-2.3.15.3.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\Java\ssh-shop\web\WEB-INF\lib" />
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,6 +392,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.38">
     <configuration name="AdminTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DaoTest.AdminTest" />
@@ -498,11 +563,14 @@
       </list>
     </recent_temporary>
   </component>
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="d8f8b70f-cd4b-458b-86dc-3b4af2413395" name="Default Changelist" comment="" />
       <created>1557383091101</created>
       <option name="number" value="Default" />
@@ -552,11 +620,29 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="47835000" />
+=======
+      <changelist id="cc5f005c-daa9-4f94-aea0-c3e2cdaf7e54" name="Default Changelist" comment="" />
+      <created>1557371005134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557371005134</updated>
+      <workItem from="1557371013220" duration="2321000" />
+      <workItem from="1558071731435" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2363000" />
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27155825" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,14 +650,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+<<<<<<< HEAD
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5212947" />
+=======
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32879046" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -581,6 +674,15 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
+=======
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -590,6 +692,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
@@ -629,10 +732,14 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
+=======
+    </layout>
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -911,17 +1018,25 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+<<<<<<< HEAD
           <last-edited>ssh-shop:war exploded</last-edited>
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+<<<<<<< HEAD
                 <option value="0.5" />
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
               </list>
             </option>
           </splitter-proportions>
@@ -929,7 +1044,10 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>Web (ssh-shop)|Web</last-edited>
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -952,7 +1070,10 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>1.8</last-edited>
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -964,7 +1085,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>Spring|ssh-shop</last-edited>
+=======
+          <last-edited>ssh-shop</last-edited>
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -988,7 +1113,10 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>Maven: org.apache.struts:struts2-core:2.5.12</last-edited>
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
           <splitter-proportions>
             <option name="proportions">
               <list>

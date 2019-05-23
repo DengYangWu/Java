@@ -2,6 +2,7 @@
   <artifact type="exploded-war" name="ssh-shop:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/ssh_shop_war_exploded</output-path>
     <root id="root">
+<<<<<<< HEAD
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="ssh-shop" />
@@ -106,6 +107,14 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="ssh-shop/web/Web" />
+=======
+      <element id="javaee-facet-resources" facet="ssh-shop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssh-shop" />
+        </element>
+      </element>
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
     </root>
   </artifact>
 </component>

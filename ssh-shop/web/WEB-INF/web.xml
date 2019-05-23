@@ -3,6 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+<<<<<<< HEAD
     <display-name>ssh-shop</display-name>
     <welcome-file-list>
         <welcome-file>/WEB-INF/index.jsp</welcome-file>
@@ -48,4 +49,6 @@
         <servlet-name>default</servlet-name>
         <url-pattern>*.css</url-pattern>
     </servlet-mapping>
+=======
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
 </web-app>

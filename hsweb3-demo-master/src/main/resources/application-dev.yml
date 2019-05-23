@@ -1,10 +1,17 @@
 spring:
     datasource:
+<<<<<<< HEAD
         driver-class-name: com.mysql.cj.jdbc.Driver
 #        url: jdbc:mysql://localhost:3306/hsweb3?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
         url : jdbc:mysql://localhost:3306/hsweb3?characterEncoding=utf8&useUnicode=true&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true
         username : root
         password : root
+=======
+#        url: jdbc:mysql://localhost:3306/hsweb3?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
+        url : jdbc:h2:file:./data/h2db
+        username : sa
+        password :
+>>>>>>> f7fdffd2abbf19a900561424889ed3022e93acec
 logging:
   level:
     org.hswebframework: DEBUG
