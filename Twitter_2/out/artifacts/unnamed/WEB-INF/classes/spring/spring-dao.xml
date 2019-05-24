@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--加载数据库配置-->
+    <context:property-placeholder location="classpath:mysql.properties"></context:property-placeholder>
+    <!--配置数据库连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+    <!--配置sessionFactory工厂-->
+    <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--加载mybatis配置文件-->
+        <property name="configLocation" value="classpath:mybatis/mybatis.cfg.xml"></property>
+        <!--数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--扫描entity-->
+        <property name="typeAliasesPackage" value="com.twitter.pojo"></property>
+        <!--扫描sql配置文件：mapper需要的xml文件-->
+        <property name="mapperLocations" value="classpath*:mapper/*.xml"></property>
+    </bean>
+    <!--批量扫描mapper的bean-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 如果需要扫描多个包下的mapper，每个包中间使用半角逗号分开 -->
+        <property name="basePackage" value="com.twitter.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>
+    </bean>
+</beans>
