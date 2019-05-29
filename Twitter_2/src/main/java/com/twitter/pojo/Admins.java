@@ -10,6 +10,18 @@ public class Admins {
 	private int astate;
 	private int apower;
 
+	@Override
+	public String toString() {
+		return "Admins{" +
+				"aid=" + aid +
+				", aname='" + aname + '\'' +
+				", apwd='" + apwd + '\'' +
+				", atime=" + atime +
+				", astate=" + astate +
+				", apower=" + apower +
+				'}';
+	}
+
 	public int getAid() {
 		return aid;
 	}

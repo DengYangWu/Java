@@ -160,6 +160,7 @@
             clear: both;
 
         }
+        /*表单*/
         .field{
             width: 210px;
             padding: 4px;
@@ -174,7 +175,7 @@
             background-image: none !important;
             color: rgb(0, 0, 0) !important;
         }
-        input{
+        .field>input{
 
             text-rendering: auto;
             color: initial;
@@ -190,6 +191,44 @@
             background-color: #fff;
             border: 1px solid #e6ecf0;
             border-radius: 3px;
+        }
+        .clearfix{
+            margin-top: 20px;
+        }
+        .clearfix>button{
+            background-color: #1da1f2;
+            border: 1px solid #1da1f2;
+            color: #fff;
+
+            border-radius: 100px;
+            box-shadow: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 20px;
+            padding: 6px 16px;
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+        }
+        .subchck{
+            display: inline-block;
+            margin-bottom: 0;
+        }
+        .subchck .remember{
+            margin-left: 12px;
+            width: auto;
+        }
+        .has-sms>p{
+            width: auto;
+            padding: 10px 10px;
+
+            background-color: #f5f8fa;
+            font-size: 14px;
+            line-height: 20px;
+            color: #657786;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
         }
     </style>
 <body>
@@ -212,14 +251,29 @@
                 <div id="paged-canvas">
                     <div class="signin-wrapper">
                         <h1>Log in to Twitter</h1>
-                        <form action="" method="post">
+                        <form action="<%=request.getContextPath()%>/login" method="post">
                             <div class="field">
-                                <input type="text" placeholder="Please ,email or username">
+                                <input type="text" name="aname" placeholder="Please ,email or username">
                             </div>
                             <div class="field">
-                                <input type="password" placeholder="Password">
+                                <input type="password" name="password" placeholder="Password">
+                            </div>
+                            <div class="clearfix">
+                                <button type="submit">login</button>
+                                <div class="subchck">
+                                    <label class="remember">
+                                        <input type="checkbox">
+                                        remember me
+                                        <span>.</span>
+                                        <a href="" rel="noopener">忘记密码</a>
+                                    </label>
+                                </div>
                             </div>
                         </form>
+                        <div class="has-sms">
+                            <p>首次使用Twitter吗?<a href="">现在注册》</a></p>
+                            <p>已经在通过短信使用Twitter?<a href="">激活你的账户》</a></p>
+                        </div>
                     </div>
 
                 </div>

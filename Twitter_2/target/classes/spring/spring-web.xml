@@ -34,7 +34,7 @@
 
 
     <!--组件扫描，可以扫描controller,service注册到spring容器中这里扫描controller，指定controller的包-->
-<!--    <context:component-scan base-package="com.twitter.controller"></context:component-scan>-->
+    <context:component-scan base-package="com.twitter.controller"></context:component-scan>
 
     <!--视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
