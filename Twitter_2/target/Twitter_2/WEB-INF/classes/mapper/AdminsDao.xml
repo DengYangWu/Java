@@ -4,4 +4,7 @@
     <insert id="insertAll">
         insert into admins values(#{aid},#{aname},#{apwd},#{atime},#{astate},#{apower})
     </insert>
+    <select id="findById" resultType="String" parameterType="String">
+      select * from admins where aname=#{aname}
+    </select>
 </mapper>
