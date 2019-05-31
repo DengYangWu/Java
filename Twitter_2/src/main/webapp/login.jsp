@@ -256,7 +256,7 @@
                                 <input type="text" name="aname" placeholder="Please ,email or username">
                             </div>
                             <div class="field">
-                                <input type="password" name="password" placeholder="Password">
+                                <input type="password" name="apwd" placeholder="Password">
                             </div>
                             <div class="clearfix">
                                 <button type="submit">login</button>
@@ -271,7 +271,7 @@
                             </div>
                         </form>
                         <div class="has-sms">
-                            <p>首次使用Twitter吗?<a href="">现在注册》</a></p>
+                            <p>首次使用Twitter吗?<a href="<%=request.getContextPath()%>/register.jsp">现在注册》</a></p>
                             <p>已经在通过短信使用Twitter?<a href="">激活你的账户》</a></p>
                         </div>
                     </div>

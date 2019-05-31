@@ -190,7 +190,7 @@
         <div id="login-div">
             <div id="login-div-icon">
                 <span class="Icon Icon-bird"></span>
-                <a id="button-login" href="login.jsp">登陆</a>
+                <a id="button-login" href="<%=request.getContextPath()%>/login.jsp">登陆</a>
             </div>
             <div>
                 <h1>看看世界上的新鲜事</h1>

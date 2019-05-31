@@ -7,5 +7,8 @@ import org.springframework.stereotype.Repository;
 public interface AdminsDao {
     int insertAll(Admins admins);
 
-    Admins findById(Admins admins);
+
+    Admins findByName(String name);
+
+
 }

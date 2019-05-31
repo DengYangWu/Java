@@ -22,8 +22,7 @@ public class AdminRealm extends AuthorizingRealm {
         String username=(String)getAvailablePrincipal(principals);
         Admins admins=null;
         try{
-            admins.setAname(username);
-            admins=adminsService.findById(admins);
+            admins=adminsService.findByName(username);
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -43,22 +42,21 @@ public class AdminRealm extends AuthorizingRealm {
 
         Admins admins=null;
         try{
-            admins.setAname(username);
-            admins=adminsService.findById(admins);
+            admins=adminsService.findByName(username);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         if (admins == null) {
             //?????????
-            throw new UnknownAccountException();
+            throw new AccountException("账号密码不正确！");
         } else if (!password.equals(admins.getApwd())) {
             //???????
-            throw new IncorrectCredentialsException();
+            throw new DisabledAccountException("密码错误！");
         }
 
         //?????????,?????????????
-        AuthenticationInfo aInfo = new SimpleAuthenticationInfo(username,password,getName());
+        SimpleAuthenticationInfo aInfo = new SimpleAuthenticationInfo(username,password,getName());
 
         return aInfo;
     }

@@ -15,11 +15,9 @@ public class AdminsServiceText {
                 "spring/spring-service.xml"});
     }
     @Test
-    public void findById(){
+    public void findByName(){
         AdminsService adminsService=(AdminsService)applicationContext.getBean("adminsServiceImpl");
-        Admins admins=new Admins();
-        admins.setAname("admin1");
-        admins=adminsService.findById(admins);
+        Admins admins=adminsService.findByName("dyw");
         System.out.println(admins);
     }
 }

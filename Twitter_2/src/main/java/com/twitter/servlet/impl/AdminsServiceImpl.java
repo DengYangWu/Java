@@ -12,9 +12,15 @@ public class AdminsServiceImpl implements AdminsService {
     @Autowired
     private AdminsDao adminsDao;
 
-    public Admins findById(Admins admins){
-        admins=adminsDao.findById(admins);
-        return admins;
+
+    @Override
+    public int insertAll(Admins admins) {
+        return adminsDao.insertAll(admins);
     }
 
+    @Override
+    public Admins findByName(String name) {
+        Admins admins = adminsDao.findByName(name);
+        return admins;
+    }
 }
