@@ -11,7 +11,7 @@
     <title>signup</title>
     <meta name="viewport" content="width=device-width,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <link rel="icon" href="img/favicon.ico" />
-    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="<%=request.getContextPath()%>/js/jquery-3.1.1.min.js"></script>
 </head>
 <style>
     /*整体*/
@@ -95,6 +95,9 @@
         margin-top: 20px;
         border:0;
     }
+    #verify{
+        margin-top: 20px;
+    }
 </style>
 <body id="bg">
 <div>
@@ -107,10 +110,13 @@
             <div class="nameinput">
                 <div>名字:</div>
                 <div><input type="text" name="aname" id="fouc"></div>
+                <div id="verify"></div>
             </div>
+
             <div class="nameinput">
-                <div>手机：</div>
-                <div><input type="password" name="apwd"></div>
+                <div>密码：</div>
+                <div><input type="password" name="apwd" id="foucpwd"></div>
+                <div id="verifypwd"></div>
             </div>
         </div>
     </form>
@@ -118,20 +124,58 @@
 <input type="hidden" value="<%=request.getContextPath()%>" id="url">
 </body>
 <script>
-$(document).ready(function(){
+
+
     var url=$("#url").val();
-    $("#fouc").change(function(){
+    var tr=false;
+    $(".button_sign").attr("disabled", true);
+    $(this).keyup(function(){
+        var name=$("#fouc").val();
+        var pwd=$("#foucpwd").val();
+
         $.ajax({
             type: "POST",
             url: url+"/examine",
             data: {username:$("#fouc").val()},
             dataType: "json",
-            success: function(data){
-                alert(321);
+            success: function(data) {
+                if (name != "") {
+                    if (data['result'] == "存在") {
+                        $("#verify").html('<div id="verify" style="color:red">用户存在</div>');
+
+                    } else {
+                        $("#verify").html('<div id="verify" style="color:deepskyblue">OK</div>');
+                        tr=true;
+                    }
+                }else{
+                    $("#verify").html('<div id="verify" style="color:red">不能为空！</div>');
+                 }
+                if (pwd != "") {
+                    if(pwd.length>3){
+                        $("#verifypwd").html('<div id="verifypwd" style="color:deepskyblue">OK</div>');
+                        tr=true;
+                    }else{
+                        $("#verifypwd").html('<div id="verifypwd" style="color:red">密码为3位以上！</div>');
+                    }
+
+                }else{
+                    $("#verifypwd").html('<div id="verifypwd" style="color:red">密码不能为空！</div>');
+                }
+                if(tr==true){
+                    $(".button_sign").attr("disabled", false);
+                }else{
+                    $(".button_sign").attr("disabled", true);
+                }
+
+            }//发生错误调用的函数
+            ,error: function (errmsg) {
+                alert(errmsg);
             }
+
         });
+
     })
 
-})
+
 </script>
 </html>

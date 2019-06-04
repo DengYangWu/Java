@@ -6,53 +6,30 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" line="6" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" line="7" />
     <bookmark url="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" line="25" />
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/register.jsp" line="34" />
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/register.jsp" line="47" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/register.jsp" line="117" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/register.jsp" line="123" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="417d0618-e576-4862-8352-3acddac608c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Twitter_2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Twitter_2_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/mapper/AdminsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/mapper/AdminsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/realm/AdminRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/realm/AdminRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/servlet/impl/AdminsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/servlet/impl/AdminsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminsDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/twitter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/twitter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/AdminsServiceText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/AdminsServiceText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Twitter_2/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/mapper/AdminsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/mapper/AdminsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/realm/AdminRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/realm/AdminRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/servlet/AdminsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/servlet/AdminsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/servlet/impl/AdminsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/servlet/impl/AdminsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/controller/SignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/controller/SignController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/mapper/AdminsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/mapper/AdminsDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/spring/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/spring/spring-shiro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/jsp/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/twitter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/twitter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/mapper/AdminsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/mapper/AdminsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/realm/AdminRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/realm/AdminRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/servlet/AdminsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/servlet/AdminsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/servlet/impl/AdminsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/servlet/impl/AdminsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Twitter_2/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/controller/SignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/controller/SignController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdminsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminsDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-shiro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Service/AdminsServiceText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Service/AdminsServiceText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hsweb-framework" beforeDir="false" afterPath="$PROJECT_DIR$/../hsweb-framework" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,41 +45,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="67">
+              <caret line="130" column="45" selection-start-line="130" selection-start-column="45" selection-end-line="130" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="125" column="30" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="30" />
+            <state relative-caret-position="197">
+              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,24 +108,24 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-tx.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/shiro.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/mapper/AdminsDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/Service/AdminsServiceText.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminsDao.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/realm/AdminRealm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/twitter.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/servlet/impl/AdminsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminsDao.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
       </list>
     </option>
   </component>
@@ -179,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -345,7 +322,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,8 +413,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="Twitter_2:war exploded">
           <settings>
@@ -539,6 +513,8 @@
       <workItem from="1558617537500" duration="1168000" />
       <workItem from="1558666097415" duration="21630000" />
       <workItem from="1559177340818" duration="18337000" />
+      <workItem from="1559348325005" duration="10646000" />
+      <workItem from="1559433586397" duration="6653000" />
     </task>
     <servers />
   </component>
@@ -575,12 +551,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78308000" />
+    <option name="totallyTimeSpent" value="95607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -590,7 +567,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.39240506" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.39182281" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -600,7 +577,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073206" side_tool="true" weight="0.39240506" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49926794" weight="0.32753164" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49926794" weight="0.3270869" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -696,20 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="182" column="20" lean-forward="true" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="150" selection-start-line="1" selection-start-column="150" selection-end-line="1" selection-end-column="150" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Service/AdminsServiceText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -717,13 +680,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="253" column="38" selection-start-line="253" selection-start-column="38" selection-end-line="253" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -794,16 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/twitter.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
@@ -815,23 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="273" column="83" selection-start-line="273" selection-start-column="83" selection-end-line="273" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminsDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/mapper/AdminsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,33 +782,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="317">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="125" column="30" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="30" />
+        <state relative-caret-position="282">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/mapper/AdminsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="192" selection-start-line="1" selection-start-column="192" selection-end-line="1" selection-end-column="192" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="197">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="130" column="45" selection-start-line="130" selection-start-column="45" selection-end-line="130" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
