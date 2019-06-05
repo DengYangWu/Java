@@ -57,7 +57,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.38</version>
+            <version>8.0.11</version>
         </dependency>
 
 
@@ -247,34 +247,34 @@
                 </configuration>
             </plugin>
 
-            <plugin>
-                <groupId>org.codehaus.cargo</groupId>
-                <artifactId>cargo-maven2-plugin</artifactId>
-                <version>1.4.18</version>
-                <configuration>
-                    <container>
-                        <!--tomcat类型 -->
-                        <containerId>tomcat8x</containerId>
-                        <!-- 指定tomcat路径 -->
-                        <home>/home/c0de8ug/software/apache-tomcat-8.0.28</home>
-                        <timeout>300000</timeout>
-                    </container>
-                    <configuration>
-                        <type>existing</type>
-                        <!--指定tomcat路径 -->
-                        <home>/home/c0de8ug/software/apache-tomcat-8.0.28</home>
-                    </configuration>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>cargo-start</id>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>start</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.codehaus.cargo</groupId>-->
+<!--                <artifactId>cargo-maven2-plugin</artifactId>-->
+<!--                <version>1.4.18</version>-->
+<!--                <configuration>-->
+<!--                    <container>-->
+<!--                        &lt;!&ndash;tomcat类型 &ndash;&gt;-->
+<!--                        <containerId>tomcat8x</containerId>-->
+<!--                        &lt;!&ndash; 指定tomcat路径 &ndash;&gt;-->
+<!--                        <home>/home/c0de8ug/software/apache-tomcat-8.0.28</home>-->
+<!--                        <timeout>300000</timeout>-->
+<!--                    </container>-->
+<!--                    <configuration>-->
+<!--                        <type>existing</type>-->
+<!--                        &lt;!&ndash;指定tomcat路径 &ndash;&gt;-->
+<!--                        <home>/home/c0de8ug/software/apache-tomcat-8.0.28</home>-->
+<!--                    </configuration>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>cargo-start</id>-->
+<!--                        <phase>install</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>start</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
 
 

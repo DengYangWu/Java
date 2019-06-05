@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.giit.www.system.dao.UserDao">
+    <resultMap id="user_map" type="User">
+        <id property="userId" column="user_id"/>
+        <result property="password" column="password"/>
+        <result property="salt" column="salt"/>
+        <result property="roleIdsStr" column="role_ids"/>
+    </resultMap>
+<!--    验证是否有这个用户-->
+    <select id="findId" parameterType="String" resultMap="user_map">
+        select * from user where user_id = #{user_id}
+    </select>
+    <!--验证账号和密码-->
+    <select id="login" parameterType="map" resultMap="user_map">
+        select * from user where user_id=#{user_id} and password=#{password}
+    </select>
+</mapper>
