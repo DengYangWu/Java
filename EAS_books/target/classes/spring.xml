@@ -37,6 +37,6 @@
 <!--    <bean id="exeptionHandlerExceptionResolver" class="com.giit.www.exception.DefaultExceptionHandler">-->
 <!--    </bean>-->
 
-<!--    &lt;!&ndash;导入shiro路径给spring容器管理&ndash;&gt;-->
-<!--    <import resource="classpath:spring-shiro.xml"></import>-->
+    <!--导入shiro路径给spring容器管理-->
+    <import resource="classpath:spring-shiro.xml"></import>
 </beans>

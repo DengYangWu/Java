@@ -3,35 +3,35 @@ package com.giit.www.entity;
 import org.apache.shiro.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User {
-    String username; //用户名
-    String userId;
-    String password;
-    String salt;
-    private List<Long> roleIds; //拥有的角色列表
+public class User implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+    private Long id;
+    private String username;
+    private String password;
+    private String salt;
+    private Long roleIds;
     private Boolean locked = Boolean.FALSE;
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                ", userId='" + userId + '\'' +
-                ", password='" + password + '\'' +
-                ", salt='" + salt + '\'' +
-                ", roleIds=" + roleIds +
-                ", locked=" + locked +
-                '}';
+    public User() {
     }
 
-    public String getUserId() {
-        return userId;
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
     }
 
-    public void setUserId(String userId) {
-        this.userId = userId;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -46,20 +46,12 @@ public class User {
         return salt;
     }
 
-    public String getUsername() {
-        return username;
+    public void setSalt(String salt) {
+        this.salt = salt;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public List<Long> getRoleIds() {
-        return roleIds;
-    }
-
-    public void setRoleIds(List<Long> roleIds) {
-        this.roleIds = roleIds;
+    public String getCredentialsSalt() {
+        return username + salt;
     }
 
     public Boolean getLocked() {
@@ -70,42 +62,52 @@ public class User {
         this.locked = locked;
     }
 
-    public void setSalt(String salt) {
-        this.salt = salt;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+
+        User user = (User) o;
+
+        if (id != null ? !id.equals(user.id) : user.id != null)
+            return false;
+
+        return true;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getRoleIds() {
+        return roleIds;
+    }
+
+    public void setRoleIds(Long roleIds) {
+        this.roleIds = roleIds;
+    }
+
+    @Override
+    public int hashCode() {
+        return id != null ? id.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" + "id=" + id + ", username='" + username + '\''
+                + ", password='" + password + '\'' + ", salt='" + salt + '\''
+                + ", locked=" + locked + '}';
     }
 
 
-    public String getCredentialsSalt() {
-        return username + salt;
-    }
-
-    public String getRoleIdsStr() {
-        if (CollectionUtils.isEmpty(roleIds)) {
-            return "";
-        }
-        StringBuilder s = new StringBuilder();
-        int i = 0;
-        for (; i < roleIds.size() - 1; i++) {
-            Long roleId = roleIds.get(i);
-            s.append(roleId);
-            s.append(",");
-        }
-        s.append(roleIds.get(i));
-
-        return s.toString();
-    }
-
-    public void setRoleIdsStr(String roleIdsStr) {
-        if (StringUtils.isEmpty(roleIdsStr)) {
-            return;
-        }
-        roleIds = new ArrayList<>();
-        String[] roleIdStrs = roleIdsStr.split(",");
-        for (String roleIdStr : roleIdStrs) {
-            if (StringUtils.isEmpty(roleIdStr)) {
-                continue;
-            }
-            roleIds.add(Long.valueOf(roleIdStr));
-        }
-    }
 }

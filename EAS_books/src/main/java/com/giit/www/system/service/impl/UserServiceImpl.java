@@ -18,16 +18,24 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
     @Resource
     private RoleService roleService;
-    public User findId(String id){
-        return userDao.findId(id);
+    public User findName(String name){
+        return userDao.findName(name);
     }
     public Set<String> findRoles(String username){
-        User user=userDao.findId(username);
+        User user=userDao.findName(username);
+//        if(user==null){
+//            return Collections.EMPTY_SET;
+//        }
+
+        return roleService.findRoles(user.getRoleIds());
+
+    }
+    public Set<String> findPermissions(String name){
+        User user=userDao.findName(name);
         if(user==null){
             return Collections.EMPTY_SET;
         }
 
-        return roleService.findRoles(user.getRoleIds().toArray(new Long[0]));
-
+        return roleService.findRoles(user.getRoleIds());
     }
 }

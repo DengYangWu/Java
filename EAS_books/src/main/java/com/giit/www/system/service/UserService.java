@@ -2,6 +2,9 @@ package com.giit.www.system.service;
 
 import com.giit.www.entity.User;
 
+import java.util.Set;
+
 public interface UserService {
-    User findId(String id);
+    User findName(String name);
+
 }

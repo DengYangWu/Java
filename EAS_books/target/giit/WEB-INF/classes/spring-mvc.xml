@@ -31,11 +31,11 @@
         <property name="maxUploadSize" value="5242880"/>
     </bean>
 
-    <!--第二种处理静态资源的方式-->
-    <!--<mvc:default-servlet-handler/>-->
+<!--    第二种处理静态资源的方式-->
+    <mvc:default-servlet-handler/>
 
-    <!--第三种静态资源映射-->
-    <!--<mvc:resources mapping="/static/**" location="/WEB-INF/static/"/>-->
+<!--    第三种静态资源映射-->
+<!--    <mvc:resources mapping="/static/**" location="/WEB-INF/static/"/>-->
 
 <!--    <import resource="classpath:spring-mvc-shiro.xml"/>-->
 

@@ -24,7 +24,7 @@
     </bean>
     <!--    扫描mapper-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.giit.www.college.dao"></property>
+        <property name="basePackage" value="com.giit.www.college.dao,com.giit.www.system.dao"></property>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
 <!--    开启事务-->
@@ -37,6 +37,6 @@
 <!--    <bean id="exeptionHandlerExceptionResolver" class="com.giit.www.exception.DefaultExceptionHandler">-->
 <!--    </bean>-->
 
-<!--    &lt;!&ndash;导入shiro路径给spring容器管理&ndash;&gt;-->
-<!--    <import resource="classpath:spring-shiro.xml"></import>-->
+    <!--导入shiro路径给spring容器管理-->
+    <import resource="classpath:spring-shiro.xml"></import>
 </beans>

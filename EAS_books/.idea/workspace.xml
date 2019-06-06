@@ -7,813 +7,47 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/RoleServiceImpl.java" line="11" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/controller/LoginController.java" line="23" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b883d160-15e4-404d-83a6-3eef2f392edb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/BookDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/ClassDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/ClassDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/CourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/CourseDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/DeptDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/OrderBookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/OrderBookDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/SectionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/SectionDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/SpecDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/SpecDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/StaffDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/StaffDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/StudentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/TakesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/TakesDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/TimetableDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/TimetableDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Classed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/OrderBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Section.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Spec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Takes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Timetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/filter/FormLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/ResurceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/ResurcesDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/RoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/AllDao/BookDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/AllDao/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/com/giit/www/system/dao/RoleDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap-social/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap-social/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap-social/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap-social/bootstrap-social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap-social/bootstrap-social.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap-social/bootstrap-social.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap-social/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/grunt/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/grunt/configBridge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/grunt/sauce_browsers.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/affix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/js/transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/.csscomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/.csslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/badges.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/breadcrumbs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/button-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/carousel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/close.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/code.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/component-animations.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/dropdowns.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/glyphicons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/input-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/jumbotron.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/media.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/background-variant.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/border-radius.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/center-block.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/clearfix.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/gradients.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/grid-framework.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/hide-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/image.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/nav-divider.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/opacity.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/progress-bar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/reset-filter.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/reset-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/resize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/size.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/tab-focus.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/table-row.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/text-emphasis.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/text-overflow.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/modals.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/navbar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/navs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/pager.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/popovers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/print.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/progress-bars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/responsive-embed.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/responsive-utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/scaffolding.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/tables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/thumbnails.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/tooltip.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/type.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/less/wells.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/nuget/MyGet.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/nuget/bootstrap.less.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/nuget/bootstrap.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/bootstrap/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/average().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/column().title().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/columns().order().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnAddDataAndDisplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnAddTr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnColumnIndexToVisible.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnDataUpdate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnDisplayRow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnDisplayStart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnFakeRowspan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnFilterAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnFilterClear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnFilterOnReturn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnFindCellRowIndexes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnFindCellRowNodes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnGetAdjacentTr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnGetColumnData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnGetColumnIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnGetHiddenNodes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnGetTd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnGetTds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnLengthChange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnMultiFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnPagingInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnProcessingIndicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnReloadAjax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnSetFilteringDelay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnSortNeutral.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnStandingRedraw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/fnVisibleToColumnIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/page.jumpToData().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/api/sum().js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/filtering/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/filtering/row-based/TableTools.ShowSelectedOnly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/filtering/row-based/range_dates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/filtering/row-based/range_numbers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/filtering/type-based/accent-neutralise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/filtering/type-based/html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/filtering/type-based/phoneNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Afrikaans.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Albanian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Arabic.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Azerbaijan.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Bangla.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Belarusian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Bulgarian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Catalan.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Chinese-traditional.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Chinese.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Croatian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Czech.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Danish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Dutch.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/English.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Estonian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Filipino.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Finnish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/French.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Galician.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Georgian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/German.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Greek.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Gujarati.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Hebrew.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Hindi.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Hungarian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Icelandic.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Indonesian-Alternative.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Indonesian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Irish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Italian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Japanese.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Korean.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Latvian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Lithuanian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Macedonian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Malay.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Norwegian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Persian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Polish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Portuguese-Brasil.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Portuguese.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Romanian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Russian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Serbian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Slovak.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Slovenian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Spanish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Swahili.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Swedish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Tamil.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Thai.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Turkish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Ukranian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Urdu.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Uzbek.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/Vietnamese.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/i18n/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/1/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/1/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/bootstrap/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/font-awesome/bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/font-awesome/dataTables.fontAwesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/font-awesome/datatables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/font-awesome/foundation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/foundation/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/integration/jqueryui/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/make.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/pagination/ellipses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/pagination/extjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/pagination/four_button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/pagination/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/pagination/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/pagination/jPaginator/dataTables.jPaginator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/pagination/scrolling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/pagination/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/alt-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/anti-the.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/chinese-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/currency.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/custom-data-source/dom-checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/custom-data-source/dom-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/custom-data-source/dom-text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/date-dd-MMM-yyyy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/date-de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/date-eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/date-euro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/date-uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/datetime-moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/datetime-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/file-size.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/formatted-numbers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/ip-address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/monthYear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/natural.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/num-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/numeric-comma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/percent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/persian.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/scientific.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/signed-num.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/stringMonthYear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/title-numeric.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/title-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/sorting/turkish-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/type-detection/currency.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/type-detection/date-uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/type-detection/file-size.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/type-detection/formatted-num.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/type-detection/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/type-detection/ip-address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/type-detection/num-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-plugins/type-detection/numeric-comma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/css/responsive.bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/css/responsive.dataTables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/css/responsive.foundation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/css/responsive.jqueryui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/api/responsive.index().xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/api/responsive.rebuild().xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/api/responsive.recalc().xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/option/responsive.breakpoints.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/option/responsive.details.renderer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/option/responsive.details.target.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/option/responsive.details.type.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/option/responsive.details.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/docs/option/responsive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/child-rows/column-control.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/child-rows/custom-renderer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/child-rows/disable-child-rows.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/child-rows/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/child-rows/right-column.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/child-rows/whole-row-control.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/display-control/auto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/display-control/classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/display-control/complexHeader.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/display-control/fixedHeader.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/display-control/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/display-control/init-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/initialisation/ajax.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/initialisation/className.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/initialisation/default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/initialisation/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/initialisation/new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/initialisation/option.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/styling/bootstrap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/styling/compact.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/styling/foundation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/styling/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/styling/jqueryui.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/examples/styling/scrolling.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/js/dataTables.responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables-responsive/make.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/Contributing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/css/jquery.dataTables_themeroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/images/Sorting icons.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/datatables/media/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot.tooltip/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot.tooltip/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot.tooltip/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot.tooltip/js/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot.tooltip/js/jquery.flot.tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot.tooltip/js/jquery.flot.tooltip.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/FAQ.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/NEWS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/PLUGINS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/data-eu-gdp-growth-1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/data-eu-gdp-growth-2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/data-eu-gdp-growth-3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/data-eu-gdp-growth-4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/data-eu-gdp-growth-5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/data-eu-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/data-japan-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/data-usa-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/ajax/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/annotating/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-interacting/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-multiple/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/africa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/antarctica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/asia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/australasia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/backward" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/etcetera" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/europe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/factory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/iso3166.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/leapseconds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/northamerica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/pacificnew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/solar87" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/solar88" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/solar89" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/southamerica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/systemv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/yearistype.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time-zones/tz/zone.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/axes-time/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/basic-options/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/basic-usage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/canvas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/categories/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/examples.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/image/hs-2004-27-a-large-web.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/image/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/interacting/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/navigate/arrow-down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/navigate/arrow-left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/navigate/arrow-right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/navigate/arrow-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/navigate/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/percentiles/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/realtime/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/resize/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/selection/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/series-errorbars/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/series-pie/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/series-toggle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/series-types/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/shared/jquery-ui/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/stacking/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/symbols/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/threshold/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/tracking/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/visitors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/examples/zooming/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/excanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/flot.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.colorhelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.errorbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.fillbetween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.navigate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.threshold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/flot/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/spinning.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/holder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/src/augment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/src/holder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/src/ondomready.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/holderjs/src/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/MIT-LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax/jsonp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax/load.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax/parseJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax/parseXML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax/var/nonce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax/var/rquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/ajax/xhr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/attributes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/attributes/attr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/attributes/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/attributes/prop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/attributes/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/attributes/val.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/callbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/core/access.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/core/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/core/parseHTML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/core/ready.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/core/var/rsingleTag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/addGetHookIf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/curCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/defaultDisplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/swap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/var/cssExpand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/var/getStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/var/isHidden.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/var/rmargin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/data/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/data/accepts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/data/var/data_priv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/data/var/data_user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/deprecated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/dimensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/effects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/effects/Tween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/effects/animatedSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/event/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/event/alias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/event/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/exports/amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/exports/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/intro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/manipulation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/manipulation/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/offset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/outro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/queue/delay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/selector-native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/selector-sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/serialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/sizzle/dist/sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/traversing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/traversing/findFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/arr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/class2type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/concat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/hasOwn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/indexOf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/pnum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/push.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/rnotwhite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/strundefined.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/var/toString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/jquery/src/wrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/login/img/backgrounds/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/login/img/backgrounds/1@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/login/img/backgrounds/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/login/img/backgrounds/2@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/login/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/login/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/dist/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/dist/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/dist/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/dist/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/src/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/metisMenu/src/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/mocha/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/mocha/History.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/mocha/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/mocha/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/mocha/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/mocha/media/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/mocha/mocha.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/mocha/mocha.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/bower.travis.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/area-as-line.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/bar-colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/bar-no-axes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/days.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/decimal-custom-hover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/diagonal-xlabels-bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/diagonal-xlabels.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/donut-colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/donut-formatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/donut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/dst.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/goals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/months-no-smooth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/negative.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/no-grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/non-continuous.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/non-date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/quarters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/resize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/stacked_bars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/timestamps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/updating.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/weeks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/examples/years.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/less/morris.core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/specs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/support/placeholder.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/viz/examples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/viz/exemplary/area0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/viz/exemplary/bar0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/viz/exemplary/line0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/viz/exemplary/stacked_bar0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/viz/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/viz/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/morrisjs/spec/viz/visual_specs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/raphael/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/raphael/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/raphael/dev/amdDev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/raphael/dev/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/raphael/dev/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/raphael/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/raphael/raphael-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/raphael/raphael.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/sb-admin-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/js/sb-admin-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/flot-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/linkage-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/morris-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/interceptor/LoginIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/giit/www/system/service/RoleServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/giit/www/system/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EAS_books.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EAS_books.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IndexTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JSON_Gson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IndexTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JSON_Gson$JSON_GsonBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JSON_Gson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Twitter_2/.idea/artifacts/Twitter_2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Twitter_2/.idea/artifacts/Twitter_2_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Twitter_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Twitter_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giit/www/filter/FormLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/filter/FormLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giit/www/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giit/www/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giit/www/filter/FormLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giit/www/filter/FormLoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giit/www/realm/UserRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giit/www/realm/UserRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giit/www/system/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giit/www/system/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giit/www/system/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giit/www/system/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giit/www/system/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giit/www/system/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giit/www/system/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giit/www/system/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/giit/WEB-INF/classes/com/giit/www/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/giit/WEB-INF/classes/com/giit/www/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/giit/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/giit/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/giit/WEB-INF/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/giit/WEB-INF/classes/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/giit/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/giit/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/giit/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/giit/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -830,10 +64,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="195">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -842,48 +76,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/RoleService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/RoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="-201">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#557#565#0" expanded="true" />
+                <element signature="e#1484#1492#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="221">
+              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -899,8 +108,8 @@
         <option value="mapper.xml" />
         <option value="spring-beans.schema" />
         <option value="mapper" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -912,7 +121,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/JSON_Gson.java" />
         <option value="$PROJECT_DIR$/src/main/java/IndexTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Classed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Dept.java" />
@@ -928,31 +136,39 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/spring.xml.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/BookDap.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/entity/Book.java" />
         <option value="$PROJECT_DIR$/src/main/test/AllDao/BookDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/BookDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc-shiro.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/giit/www/system/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/AllDao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/RoleDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/RoleDao.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/giit/www/system/dao/RoleDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/filter/FormLoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc-shiro.xml" />
+        <option value="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/interceptor/LoginIntercepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/giit/www/system/service/RoleServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/giit/www/system/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/giit/www/system/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
       </list>
     </option>
   </component>
@@ -1065,6 +281,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="giit" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAS_books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAS_books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giit" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="realm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1077,6 +304,18 @@
               <item name="giit" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAS_books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAS_books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giit" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EAS_books" type="b2602c69:ProjectViewProjectNode" />
@@ -1192,6 +431,18 @@
               <item name="EAS_books" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="giit" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAS_books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAS_books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1201,17 +452,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAS_books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAS_books" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAS_books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAS_books" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1240,6 +480,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.giit.www.system.service" />
       <recent name="com.giit.www.system.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -1266,23 +507,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoleDaoTest.findOne">
-    <configuration name="BookDaoTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EAS_books" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AllDao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AllDao" />
-      <option name="MAIN_CLASS_NAME" value="AllDao.BookDaoTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.38">
     <configuration name="BookDaoTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EAS_books" />
       <extension name="coverage">
@@ -1294,22 +519,6 @@
       <option name="PACKAGE_NAME" value="AllDao" />
       <option name="MAIN_CLASS_NAME" value="AllDao.BookDaoTest" />
       <option name="METHOD_NAME" value="find" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookDaoTest.findBookAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EAS_books" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AllDao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AllDao" />
-      <option name="MAIN_CLASS_NAME" value="AllDao.BookDaoTest" />
-      <option name="METHOD_NAME" value="findBookAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1331,6 +540,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoleServiceTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EAS_books" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.giit.www.system.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.giit.www.system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.giit.www.system.service.RoleServiceTest" />
+      <option name="METHOD_NAME" value="findOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserDaoTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EAS_books" />
       <extension name="coverage">
@@ -1342,6 +567,22 @@
       <option name="PACKAGE_NAME" value="AllDao" />
       <option name="MAIN_CLASS_NAME" value="AllDao.UserDaoTest" />
       <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.findName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EAS_books" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.giit.www.system.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.giit.www.system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.giit.www.system.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="findName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1422,19 +663,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
-      <item itemvalue="JUnit.BookDaoTest.findBookAll" />
       <item itemvalue="JUnit.BookDaoTest.find" />
-      <item itemvalue="JUnit.BookDaoTest.add" />
       <item itemvalue="JUnit.UserDaoTest.login" />
       <item itemvalue="JUnit.RoleDaoTest.findOne" />
+      <item itemvalue="JUnit.RoleServiceTest.findOne" />
+      <item itemvalue="JUnit.UserServiceTest.findName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.findName" />
+        <item itemvalue="JUnit.RoleServiceTest.findOne" />
         <item itemvalue="JUnit.RoleDaoTest.findOne" />
         <item itemvalue="JUnit.UserDaoTest.login" />
         <item itemvalue="JUnit.BookDaoTest.find" />
-        <item itemvalue="JUnit.BookDaoTest.add" />
-        <item itemvalue="JUnit.BookDaoTest.findBookAll" />
       </list>
     </recent_temporary>
   </component>
@@ -1450,23 +691,11 @@
       <updated>1559612842803</updated>
       <workItem from="1559612858742" duration="5496000" />
       <workItem from="1559697887305" duration="724000" />
-      <workItem from="1559699286590" duration="24670000" />
+      <workItem from="1559699286590" duration="51275000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookDaoTest_find - 2019.06.05 at 16h 01m 25s.xml">
-      <configuration name="BookDaoTest.find" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_login - 2019.06.05 at 16h 57m 51s.xml">
-      <configuration name="UserDaoTest.login" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_login - 2019.06.05 at 16h 58m 31s.xml">
-      <configuration name="UserDaoTest.login" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_login - 2019.06.05 at 17h 05m 13s.xml">
-      <configuration name="UserDaoTest.login" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserDaoTest_login - 2019.06.05 at 17h 06m 40s.xml">
       <configuration name="UserDaoTest.login" configurationId="JUnit" />
     </history-entry>
@@ -1485,15 +714,27 @@
     <history-entry file="RoleDaoTest_findOne - 2019.06.05 at 17h 47m 48s.xml">
       <configuration name="RoleDaoTest.findOne" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoleDaoTest_findOne - 2019.06.06 at 10h 10m 25s.xml">
+      <configuration name="RoleDaoTest.findOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleServiceTest_findOne - 2019.06.06 at 13h 53m 06s.xml">
+      <configuration name="RoleServiceTest.findOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_findName - 2019.06.06 at 14h 07m 09s.xml">
+      <configuration name="UserServiceTest.findName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_findName - 2019.06.06 at 14h 09m 19s.xml">
+      <configuration name="UserServiceTest.findName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30890000" />
+    <option name="totallyTimeSpent" value="57495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1504,8 +745,8 @@
       <window_info anchor="bottom" id="Application Servers" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32753164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32753164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1513,7 +754,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32753164" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -1532,177 +773,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/DeptDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/DeptDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/OrderBookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/OrderBookDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/SectionDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/SectionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/SpecDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/SpecDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/StaffDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/StaffDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/StudentDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/TakesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/TakesDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/TimetableDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/TimetableDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/AllDao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/entity/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/morris-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1677">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/linkage-menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/flot-data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7776" />
@@ -1730,34 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/filter/FormLoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="82" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="23" column="87" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="87" />
         </state>
       </provider>
     </entry>
@@ -1792,41 +834,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-957">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="234">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="189">
+          <caret line="39" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/interceptor/LoginIntercepter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/RoleDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1837,15 +872,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/giit/www/system/dao/RoleDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/RoleDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1856,7 +886,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/giit/www/system/dao/RoleDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/giit/www/system/service/RoleServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" selection-start-line="17" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -1866,49 +946,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/giit/www/system/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="177">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#557#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JaceRxSSM/src/main/java/com/system/controller/converter/CustomDateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/util/ThreadContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#3879#3880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/SecurityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/util/CollectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Priority.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#1771#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.2.4/shiro-web-1.2.4.jar!/org/apache/shiro/web/session/HttpServletSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/session/ProxiedSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+          <folding>
+            <element signature="e#3652#3653#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/authc/AbstractAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.14/slf4j-log4j12-1.7.14.jar!/org/slf4j/impl/Log4jLoggerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Hierarchy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+          <folding>
+            <element signature="e#5525#5526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+          <folding>
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1245">
+          <caret line="202" column="20" selection-start-line="202" selection-start-column="20" selection-end-line="202" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="50" column="84" selection-start-line="50" selection-start-column="84" selection-end-line="50" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/filter/FormLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="111">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="-201">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#1484#1492#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="35" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>
