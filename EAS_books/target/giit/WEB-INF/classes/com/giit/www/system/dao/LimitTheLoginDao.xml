@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.giit.www.system.dao.LimitTheLoginDao">
+    <insert id="insertCount">
+        insert into LimitTheLogin values(#{iduser},#{countlogin},#{datelogin})
+    </insert>
+    <update id="updateAll">
+        UPDATE limitthelogin SET
+        countlogin=#{0},
+        datelogin=#{1}
+        WHERE iduser=#{2}
+    </update>
+    <select id="findAllId" parameterType="LimitTheLogin" resultType="int">
+        select count(*) from limitthelogin where iduser=#{iduser}
+    </select>
+    <select id="findAllLoginDate" parameterType="LimitTheLogin" resultType="String">
+        select datelogin from limitthelogin where iduser=#{iduser}
+    </select>
+    <!--<update id="createTrigger" parameterType="HashMap">-->
+        <!--CREATE TRIGGER noconn-->
+        <!--ON ALL user WITH EXECUTE AS #{username}-->
+        <!--FOR LOGON-->
+        <!--AS-->
+        <!--BEGIN-->
+        <!--IF ORIGINAL_LOGIN()= #{username} AND CONVERT(CHAR(10),GETDATE(),108) BETWEEN '8:00:00' AND '18:00:00'-->
+        <!--ROLLBACK;-->
+        <!--END;-->
+    <!--</update>-->
+</mapper>
