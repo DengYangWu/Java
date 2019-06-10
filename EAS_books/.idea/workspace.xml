@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b883d160-15e4-404d-83a6-3eef2f392edb" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/CredentialsMatcher/RetryLimitMatcher.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/entity/LimitTheLogin.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/LimitTheLoginDao.java" afterDir="false" />
@@ -6557,6 +6558,9 @@
       <change beforePath="$PROJECT_DIR$/../hswebframework/web/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simplest_video_website" beforeDir="false" afterPath="$PROJECT_DIR$/../simplest_video_website" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -6575,8 +6579,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/CredentialsMatcher/RetryLimitMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="85">
               <caret line="38" column="70" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="70" />
+=======
+            <state relative-caret-position="864">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -6587,8 +6596,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/LimitTheLoginService.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="80">
               <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+=======
+            <state relative-caret-position="540">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -6599,6 +6613,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/LimitTheLoginDao.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="163">
               <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
@@ -6625,6 +6640,10 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="221">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
             </state>
           </provider>
         </entry>
@@ -6731,7 +6750,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+      <pane id="Scope" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -7002,7 +7025,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -7205,12 +7232,21 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="JUnit.RoleServiceTest.findOne" />
       <item itemvalue="JUnit.UserServiceTest.findName" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
       <item itemvalue="JUnit.UserServiceTest.findNameById" />
       <item itemvalue="JUnit.LimitTheLoginDaoTest.findDate" />
       <item itemvalue="JUnit.LimitTheLoginDaoTest" />
+=======
+      <item itemvalue="JUnit.BookDaoTest.find" />
+      <item itemvalue="JUnit.UserDaoTest.login" />
+      <item itemvalue="JUnit.RoleDaoTest.findOne" />
+      <item itemvalue="JUnit.RoleServiceTest.findOne" />
+      <item itemvalue="JUnit.UserServiceTest.findName" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
     </list>
     <recent_temporary>
       <list>
@@ -7235,8 +7271,12 @@
       <workItem from="1559612858742" duration="5496000" />
       <workItem from="1559697887305" duration="724000" />
       <workItem from="1559699286590" duration="51275000" />
+<<<<<<< HEAD
       <workItem from="1559866366620" duration="22673000" />
       <workItem from="1560052432040" duration="13180000" />
+=======
+      <workItem from="1560131009849" duration="38000" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
     </task>
     <servers />
   </component>
@@ -7273,7 +7313,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="93348000" />
+=======
+    <option name="totallyTimeSpent" value="57533000" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -7318,6 +7362,109 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/flot-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7776" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/js/sb-admin-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/css/sb-admin-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bower_components/flot/API.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-756" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/college/dao/BookDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/ResurcesDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/ResurceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/AllDao/BookDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/AllDao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc-shiro.xml" />
+    <entry file="file://$PROJECT_DIR$/target/classes/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="39" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/interceptor/LoginIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/RoleDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
     <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/dao/RoleDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -7637,6 +7784,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -7644,19 +7792,38 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="35" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="15" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="141">
           <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+=======
+        <state relative-caret-position="864">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -7668,6 +7835,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="91" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/realm/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -7705,6 +7878,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/giit/www/system/service/LimitTheLoginService.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="80">
           <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
@@ -7737,6 +7911,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+=======
+        <state relative-caret-position="221">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+>>>>>>> 99bd525a5da4e9a8e304d61f9b705be4b3267c00
         </state>
       </provider>
     </entry>
