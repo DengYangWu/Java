@@ -15,16 +15,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" line="102" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="417d0618-e576-4862-8352-3acddac608c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/img/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EAS_books/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EAS_books/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/jsp/main.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="417d0618-e576-4862-8352-3acddac608c0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,7 +146,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -547,7 +538,7 @@
       <workItem from="1559177340818" duration="18337000" />
       <workItem from="1559348325005" duration="10646000" />
       <workItem from="1559433586397" duration="6653000" />
-      <workItem from="1560131074191" duration="21617000" />
+      <workItem from="1560131074191" duration="22234000" />
     </task>
     <servers />
   </component>
@@ -584,11 +575,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117227000" />
+    <option name="totallyTimeSpent" value="117844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -600,7 +590,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.3908228" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.3908228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
