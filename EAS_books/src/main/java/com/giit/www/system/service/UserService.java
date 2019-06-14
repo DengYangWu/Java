@@ -6,5 +6,5 @@ import java.util.Set;
 
 public interface UserService {
     User findName(String name);
-
+    int findNameById(String name);
 }

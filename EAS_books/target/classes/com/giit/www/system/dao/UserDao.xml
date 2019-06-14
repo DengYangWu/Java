@@ -15,6 +15,10 @@
     <select id="findName" resultMap="user_map">
         select * from user where username = #{username}
     </select>
+    <!-- 根据用户查询id-->
+    <select id="findNameById" resultType="int">
+        select user_id from user where username = #{username}
+    </select>
     <!--验证账号和密码-->
     <select id="login" parameterType="map" resultMap="user_map">
         select * from user where user_id=#{user_id} and password=#{password}

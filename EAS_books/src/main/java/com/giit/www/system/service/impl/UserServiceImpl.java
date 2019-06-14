@@ -18,6 +18,7 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
     @Resource
     private RoleService roleService;
+
     public User findName(String name){
         return userDao.findName(name);
     }
@@ -30,12 +31,15 @@ public class UserServiceImpl implements UserService {
         return roleService.findRoles(user.getRoleIds());
 
     }
-    public Set<String> findPermissions(String name){
-        User user=userDao.findName(name);
-        if(user==null){
-            return Collections.EMPTY_SET;
-        }
-
-        return roleService.findRoles(user.getRoleIds());
+    public int findNameById(String name){
+        return userDao.findNameById(name);
     }
+//    public Set<String> findPermissions(String name){
+//        User user=userDao.findName(name);
+//        if(user==null){
+//            return Collections.EMPTY_SET;
+//        }
+//
+//        return roleService.findRoles(user.getRoleIds());
+//    }
 }

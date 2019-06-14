@@ -37,6 +37,6 @@
 <!--    第三种静态资源映射-->
 <!--    <mvc:resources mapping="/static/**" location="/WEB-INF/static/"/>-->
 
-<!--    <import resource="classpath:spring-mvc-shiro.xml"/>-->
+    <!--<import resource="classpath:spring-shiro.xml"/>-->
 
 </beans>

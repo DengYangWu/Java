@@ -31,12 +31,25 @@
     <bean id="transactionMannager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
+    <!--&lt;!&ndash;ehcache&ndash;&gt;-->
+    <!--<bean id="ehcacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">-->
+        <!--<property name="configLocation" value="classpath:ehcache.xml"/>-->
+    <!--</bean>-->
 
+
+    <!--<bean id="shiroCacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">-->
+        <!--<property name="cacheManager" ref="ehcacheManager"/>-->
+    <!--</bean>-->
+
+
+    <!--<bean id="retryLimitMatcher" class="com.giit.www.CredentialsMatcher.RetryLimitMatcher">-->
+        <!--<constructor-arg ref="shiroCacheManager"/>-->
+    <!--</bean>-->
 
 <!--&lt;!&ndash;    控制器异常处理&ndash;&gt;-->
-<!--    <bean id="exeptionHandlerExceptionResolver" class="com.giit.www.exception.DefaultExceptionHandler">-->
-<!--    </bean>-->
+    <!--<bean id="exeptionHandlerExceptionResolver" class="com.giit.www.exception.DefaultExceptionHandler">-->
+    <!--</bean>-->
 
     <!--导入shiro路径给spring容器管理-->
-    <import resource="classpath:spring-shiro.xml"></import>
+    <import resource="classpath*:spring-shiro.xml"></import>
 </beans>
