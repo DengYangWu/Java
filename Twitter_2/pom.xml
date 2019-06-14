@@ -195,10 +195,8 @@
                 </includes>
                 <filtering>false</filtering>
             </resource>
-        </resources>
+            <!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
 
-        <!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
-        <!--<resources>-->
             <!--<resource>-->
                 <!--<directory>src/main/resources</directory>-->
                 <!--<includes>-->
@@ -219,7 +217,10 @@
                 <!--</includes>-->
                 <!--<filtering>false</filtering>-->
             <!--</resource>-->
-        <!--</resources>-->
+        </resources>
+
+
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -14,7 +14,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Component
-public class AdminRealm extends AuthorizingRealm {
+public class LoginRealm extends AuthorizingRealm {
     @Resource(name = "adminsServiceImpl")
     private AdminsService adminsService;
 
@@ -49,14 +49,16 @@ public class AdminRealm extends AuthorizingRealm {
 
         if (admins == null) {
             //?????????
-            throw new AccountException("账号密码不正确！");
+//            throw new AccountException("账号密码不正确！");
+            throw new UnknownAccountException();
         } else if (!password.equals(admins.getApwd())) {
             //???????
-            throw new DisabledAccountException("密码错误！");
+//            throw new DisabledAccountException("密码错误！");
+            throw new IncorrectCredentialsException();
         }
 
         //?????????,?????????????
-        SimpleAuthenticationInfo aInfo = new SimpleAuthenticationInfo(username,password,getName());
+        AuthenticationInfo aInfo = new SimpleAuthenticationInfo(username,password,getName());
 
         return aInfo;
     }

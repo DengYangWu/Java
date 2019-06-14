@@ -13,9 +13,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletResponse;
-
 
 @Controller
 public class LoginController {
@@ -31,20 +28,25 @@ public class LoginController {
         //System.out.println("name"+admins.getApwd());
         //shiro实现登录
     try {
-    UsernamePasswordToken token = new UsernamePasswordToken(admins.getAname(),
+   UsernamePasswordToken token = new UsernamePasswordToken(admins.getAname(),
             admins.getApwd());
     Subject subject = SecurityUtils.getSubject();
     subject.login(token);
-    System.out.println(token);
+    if(subject!=null){
+        return "/main";
+    }
+
     } catch (DisabledAccountException e){
         model.addAttribute("message",e);
         return "../error";
+        //return "/login";
     } catch (AccountException e1){
         model.addAttribute("message",e1);
         return "../error";
+        //return "/login";
     }
 
-        return "/main";
 
+        return "/login";
     }
 }
