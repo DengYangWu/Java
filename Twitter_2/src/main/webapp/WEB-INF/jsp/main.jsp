@@ -15,33 +15,38 @@
     <script src="js/jquery-3.1.1.min.js"></script>
 </head>
 <style>
-    html{font-size:62.5%;}
+
     body {font:normal 100% Arial,sans-serif;font-size:14px; font-size:1.4rem;overflow-x: hidden; }
     body{margin:0;padding:0;}
     *{margin:0;padding:0;}
-    body{background-color: #e6ecf0;height: 100%;    background: #e6ecf0;
+    body{background-color: #e6ecf0;height: 100%;
         color: #14171a;
         font-size: 14px;
-
-        overflow-y: scroll; }
+    overflow-y: scroll}
     .topbar{
         border-bottom: 1px solid rgba(0,0,0,0.05);
-        position: fixed;
         top: 0;
+        bottom: 0;
         right: 0;
         left: 0;
         z-index: 1000;
         height: 49px;
+        width: 100%;
+        height: 100%;
+
     }
     .global{
         border-bottom: 1px solid rgba(0,0,0,0.25);
         height: 46px;
         position: relative;
         width: 100%;
+
+
     }
     .global-nav{
         background: #fff;
         height: 46px;
+
     }
     .container{
         max-width:1190px;
@@ -63,7 +68,6 @@
         cursor: pointer;
 
         margin-top: -1px;
-        margin-left: -20px;
         display: inline-block;
         transition: all .25s ease-in-out;
 
@@ -86,7 +90,7 @@
 
     }
     .nav1>li{
-        padding: 8px;
+        padding: 0px;
         padding-top: 10px;
         text-align: center;
         float: left;
@@ -162,22 +166,23 @@
         cursor: pointer;
         display: block;
         height: 26px;
-        position: absolute;
+
+
         right: 149px;
         top: 16px;
         width: 20px;
     }
     .icon-med{
         background-color: transparent;
-        color: #66757f;
-        height: auto;
-        width: auto;
-        background: transparent;
+        height: 10px;
+        width: 50px;
         display: inline-block;
         font-style: normal;
         vertical-align: baseline;
         position: relative;
-        border: 0;
+        border: 0px;
+        margin-top: -25px;
+        margin-left: 165px;
     }
     .nav-right{
         align-items: center;
@@ -411,19 +416,572 @@
         margin: 0 10px;
         float: left;
         width: 590px;
-        border: 1px red solid;
-    }
-    .tweet-box{
 
+    }
+
+
+    .timeline{
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
         border: 1px solid #e6ecf0;
     }
+    .home-tweet{
+        border-radius: 0;
+        position: relative;
+        background-color: #E8F5FD;
+        padding: 30px 15px;
+        color: #14171a;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .top-timeline{
+        left: 28px;
+        position: absolute;
+        top: 13px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 0;
+    }
+    .t1-form{
+        margin-left: 56px;
+        margin-bottom: 0;
+        display: block;
+        margin-top: 0em;
+        color: #14171a;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .rich{
+        border-color: #C6E7FB;
+        background: #fff;
+        border: 1px solid #e6ecf0;
+        border-radius: 8px;
+        line-height: 20px;
+    }
+    .richeditor{
+        position: relative;
+        border-radius: inherit!important;
+        line-height: 20px;
+    }
+    .richeditor-scr{
+        max-height: none;
+        position: relative;
+        overflow-y: auto;
+        margin: -20px 0;
+        border-radius: inherit!important;
+    }
+    .tweet-box-rich{
+        color: #1DA1F2;
+        padding-right: 31px;
+        overflow-y: hidden;
+        word-wrap: normal;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-height: 36px;
+        min-height: 36px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+        padding: 8px;
+        box-sizing: border-box;
+        vertical-align: top;
+        width: auto;
+        margin: 0;
+        outline: 0;
+        background-color: #fff;
+    }
+    .tweet-box-rich>div{
+        color: #1DA1F2;
+        white-space: nowrap;
+    }
+    .stream-container{
+        position: relative;
+        margin-left: 0;
+        list-style: none;
+    }
+    .new-tweets-bar{
+        background: #fff;
+        border: 1px silver solid;
+        background-clip: padding-box;
+        position: relative;
+        top: -1px;
+    }
+    .new-tweets-bar-j{
+        background-color: #f5f8fa;
+        border-bottom: 1px solid #e6ecf0;
+        border-top: 1px solid #e6ecf0;
+        color: #1da1f2;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 10px 1px;
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+        color: #1DA1F2;
+        border: 0;
+        background: transparent;
+        text-transform: none;
+        overflow: visible;
+        transition: box-shadow .15s ease-in-out;
+    }
+    .stream-1{
+        position: relative;
+        top: -1px;
+        margin-left: 0;
+        list-style: none;
+
+    }
+    .stream-items{
+        text-decoration: none;
+        position: relative;
+        margin-left: 0;
+        list-style: none;
+
+
+    }
+    .js-stream{
+        background: #fff;
+        border-left: 1px solid #e6ecf0;
+        border-right: 1px solid #e6ecf0;
+        background-clip: padding-box;
+        position: relative;
+        text-align: inherit;
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    .tweet-js{
+        border-bottom: 1px solid #e6ecf0;
+        cursor: pointer;
+        position: relative;
+        min-height: 51px;
+        padding: 9px 12px;
+    }
+    .context-1{
+        margin-left: 58px;
+        cursor: pointer;
+    }
+    .stream-item-header{
+
+        display: flex;
+        color: #14171a;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .account{
+        color: #14171a;
+        display: inline-flex;
+        flex-shrink: 1;
+        overflow: hidden;
+        margin-right: 5px;
+        background: transparent;
+        cursor: pointer;
+    }
+    .avatar2{
+        float: left;
+        margin-top: 3px;
+        margin-left: -58px;
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 0;
+        list-style: none;
+    }
+    .fullname-u{
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        max-width: 100%;
+        color: #14171a;
+    }
+    .fullname-u{
+        float: left;
+        word-break: break-all;
+        color: #14171a;
+        font-size: 14px;
+        font-weight: bold;
+        max-width: 100%;
+        overflow: hidden!important;
+        text-overflow: ellipsis!important;
+        white-space: nowrap!important;
+        word-wrap: normal!important;
+    }
+    .userbad{
+        font-size: .9em;
+        color: #14171a;
+    }
+    .icon-ver{
+        font-size: 1.2em;
+        padding-left: 2px;
+        color: #1da1f2;
+        background: transparent;
+        display: inline-block;
+        font-style: normal;
+        vertical-align: baseline;
+        position: relative;
+    }
+    .u-hidden{
+        border: 0!important;
+        clip: rect(1px,1px,1px,1px)!important;
+        font-size: 1px!important;
+        height: 1px!important;
+        overflow: hidden!important;
+        padding: 0!important;
+        position: absolute!important;
+        width: 1px!important;
+        color: #1da1f2;
+    }
+    .username-u{
+        font-size: 14px;
+        color: #14171a;
+    }
+    .profile{
+        margin: -2px -9px 0 auto;
+        min-width: inherit;
+        display: inline-block;
+    }
+    .dropdown{
+        position: relative;    display: block;
+    }
+    .profiletweet{
+        padding: 2px 9px;
+        color: #657786;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 1;
+        padding: 0 16px;
+        position: relative;
+        background: transparent;
+        -webkit-appearance: button;
+        cursor: pointer;
+        text-transform: none;
+        overflow: visible;
+        transition: box-shadow .15s ease-in-out;
+        border:0px;
+        margin-left: 300px;
+    }
+    .js-tool{
+        display: inline-block;
+        line-height: 0;
+        position: relative;
+        vertical-align: middle;
+        color: #657786;
+        display: inline-block;
+        font-size: 16px;
+        text-transform: none;
+        text-align: center;
+    }
+
+    .js-tw{
+        cursor: pointer;
+        text-align: inherit;
+    }
+    .tweettext{
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        font-size: 14px;
+        line-height: 20px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .btn-link{
+        color: #657786;
+        font-size: 12px;
+        margin: 6px -2px -2px 0;
+        text-align: left;
+        padding: 0;
+        background-color: transparent;
+        background-image: none;
+        border: 0;
+        color: #1c94e0;
+        cursor: pointer;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .tweet-translation{
+        margin-top: 10px;
+        padding-bottom: 2px;
+        margin: 20px 0 0;
+        padding: 0 0 20px;
+        font-size: 14px;
+        line-height: 1.2858;
+    }
+    .js-macaw{
+        min-height: 130px;
+        font-size: 14px;
+        line-height: 1.2858;
+    }
+    .stream-item-footer{
+        font-size: 12px;
+        padding-top: 1px;
+    }
+    .profiletweet-action{
+        font-size: 0;
+        height: 18px;
+        line-height: 1;
+        margin-bottom: 2px;
+        margin-top: 10px;
+
+    }
+    .profiletweet-action-revert{
+        display: inline-block;
+        min-width: 80px;
+    }
+    .actionrevert{
+        color: #aab8c2;
+        background-color: white;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 1;
+        padding: 0 2px;
+        position: relative;
+        border: 0;
+    }
+    .iconContainer{
+        display: inline-block;
+        line-height: 0;
+        position: relative;
+        vertical-align: middle;
+    }
+    .actionCount{
+        color: #657786;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1;
+        margin-left: 6px;
+        position: relative;
+        vertical-align: text-bottom;
+    }
+    .presentation{
+        color: #657786;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    .profiletweet-action-refresh,.profiletweet-action-love,.profiletweet-action-message{
+        display: inline-block;
+        min-width: 80px;
+    }
+    /*最右边模板*/
     .dashboard-right{
 
-        border: 1px red solid;
+        border: 0px red solid;
         float: left;
 
-        width: 240px;
+        width: 260px;
     }
+    .roaming-module{
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid #e6ecf0;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 20px;
+        text-align: center;
+        background-clip: padding-box;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .delight-title{
+        color: #14171a;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .delight-body{
+        color: #657786;
+        margin: 10px 0 15px;
+    }
+    .delight-button{
+        width: 90%;
+        border: 1px solid #1da1f2;
+        color: #fff;
+        border-radius: 100px;
+        box-shadow: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        padding: 6px 16px;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #1da1f2;
+    }
+    .module-wtf{
+        display: block;
+        background-clip: padding-box;
+        border: 0;
+        position: relative;
+        margin-bottom: 10px;
+        color: #14171a;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .flex-module{
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        background-color: #fff;
+        border: 1px solid #e6ecf0;
+        padding: 15px;
+        line-height: 16px;
+    }
+    .flex-module-header{
+        margin-bottom: 10px;
+        line-height: 16px;
+    }
+    .flex-module-header>h3{
+        font-size: 18px;
+        font-weight: bold;
+        color: #14171a;
+        display: inline;
+    }
+    .btn-link{
+        padding: 0;
+        background-color: transparent;
+        background-image: none;
+        border: 0;
+        color: #1c94e0;
+        cursor: pointer;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .view-all{
+        line-height: 1;
+        font-size: 12px;
+    }
+    .js-view-all-link{
+        color: #1DA1F2;
+    }
+    .wtf{
+        color: #657786;
+        font-size: 12px;
+    }
+    .js-account-summary{
+        border-bottom: 1px solid #e6ecf0;
+        padding-bottom: 8px;
+        position: relative;
+        display: block;
+        min-height: 48px;
+        color: #657786;
+        font-size: 12px;
+    }
+    .content-gz{
+        min-height: 48px;
+        margin-left: 58px;
+        margin-right: 20px;
+        color: #657786;
+        font-size: 12px;
+    }
+    .account-group{
+        font-size: 14px;
+        display: block;
+        line-height: 16px;
+    }
+    .avatar-gz{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
+    .account-group-inner{
+        font-size: 10px;
+
+    }
+    .username-u-dir{
+        font-size: 8px;
+        color: #657786;
+        direction: ltr!important;
+        text-align: left!important;
+        unicode-bidi: embed;
+        max-width: 100%;
+        overflow: hidden!important;
+        text-overflow: ellipsis!important;
+        white-space: nowrap!important;
+        word-wrap: normal!important;
+
+    }
+    .user-actions{
+        align-items: flex-start;
+        flex-direction: column;
+        display: flex;
+        margin-top: 4px;
+        position: relative;
+        color: #657786;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .user-actions-not{
+        white-space: nowrap;
+        color: #657786;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .edge{
+        display: block;
+        min-width: 89px;
+        text-align: center;
+        border-color: #1DA1F2;
+        color: #1DA1F2;
+        background-color: #fff;
+        border: 1px solid #1da1f2;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 4px 12px;
+        border-radius: 100px;
+        box-shadow: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        padding: 6px 16px;
+        position: relative;
+    }
+    .flex-module-b{
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        background-color: #fff;
+        border: 1px solid #e6ecf0;
+        padding: 15px;
+        line-height: 16px;
+        padding-bottom: 90px;
+    }
+    .flex-module-inner{
+        color: #657786;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .u-cf{
+        line-height: 18px;
+        color: #14171a;
+        list-style: none;
+        display: block;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .u-cf>li{
+
+        float: left;
+        padding-right: 8px;
+        color: #657786;
+        display: inline;
+        line-height: 18px;
+        list-style: none;
+        font-size: 12px;
+    }
+
 </style>
 <body>
 <%--顶部--%>
@@ -431,7 +989,7 @@
     <div class="global">
         <div class="global-nav">
             <div class="container">
-                <h1 class="icon" style=" text-align:center;width: 50px; height: 50px;"></h1>
+                <h1 class="icon" style="width: 50px; height: 50px;"></h1>
                 <div class="pushstate"></div>
                 <div style="display: inline-block;">
                     <ul class="nav1">
@@ -454,9 +1012,9 @@
                         <form action="searchAction" class="form-search">
                             <label class="vis">搜索询问</label>
                             <input class="search-input" type="text" placeholder="搜索 Twitter">
-                            <span class="searche-icon glyphicon glyphicon-search">
-                                <button type="submit" class="icon-med"></button>
-                            </span>
+<%--                            <span class="searche-icon glyphicon glyphicon-search">--%>
+                                <button type="submit" class="icon-med">搜索</button>
+<%--                            </span>--%>
                         </form>
                         <ul class="nav-right">
                             <li class="medropdown">
@@ -537,17 +1095,199 @@
                 </div>
                 </div>
                     <div id="center-mo">
-                        <div class="tweet-box">123</div>
-                        <div class="tweet-box">123</div>
-                        <div class="tweet-box">123</div>
-                        <div class="tweet-box">123</div>
+                        <div class="timeline">
+                            <div class="home-tweet">
+                                <img class="top-timeline">
+                                <form class="t1-form">
+                                    <div class="rich">
+                                        <div class="richeditor">
+                                            <div class="richeditor-scr">
+                                                <div class="tweet-box-rich">
+                                                    <div>有什么新鲜事?</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="stream-container">
+                                <div class="new-tweets-bar">
+                                    <button class="new-tweets-bar-j">查看新推文</button>
+                                </div>
+                                <div class="stream-1">
+<%--                                    推文--%>
+                                    <ol class="stream-items">
+                                        <li class="js-stream">
+                                            <div class="tweet-js">
+                                                <div class="context-1">
+                                                    <div class="stream-item-header">
+                                                        <a class="account" href="/">
+                                                            <img class="avatar2" src="/">
+                                                            <span class="fullname">
+                                                                <strong class="fullname-u">123</strong>
+                                                                <span>&rlm;</span>
+                                                                <span class="userbad">
+                                                                    <span class="icon-ver">
+                                                                        <i class="glyphicon glyphicon-ok-sign"></i>
+                                                                        <span class="u-hidden">认证账号</span>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="UserNameBreak">&nbsp;</span>
+                                                            </span>
+                                                            <span class="username-u" style="font-size: 14px;color: #657786;">@<b>JKCorden</b></span>
+                                                        </a>
+                                                        .
+                                                        <small class="time">
+                                                            <a style="font-size: 14px;color: #657786;">
+                                                                <span style="font-size: 14px;color: #657786;">4天</span>
+<%--                                                                <span>4天前</span>--%>
+                                                            </a>
+                                                        </small>
+                                                        <div class="profile">
+                                                            <div class="dropdown">
+                                                                <button class="profiletweet">
+                                                                    <div class="js-tool">
+                                                                        <span class="gspan glyphicon glyphicon-chevron-down"></span>
+                                                                    </div>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="js-tw">
+                                                        <p class="tweettext">I will never ever forget this. Our #TonyAwards opening tonight x</p>
+                                                    </div>
+<%--                                                    翻译--%>
+                                                    <button type="button" class="btn-link">
+                                                        <span class="glyphicon glyphicon-globe"></span>
+                                                        翻译推文
+                                                    </button>
+<%--                                                    图片或者视频--%>
+                                                    <div class="tweet-translation">
+                                                        <div class="js-macaw">图片or视频</div>
+                                                    </div>
+                                                    <div class="stream-item-footer">
+                                                        <div class="profiletweet-action">
+                                                            <div class="profiletweet-action-revert">
+                                                                <button class="actionrevert">
+                                                                    <div class="iconContainer">
+                                                                        <span class="glyphicon glyphicon-comment"></span>
+                                                                    </div>
+                                                                    <span class="actionCount">
+                                                                        <span class="presentation">94</span>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="profiletweet-action-refresh">
+                                                                <button class="actionrevert">
+                                                                    <div class="iconContainer">
+                                                                        <span class="glyphicon glyphicon-refresh"></span>
+                                                                    </div>
+                                                                    <span class="actionCount">
+                                                                        <span class="presentation">94</span>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="profiletweet-action-love">
+                                                                <button class="actionrevert">
+                                                                    <div class="iconContainer">
+                                                                        <span class="glyphicon glyphicon-heart"></span>
+                                                                    </div>
+                                                                    <span class="actionCount">
+                                                                        <span class="presentation">94</span>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="profiletweet-action-message">
+                                                                <button class="actionrevert">
+                                                                    <div class="iconContainer">
+                                                                        <span class="glyphicon glyphicon-envelope"></span>
+                                                                    </div>
+<%--                                                                    <span class="actionCount">--%>
+<%--                                                                        <span class="presentation">94</span>--%>
+<%--                                                                    </span>--%>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                     <%--            右边面板--%>
                     <div class="dashboard-right">
-                        <div>333</div>
-                        <div>333</div>
-                        <div>333</div>
+                        <div class="roaming-module">
+                            <img style="width: 170px;" src="https://abs.twimg.com/a/1559783714/img/delight/delight_prompt_2.png">
+                            <div class="delight-title">抢先了解新Twitter</div>
+                            <div class="delight-body">书签、夜间模式、流量节省程序等——了解网页版增加的所有新功能。</div>
+                            <button type="button" class="delight-button">看一看</button>
+                        </div>
+                        <div class="module-wtf">
+                            <div class="flex-module">
+                                <div class="flex-module-header">
+                                    <h3>推荐关注</h3>
+                                    <small>.</small>
+                                    <button type="button" class="btn-link">
+                                        <small>刷新</small>
+                                    </button>
+                                    <small class="view-all">
+                                        .
+                                        <a class="js-view-all-link" href="/">查看q全部</a>
+                                    </small>
+                                </div>
+                                <div class="wtf">
+                                    <div class="js-account-summary">
+                                        <div class="content-gz">
+                                            <a class="account-group">
+                                                <img class="avatar-gz" src="">
+                                                <span class="account-group-inner" style="cursor: pointer;">
+                                                    <strong>CGTN</strong>
+                                                    <span class="glyphicon glyphicon-ok-sign"></span>
+                                                    <span style="float: left;">&nbsp;</span>
+                                                    <span style=" display: inline-block;width:90px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;" class="username-u-dir">
+                                                        @
+                                                        <b>CGTNOfficial111111111111111111111111</b>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            <div class="user-actions">
+                                                <span class="user-actions-not">
+                                                    <button type="button" class="edge">
+                                                        <span>关注</span>
+<%--                                                        <span>正在关注</span>--%>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-module-b">
+                            <div class="flex-module-inner">
+                                <ul class="u-cf">
+                                    <li>@ 2019 Twitter</li>
+                                    <li>关于</li>
+                                    <li>帮助中心</li>
+                                    <li>条款</li>
+                                    <li>隐藏政策</li>
+                                    <li>Cookis</li>
+                                    <li>广告信息</li>
+                                    <li>商标</li>
+                                    <li>博客</li>
+                                    <li>状态</li>
+                                    <li>应用</li>
+                                    <li>工作机会</li>
+                                    <li>市场营销</li>
+                                    <li>企业</li>
+                                    <li>开发者</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
             </div>
         </div>

@@ -11,11 +11,20 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/register.jsp" line="34" />
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/register.jsp" line="47" />
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/register.jsp" line="123" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" line="435" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" line="102" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" line="993" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" line="106" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" line="1189" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" line="44" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="417d0618-e576-4862-8352-3acddac608c0" name="Default Changelist" comment="" />
+    <list default="true" id="417d0618-e576-4862-8352-3acddac608c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/jsp/main.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +39,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="142">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#21805#21810#1#HTML" expanded="true" />
+                <element signature="n#span#0;n#span#1;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#22474#22480#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#small#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#small#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#button#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#span#0;n#button#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#button#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#37259#37265#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,17 +77,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="757">
+              <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="191">
+              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,28 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="424" column="17" selection-start-line="424" selection-start-column="17" selection-end-line="424" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="64" />
+            <state relative-caret-position="195">
+              <caret line="290" selection-start-line="290" selection-end-line="290" />
             </state>
           </provider>
         </entry>
@@ -95,6 +113,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>searche-icon</find>
+      <find>icon-med</find>
+      <find>icon</find>
+      <find>nav1</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -117,9 +143,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/realm/AdminRealm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/twitter.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/servlet/impl/AdminsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -129,6 +152,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
       </list>
     </option>
   </component>
@@ -146,7 +172,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -158,6 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,8 +369,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,6 +565,7 @@
       <workItem from="1559348325005" duration="10646000" />
       <workItem from="1559433586397" duration="6653000" />
       <workItem from="1560131074191" duration="22234000" />
+      <workItem from="1560472347592" duration="25557000" />
     </task>
     <servers />
   </component>
@@ -575,10 +602,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117844000" />
+    <option name="totallyTimeSpent" value="143401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -590,7 +618,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.3908228" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.3908228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -742,16 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/realm/AdminRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/mchange/mchange-commons-java/0.2.11/mchange-commons-java-0.2.11.jar!/com/mchange/v2/async/ThreadPoolAsynchronousRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -808,27 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="192" selection-start-line="1" selection-start-column="192" selection-end-line="1" selection-end-column="192" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -846,23 +847,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/realm/AdminRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="680">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
+        <state relative-caret-position="864">
           <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -870,19 +867,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/img/delight_prompt_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="424" column="17" selection-start-line="424" selection-start-column="17" selection-end-line="424" selection-end-column="17" />
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#21805#21810#1#HTML" expanded="true" />
+            <element signature="n#span#0;n#span#1;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#22474#22480#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#small#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#small#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#button#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#button#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#li#0;n#ol#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#37259#37265#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
         </state>
       </provider>
     </entry>
