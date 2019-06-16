@@ -1,5 +1,6 @@
 package com.twitter.realm;
 
+import com.twitter.EhcacheUtil.EhcacheUtil;
 import com.twitter.pojo.Admins;
 import com.twitter.servlet.AdminsService;
 import org.apache.shiro.authc.*;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Component
 public class LoginRealm extends AuthorizingRealm {
@@ -23,7 +25,8 @@ public class LoginRealm extends AuthorizingRealm {
         Admins admins=null;
         try{
             admins=adminsService.findByName(username);
-        }catch (Exception e){
+
+    }catch (Exception e){
             e.printStackTrace();
         }
         SimpleAuthorizationInfo info=new SimpleAuthorizationInfo();

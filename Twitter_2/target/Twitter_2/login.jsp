@@ -253,16 +253,16 @@
                         <h1>Log in to Twitter</h1>
                         <form action="<%=request.getContextPath()%>/login" method="post">
                             <div class="field">
-                                <input type="text" name="aname" placeholder="Please ,email or username">
+                                <input type="text" id="nameuser" name="aname" placeholder="Please ,email or username">
                             </div>
                             <div class="field">
-                                <input type="password" name="apwd" placeholder="Password">
+                                <input type="password" id="pass" name="apwd" placeholder="Password">
                             </div>
                             <div class="clearfix">
                                 <button type="submit">login</button>
                                 <div class="subchck">
                                     <label class="remember">
-                                        <input type="checkbox">
+                                        <input type="checkbox" onclick="remember1()" id="remember">
                                         remember me
                                         <span>.</span>
                                         <a href="" rel="noopener">忘记密码</a>
@@ -281,6 +281,32 @@
         </div>
     </div>
 </div>
+<script>
 
+   function remember1(){
+
+       var url="<%=request.getContextPath()%>";
+       var name=$('#nameuser').val();  //用户名
+       var pass=$('#pass').val();   //密码
+
+            if(name==""||pass==""){
+                $('#remember').prop("checked", false);
+                alert("账号和密码不能为空！");
+            }else{
+                $('#remember').prop("checked", true);
+                $.ajax({
+                    type:"post",
+                    url:url+"/remember",
+                    async:true,
+                    data:{"name":name,"pass":pass},
+                    dataType:"json",
+                    success:function(data){
+                        alert(data);
+                    }
+                })
+            }
+
+    }
+</script>
 </body>
 </html>

@@ -49,6 +49,24 @@
             </value>
         </property>
     </bean>
+<!--记住我-->
+    <bean id="rememberMeCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+        <constructor-arg value="rememberMe"/>
+        <property name="httpOnly" value="true"/>
+        <!-- 30天-->
+        <property name="maxAge" value="2592000"/>
+    </bean>
+
+    <!-- rememberMe管理器-->
+    <bean id="rememberMeManager"
+          class="org.apache.shiro.web.mgt.CookieRememberMeManager">
+        <property name="cookie">
+            <bean class="org.apache.shiro.web.servlet.SimpleCookie">
+                <constructor-arg value="rememberMe"/>
+                <property name="maxAge" value="1800"/>
+            </bean>
+        </property>
+    </bean>
 
 
     <!-- 配置securityManager -->
@@ -57,6 +75,7 @@
         <!--loginRealm 使用扫描器扫描注册成功了-->
         <property name="realm" ref="LoginRealm" />
         <!-- <property name="sessionMode" value="native"/> -->
+        <property name="rememberMeManager" ref="rememberMeManager" />
     </bean>
     <!-- 生命周期 -->
     <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />
