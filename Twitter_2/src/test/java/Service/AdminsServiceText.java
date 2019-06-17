@@ -20,4 +20,10 @@ public class AdminsServiceText {
         Admins admins=adminsService.findByName("dyw");
         System.out.println(admins);
     }
+    @Test
+    public void findByNamePwd(){
+        AdminsService adminsService=(AdminsService)applicationContext.getBean("adminsServiceImpl");
+        Admins admins=adminsService.findByNamePwd("dyw","123");
+        System.out.println(admins);
+    }
 }

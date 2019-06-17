@@ -12,6 +12,9 @@
     <meta name="viewport" content="width=device-width,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <link rel="icon" href="img/favicon.ico" />
     <script src="js/jquery-3.1.1.min.js"></script>
+<%--    <script src="https://code.jquery.com/jquery.js"></script>--%>
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 </head>
     <style>
         html{font-size:62.5%;}
@@ -248,15 +251,33 @@
                         </a>
                     </li>
                 </ul>
+                <%
+                    String username = "";
+                    String password = "";
+                    Boolean checked = null;
+                    //获取当前站点的所有Cookie
+                    Cookie[] cookies = request.getCookies();
+                    for (int i = 0; i < cookies.length; i++) {//对cookies中的数据进行遍历，找到用户名、密码的数据
+                        if ("username".equals(cookies[i].getName())) {
+                            username = cookies[i].getValue();
+                        } else if ("password".equals(cookies[i].getName())) {
+                            password = cookies[i].getValue();
+                        } else if ("checked".equals(cookies[i].getName()))  {
+
+                            checked = "checked".equals(cookies[i].getName());
+                            System.out.println(checked+"-----------");
+                        }
+                    }
+                %>
                 <div id="paged-canvas">
                     <div class="signin-wrapper">
                         <h1>Log in to Twitter</h1>
                         <form action="<%=request.getContextPath()%>/login" method="post">
                             <div class="field">
-                                <input type="text" id="nameuser" name="aname" placeholder="Please ,email or username">
+                                <input type="text" id="nameuser" name="aname" value="<%=username%>" placeholder="Please ,email or username">
                             </div>
                             <div class="field">
-                                <input type="password" id="pass" name="apwd" placeholder="Password">
+                                <input type="password" id="pass" name="apwd" value="<%=password%>" placeholder="Password">
                             </div>
                             <div class="clearfix">
                                 <button type="submit">login</button>
@@ -281,30 +302,89 @@
         </div>
     </div>
 </div>
+<%--<input type="hidden" value="<%=u%>" id="message">--%>
+<input type="hidden" value="<%=checked%>"  id="check">
 <script>
+    var url="<%=request.getContextPath()%>";
+    var name=$('#nameuser').val();  //用户名
+    var pwd=$('#pass').val();   //密码
+
+
+    $(function () {
+
+            var check = $('#check').val();
+            alert(check);
+            if (true) {
+                alert(1);
+                $('#remember').prop("checked", true);
+
+            } else if (false) {
+                alert(0);
+                $('#check').val("");
+                $('#remember').prop("checked", false);
+            } else if(!true) {
+                $('#check').val("");
+                $('#remember').prop("checked", false);
+            }
+
+    })
+    function clearInput(name,pwd) {
+        $(this).val("");
+    }
+    function forget(name,pwd){
+
+        $.ajax({
+            type: "post",
+            url: url + "/clearCookie",
+            async: true,
+            data: {"name": name, "pwd": pwd},
+            dataType: "json",
+            success: function (data) {
+                 //alert(data);
+            }
+        })
+    }
 
    function remember1(){
-
-       var url="<%=request.getContextPath()%>";
+       var check=$('#check').val();
        var name=$('#nameuser').val();  //用户名
-       var pass=$('#pass').val();   //密码
+       var pwd=$('#pass').val();   //密码
+        //alert($('#remember').is(':checked'));
+            //alert(pwd);
+           if (name == "" || pwd == "") {
+               alert("账号和密码不能为空！");
+               //$('#remember').prop("checked", false);
+               if ($('#remember').is(':checked')) {
+                   forget(name,pwd);
+                   clearInput(name,pwd)
+                   $('#remember').prop("checked", false);
+               }
 
-            if(name==""||pass==""){
-                $('#remember').prop("checked", false);
-                alert("账号和密码不能为空！");
-            }else{
-                $('#remember').prop("checked", true);
-                $.ajax({
-                    type:"post",
-                    url:url+"/remember",
-                    async:true,
-                    data:{"name":name,"pass":pass},
-                    dataType:"json",
-                    success:function(data){
-                        alert(data);
-                    }
-                })
-            }
+           } else {
+               //alert(check);
+               if ($('#remember').is(':checked')) {
+                   $('#remember').prop("checked", true);
+
+                   //var message=$("#message").val();
+
+                   $.ajax({
+                       type: "post",
+                       url: url + "/remember",
+                       async: true,
+                       data: {"name": name, "pwd": pwd,"check":check},
+                       dataType: "json",
+                       success: function (data) {
+
+                       }
+                   })
+               }
+               else{
+                   forget(name,pwd);
+                   clearInput(name,pwd)
+                   $('#remember').prop("checked", false);
+               }
+           }
+
 
     }
 </script>

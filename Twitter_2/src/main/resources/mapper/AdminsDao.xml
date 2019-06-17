@@ -10,5 +10,7 @@
       select * from admins where aname=#{aname}
     </select>
     <!-- 根据输入的用户名和密码查询是否存在用户 -->
-
+    <select id="findByNamePwd" resultType="admins" parameterType="String">
+        select * from mytwitter.admins where aname=#{aname} and apwd=#{apwd}
+    </select>
 </mapper>

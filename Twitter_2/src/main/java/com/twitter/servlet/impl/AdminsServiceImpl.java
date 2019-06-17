@@ -23,4 +23,10 @@ public class AdminsServiceImpl implements AdminsService {
         Admins admins = adminsDao.findByName(name);
         return admins;
     }
+
+    @Override
+    public Admins findByNamePwd(String aname, String apwd) {
+        return adminsDao.findByNamePwd(aname,apwd);
+    }
+
 }
