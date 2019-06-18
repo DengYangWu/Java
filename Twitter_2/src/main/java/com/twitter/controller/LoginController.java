@@ -18,7 +18,8 @@ import javax.annotation.Resource;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import java.util.HashMap;
+import java.util.Map;
 
 
 @Controller
@@ -78,15 +79,8 @@ public class LoginController {
 
     //记住我
     @RequestMapping(value = "/remember",method = RequestMethod.POST)
-    @ResponseBody
     public String remember(String name,String pwd,String check,Model model,HttpServletRequest request, HttpServletResponse response) {
-//        UsernamePasswordToken token = new UsernamePasswordToken(name, pass);
-//
-//        token.setRememberMe(true);
-//        System.out.println("记住我");
-//        System.out.println(name);
-//        System.out.println(token.isRememberMe());
-;
+
         System.out.println(name);
         System.out.println(pwd);
         System.out.println(check);
@@ -114,8 +108,9 @@ public class LoginController {
         return "../../login";
     }
     //清除Cookie
-        @RequestMapping("/clearCookie")
-    public void clear(String name,String pwd,Model model,String check,HttpServletRequest request, HttpServletResponse response){
+    @RequestMapping(value = "/clearCookie",method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String,String> clear(String name, String pwd, Model model, String check, HttpServletRequest request, HttpServletResponse response){
         System.out.println(name+"清除");
         System.out.println("清除Cookie！");
         Cookie cookie = new Cookie("username",null);
@@ -127,5 +122,10 @@ public class LoginController {
         response.addCookie(cookie);
         response.addCookie(pwdcookie);
         response.addCookie(checked);
+
+        //map集合用来存放返回值
+        Map<String,String> map = new HashMap<String, String>();
+        map.put("result","clear");
+        return map;
     }
 }

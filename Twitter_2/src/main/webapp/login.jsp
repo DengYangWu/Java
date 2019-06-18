@@ -254,7 +254,7 @@
                 <%
                     String username = "";
                     String password = "";
-                    Boolean checked = null;
+                    String checked = "";
                     //获取当前站点的所有Cookie
                     Cookie[] cookies = request.getCookies();
                     for (int i = 0; i < cookies.length; i++) {//对cookies中的数据进行遍历，找到用户名、密码的数据
@@ -264,7 +264,7 @@
                             password = cookies[i].getValue();
                         } else if ("checked".equals(cookies[i].getName()))  {
 
-                            checked = "checked".equals(cookies[i].getName());
+                            checked = cookies[i].getValue();
                             System.out.println(checked+"-----------");
                         }
                     }
@@ -283,7 +283,7 @@
                                 <button type="submit">login</button>
                                 <div class="subchck">
                                     <label class="remember">
-                                        <input type="checkbox" onclick="remember1()" id="remember">
+                                        <input type="checkbox" value="<%=checked%>" onclick="remember1()" id="remember">
                                         remember me
                                         <span>.</span>
                                         <a href="" rel="noopener">忘记密码</a>
@@ -303,50 +303,51 @@
     </div>
 </div>
 <%--<input type="hidden" value="<%=u%>" id="message">--%>
-<input type="hidden" value="<%=checked%>"  id="check">
+<%--<input type="hidden" value="<%=checked%>"  id="check">--%>
 <script>
     var url="<%=request.getContextPath()%>";
     var name=$('#nameuser').val();  //用户名
     var pwd=$('#pass').val();   //密码
-
+    var check=$('#remember').val(); //选项
 
     $(function () {
 
-            var check = $('#check').val();
-            alert(check);
-            if (true) {
-                alert(1);
-                $('#remember').prop("checked", true);
-
-            } else if (false) {
-                alert(0);
-                $('#check').val("");
-                $('#remember').prop("checked", false);
-            } else if(!true) {
-                $('#check').val("");
-                $('#remember').prop("checked", false);
-            }
+            // var checks = $('#check').val();
+            // alert(checks);
+            // if (checks==true) {
+            //     alert(check);
+            //     $('#remember').prop("checked", true);
+            //
+            // }
+            // else if(checks==""){
+            //     $('#remember').val("");
+            //     $('#remember').prop("checked", false);
+            // }
+        $('#remember').prop("checked", <%=checked%>);
 
     })
-    function clearInput(name,pwd) {
+    function clearInput(name,pwd,check) {
         $(this).val("");
     }
-    function forget(name,pwd){
+    function forget(name,pwd,check){
 
         $.ajax({
             type: "post",
             url: url + "/clearCookie",
             async: true,
-            data: {"name": name, "pwd": pwd},
+            data: {"name": name, "pwd": pwd,"check":check},
             dataType: "json",
             success: function (data) {
-                 //alert(data);
+                 alert(data.result);
+                 if(data.result=='clear'){
+                     clearInput(name,pwd,check);
+                 }
             }
         })
     }
 
    function remember1(){
-       var check=$('#check').val();
+       var check=$('#remember').val();
        var name=$('#nameuser').val();  //用户名
        var pwd=$('#pass').val();   //密码
         //alert($('#remember').is(':checked'));
@@ -355,8 +356,8 @@
                alert("账号和密码不能为空！");
                //$('#remember').prop("checked", false);
                if ($('#remember').is(':checked')) {
-                   forget(name,pwd);
-                   clearInput(name,pwd)
+                   forget(name,pwd,check);
+                   clearInput(name,pwd,check)
                    $('#remember').prop("checked", false);
                }
 
@@ -364,7 +365,7 @@
                //alert(check);
                if ($('#remember').is(':checked')) {
                    $('#remember').prop("checked", true);
-
+                   var check=$('#remember').is(':checked');
                    //var message=$("#message").val();
 
                    $.ajax({
@@ -379,8 +380,8 @@
                    })
                }
                else{
-                   forget(name,pwd);
-                   clearInput(name,pwd)
+                   forget(name,pwd,check);
+                   clearInput(name,pwd,check)
                    $('#remember').prop("checked", false);
                }
            }

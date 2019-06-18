@@ -19,25 +19,12 @@
   <component name="ChangeListManager">
     <list default="true" id="417d0618-e576-4862-8352-3acddac608c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/mapper/AdminsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/mapper/AdminsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/servlet/impl/AdminsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/servlet/impl/AdminsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminsDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/AdminsServiceText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/AdminsServiceText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/mapper/AdminsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/mapper/AdminsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/servlet/AdminsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/servlet/AdminsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/servlet/impl/AdminsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/com/twitter/servlet/impl/AdminsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/mapper/AdminsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/WEB-INF/classes/mapper/AdminsDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Twitter_2/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter_2/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/mapper/AdminsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/mapper/AdminsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/servlet/AdminsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/servlet/AdminsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/servlet/impl/AdminsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/servlet/impl/AdminsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdminsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminsDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="324" column="27" lean-forward="true" selection-start-line="324" selection-start-column="27" selection-end-line="324" selection-end-column="44" />
+            <state relative-caret-position="524">
+              <caret line="342" column="46" selection-start-line="342" selection-start-column="46" selection-end-line="342" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -67,11 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="81" column="56" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="56" />
+            <state relative-caret-position="1908">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2371#2449#0" />
               </folding>
             </state>
           </provider>
@@ -109,7 +95,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/pojo/Admins.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AdloginDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-tx.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/shiro.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
@@ -121,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/realm/AdminRealm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/EhcacheUtil/EhcacheUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/realm/LoginRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/EhcacheUtil/LimitRetryHashedMatcher.java" />
@@ -131,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/servlet/impl/AdminsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/Service/AdminsServiceText.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
       </list>
@@ -150,7 +136,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1382" />
@@ -162,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,8 +324,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,8 +510,8 @@
       <item itemvalue="JUnit.AdminsServiceText.findById" />
       <item itemvalue="JUnit.AdminsServiceText.findByName" />
       <item itemvalue="JUnit.AdminsServiceText" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
       <item itemvalue="JUnit.AdminsServiceText.findByNamePwd" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
     </list>
     <recent_temporary>
       <list>
@@ -558,6 +544,8 @@
       <workItem from="1560423251995" duration="1778000" />
       <workItem from="1560552613305" duration="13118000" />
       <workItem from="1560738824160" duration="22633000" />
+      <workItem from="1560819928806" duration="5934000" />
+      <workItem from="1560826172184" duration="58000" />
     </task>
     <servers />
   </component>
@@ -594,13 +582,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168067000" />
+    <option name="totallyTimeSpent" value="174059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27609682" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.28517398" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.27609682" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -610,7 +598,7 @@
       <window_info id="Web" order="7" sideWeight="0.50163937" side_tool="true" weight="0.27609682" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.3852459" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.3852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -733,13 +721,6 @@
         <state relative-caret-position="-572" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-tx.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-416">
@@ -826,16 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2318">
@@ -854,13 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="46" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
         </state>
       </provider>
     </entry>
@@ -921,28 +885,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/SignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="450">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="81" column="56" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2371#2449#0" />
-          </folding>
+        <state relative-caret-position="1">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="324" column="27" lean-forward="true" selection-start-line="324" selection-start-column="27" selection-end-line="324" selection-end-column="44" />
+        <state relative-caret-position="524">
+          <caret line="342" column="46" selection-start-line="342" selection-start-column="46" selection-end-line="342" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/twitter/servlet/AdminsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
