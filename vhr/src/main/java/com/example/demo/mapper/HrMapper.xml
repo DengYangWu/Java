@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.mapper.HrMapper">
+    <resultMap id="BaseResultMap" type="com.example.demo.pojo.Hr">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="phone" property="phone"/>
+        <result column="telephone" property="telephone"/>
+        <result column="address" property="address"/>
+        <result column="enabled" property="enabled"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="userface" property="userface"/>
+        <result column="remark" property="remark"/>
+    </resultMap>
+    <resultMap id="lazyLoadRoles" type="com.example.demo.pojo.Hr" extends="BaseResultMap">
+        <collection property="roles" ofType="com.example.demo.pojo.Role" select="com.example.demo.mapper.HrMapper"
+        column="id"></collection>
+    </resultMap>
+    <resultMap id="eagerLoadRoles" type="com.example.demo.pojo.Hr" extends="BaseResultMap">
+        <collection property="roles" ofType="com.example.demo.pojo.Role">
+            <id property="id" column="rid"/>
+            <result property="name" column="rname"/>
+            <result property="nameZh" column="rnameZh"/>
+        </collection>
+    </resultMap>
+    <select id="loadUserByUsername" resultMap="lazyLoadRoles">
+        select * from hr where username=#{username}
+    </select>
+    <select id="getRolesByHrId" resultType="com.example.demo.pojo.Role">
+        SELECT r.* FROM hr_role h,role r where h.rid=r.id AND h.hrid=#{id}
+    </select>
+    <select id="getall" resultType="com.example.demo.pojo.Hr">
+        select * from hr
+    </select>
+</mapper>
