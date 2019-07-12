@@ -2,7 +2,9 @@ package org.sang.bean;
 
 import java.sql.Timestamp;
 
-//职位
+/**
+ * Created by sang on 2018/1/10.
+ */
 public class Position {
     private Long id;
     private String name;

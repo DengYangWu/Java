@@ -2,7 +2,6 @@ package org.sang.bean;
 
 import java.util.Date;
 
-//薪水
 public class Salary {
     private Integer id;
     private Integer bonus;

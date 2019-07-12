@@ -1,9 +1,12 @@
 package org.sang.bean;
 
-//聊天类
+/**
+ * Created by sang on 2018/1/29.
+ */
 public class ChatResp {
     private String msg;
     private String from;
+
     public ChatResp() {
     }
 

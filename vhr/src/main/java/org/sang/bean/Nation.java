@@ -1,6 +1,8 @@
 package org.sang.bean;
 
-//国家
+/**
+ * Created by sang on 2018/1/12.
+ */
 public class Nation {
     private Long id;
     private String name;
