@@ -18,7 +18,7 @@ import java.util.List;
 @Transactional
 @CacheConfig(cacheNames = "menus_cache")
 public class MenuService {
-    @Autowired(required = false)
+    @Autowired
     MenuMapper menuMapper;
 
 //    @Cacheable(key = "#root.methodName")

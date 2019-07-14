@@ -1,6 +1,8 @@
 package org.sang.bean;
 
-//职位状态
+/**
+ * Created by sang on 2018/1/13.
+ */
 public class PoliticsStatus {
     private Long id;
     private String name;

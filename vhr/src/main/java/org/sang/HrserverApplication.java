@@ -8,10 +8,9 @@ import org.springframework.cache.annotation.EnableCaching;
 @SpringBootApplication
 @MapperScan("org.sang.mapper")
 @EnableCaching
-public class DemoApplication {
+public class HrserverApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
-    }
-
+	public static void main(String[] args) {
+		SpringApplication.run(HrserverApplication.class, args);
+	}
 }

@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.util.Date;
 
-//员工
 public class Employee {
     private Long id;
     private String name;

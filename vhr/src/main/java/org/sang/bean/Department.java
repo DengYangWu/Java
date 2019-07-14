@@ -5,7 +5,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.ArrayList;
 import java.util.List;
 
-//部门
+/**
+ * Created by sang on 2018/1/7.
+ */
 public class Department {
     private Long id;
     private String name;

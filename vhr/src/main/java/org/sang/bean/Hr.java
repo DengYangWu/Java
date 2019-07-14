@@ -9,6 +9,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * Created by sang on 2017/12/28.
+ */
 public class Hr implements UserDetails {
     private Long id;
     private String name;
@@ -21,49 +24,59 @@ public class Hr implements UserDetails {
     private String remark;
     private List<Role> roles;
     private String userface;
-
-
-    @JsonIgnore
     @Override
-    public String getPassword() {
-        return null;
+    public boolean isEnabled() {
+        return enabled;
     }
-
     @Override
     public String getUsername() {
-        return null;
+        return username;
     }
-
     @JsonIgnore
     @Override
     public boolean isAccountNonExpired() {
-        return false;
+        return true;
     }
     @JsonIgnore
     @Override
     public boolean isAccountNonLocked() {
-        return false;
+        return true;
     }
     @JsonIgnore
     @Override
     public boolean isCredentialsNonExpired() {
-        return false;
-    }
-
-    @Override
-    public boolean isEnabled() {
-        return false;
+        return true;
     }
     @JsonIgnore
     @Override
-    public Collection<? extends GrantedAuthority> getAuthorities(){
+    public Collection<? extends GrantedAuthority> getAuthorities() {
         List<GrantedAuthority> authorities = new ArrayList<>();
-        for(Role role:roles){
+        for (Role role : roles) {
             authorities.add(new SimpleGrantedAuthority(role.getName()));
         }
         return authorities;
     }
+    @JsonIgnore
+    @Override
+    public String getPassword() {
+        return password;
+    }
 
+    public String getUserface() {
+        return userface;
+    }
+
+    public void setUserface(String userface) {
+        this.userface = userface;
+    }
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
+    }
 
     public Long getId() {
         return id;
@@ -109,6 +122,7 @@ public class Hr implements UserDetails {
         this.enabled = enabled;
     }
 
+
     public void setUsername(String username) {
         this.username = username;
     }
@@ -123,38 +137,5 @@ public class Hr implements UserDetails {
 
     public void setRemark(String remark) {
         this.remark = remark;
-    }
-
-    public List<Role> getRoles() {
-        return roles;
-    }
-
-    public void setRoles(List<Role> roles) {
-        this.roles = roles;
-    }
-
-    public String getUserface() {
-        return userface;
-    }
-
-    public void setUserface(String userface) {
-        this.userface = userface;
-    }
-
-    @Override
-    public String toString() {
-        return "Hr{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", phone='" + phone + '\'' +
-                ", telephone='" + telephone + '\'' +
-                ", address='" + address + '\'' +
-                ", enabled=" + enabled +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", remark='" + remark + '\'' +
-                ", roles=" + roles +
-                ", userface='" + userface + '\'' +
-                '}';
     }
 }
