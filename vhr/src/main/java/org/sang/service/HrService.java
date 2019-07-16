@@ -20,7 +20,7 @@ import java.util.List;
 @Transactional
 public class HrService implements UserDetailsService {
 
-    @Autowired
+    @Autowired(required = false)
     HrMapper hrMapper;
 
     @Override

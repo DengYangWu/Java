@@ -42,32 +42,32 @@
             </el-menu>
           </div>
         </el-aside>
-        <el-main>
-          <el-breadcrumb separator-class="el-icon-arrow-right">
-            <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
-            <el-breadcrumb-item v-text="this.$router.currentRoute.name"></el-breadcrumb-item>
-          </el-breadcrumb>
-          <keep-alive>
-            <router-view v-if="this.$route.meta.keepAlive"></router-view>
-          </keep-alive>
-          <router-view v-if="!this.$route.meta.keepAlive"></router-view>
-        </el-main>
+          <el-main>
+            <el-breadcrumb separator-class="el-icon-arrow-right">
+              <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
+              <el-breadcrumb-item v-text="this.$router.currentRoute.name"></el-breadcrumb-item>
+            </el-breadcrumb>
+            <keep-alive>
+              <router-view v-if="this.$route.meta.keepAlive"></router-view>
+            </keep-alive>
+            <router-view v-if="!this.$route.meta.keepAlive"></router-view>
+          </el-main>
       </el-container>
     </el-container>
   </div>
 </template>
 <script>
-  export default {
+  export default{
     mounted: function () {
 //      this.devMsg();
       this.loadNF();
     },
     methods: {
-      loadNF() {
+      loadNF(){
         var _this = this;
-        this.getRequest("/chat/sysmsgs").then(resp => {
+        this.getRequest("/chat/sysmsgs").then(resp=> {
           var isDot = false;
-          resp.data.forEach(msg => {
+          resp.data.forEach(msg=> {
             if (msg.state == 0) {
               isDot = true;
             }
@@ -75,10 +75,10 @@
           _this.$store.commit('toggleNFDot', isDot);
         })
       },
-      goChat() {
+      goChat(){
         this.$router.push({path: '/chat'});
       },
-      devMsg() {
+      devMsg(){
         this.$alert('为了确保所有的小伙伴都能看到完整的数据演示，数据库只开放了查询权限和部分字段的更新权限，其他权限都不具备，完整权限的演示需要大家在自己本地部署后，换一个正常的数据库用户后即可查看，这点请大家悉知!', '友情提示', {
           confirmButtonText: '确定',
           callback: action => {
@@ -91,7 +91,7 @@
           }
         });
       },
-      handleCommand(cmd) {
+      handleCommand(cmd){
         var _this = this;
         if (cmd == 'logout') {
           this.$confirm('注销登录, 是否继续?', '提示', {
@@ -110,20 +110,21 @@
           });
         }
       }
-      //},
-      // data(){
-      //   return {
-      //     isDot: false
-      //   }
-      // },
-      // computed: {
-      //   user(){
-      //     return this.$store.state.user;
-      //   },
-      //   routes(){
-      //     return this.$store.state.routes
-      //   }
-      // }
+    },
+    data(){
+      return {
+        isDot: false
+      }
+    },
+    computed: {
+      user(){
+        alert(this.$store.state.user);
+        return this.$store.state.user;
+      },
+      routes(){
+
+        return this.$store.state.routes;
+      }
     }
   }
 </script>
